@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-04-16T05:50:35.568Z</updated>
+    <updated>2021-04-16T05:53:30.519Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -11,11 +11,25 @@
     <icon>https://xishengyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Dr. Yu&apos;s Space......</rights>
     <entry>
+        <title type="html"><![CDATA[“中国不需要为病毒起源与否向世界道歉”]]></title>
+        <id>https://xishengyu.github.io/post/zhong-guo-bu-xu-yao-wei-bing-du-qi-yuan-yu-fou-xiang-shi-jie-dao-qian/</id>
+        <link href="https://xishengyu.github.io/post/zhong-guo-bu-xu-yao-wei-bing-du-qi-yuan-yu-fou-xiang-shi-jie-dao-qian/">
+        </link>
+        <updated>2021-04-16T05:51:43.000Z</updated>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[由Wordpress换用为Github+Gridea]]></title>
         <id>https://xishengyu.github.io/post/1/</id>
         <link href="https://xishengyu.github.io/post/1/">
         </link>
         <updated>2021-01-20T05:36:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“中国不需要为病毒起源与否向世界道歉”]]></title>
+        <id>https://xishengyu.github.io/post/3/</id>
+        <link href="https://xishengyu.github.io/post/3/">
+        </link>
+        <updated>2020-09-03T05:51:43.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的简介👦]]></title>
