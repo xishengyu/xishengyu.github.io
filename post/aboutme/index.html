@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>我的简介👦 | Dr. Yu&#39;s Space......</title>
-<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1618551757078">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1618551802031">
 <link rel="stylesheet" href="https://xishengyu.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="我的简介👦 | Dr. Yu&#39;s Space...... - Atom Feed" href="https://xishengyu.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -16,86 +23,81 @@
 
 金融学博士（金融工程），数学硕士（泛函分析）；西南财经大学副教授，新南威尔士大学访问学者；首批四川省&quot;天府万人计划&quot;入选者，&quot;天府英才卡&quot;..." />
     <meta name="keywords" content="关于我" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://xishengyu.github.io">
-  <img class="avatar" src="https://xishengyu.github.io/images/avatar.png?v=1618551757078" alt="">
-  </a>
-  <h1 class="site-title">
-    Dr. Yu&#39;s Space......
-  </h1>
-  <p class="site-description">
-    Contact: xishengyu@gmail.com
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xishengyu.github.io">
+        <img src="https://xishengyu.github.io/images/avatar.png?v=1618551802031" class="site-logo">
+        <h1 class="site-title">Dr. Yu&#39;s Space......</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="https://xishengyu.github.io/post/aboutme" class="site-nav" target="_blank">
+            关于我
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="https://xishengyu.github.io/post/aboutme" class="menu" target="_blank">
-          关于我
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      Contact: xishengyu@gmail.com
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              我的简介👦
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-09-01
-              </span>
-              <span>
-                10 min read
-              </span>
-              
-                <a href="https://xishengyu.github.io/tag/aboutme/" class="post-tag">
-                  # 关于我
-                </a>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">我的简介👦</h2>
+            <div class="post-date">2020-09-01</div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <blockquote>
+            <div class="post-content" v-pre>
+              <blockquote>
 <h2 id="余喜生-yuxishengswufeeducn"><strong>余喜生</strong> <em>(yuxisheng@swufe.edu.cn)</em></h2>
 </blockquote>
 <p>金融学博士（金融工程），数学硕士（泛函分析）；西南财经大学副教授，新南威尔士大学访问学者；首批四川省&quot;天府万人计划&quot;入选者，&quot;天府英才卡&quot;A卡持有人；西南财经大学&quot;百人计划（学术B类）入选者；国家自科基金项目同行评议专家，教育部学位中心通讯评审专家；中国工业与应用数学学会金融科技专委会委员，中国优选法统筹法与经济数学研究会经济数学与管理数学分会理事；成都市新经济产业委员会智库专家，成都市天府新区对冲基金学会金融数学专委会委员。</p>
@@ -247,86 +249,44 @@
 <li>我的人生无宗教信仰，我的世界尽唯物主义。</li>
 </ul>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E4%BD%99%E5%96%9C%E7%94%9F-yuxishengswufeeducn"><strong>余喜生</strong> <em>(yuxisheng@swufe.edu.cn)</em></a><br>
-*
-<ul>
-<li><a href="#%E4%B8%80-%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91">一、研究方向</a></li>
-<li><a href="#%E4%BA%8C-%E8%AE%B2%E6%8E%88%E8%AF%BE%E7%A8%8B">二、讲授课程</a></li>
-<li><a href="#%E4%B8%89-%E5%AD%A6%E6%9C%AF%E8%AE%BA%E6%96%87%E6%91%98%E9%80%89">三、学术论文（摘选）</a></li>
-<li><a href="#%E5%9B%9B-%E4%B8%BB%E6%8C%81%E7%A7%91%E7%A0%94%E9%A1%B9%E7%9B%AE%E7%9C%81%E5%8E%85%E4%BB%A5%E4%B8%8A">四、主持科研项目（省厅以上）</a></li>
-<li><a href="#%E4%BA%94-%E5%AD%A6%E6%9C%AF%E4%BC%9A%E8%AE%AE%E6%91%98%E9%80%89">五、学术会议（摘选）</a></li>
-<li><a href="#%E5%85%AD-%E5%AD%A6%E6%9C%AF%E7%AD%89%E8%8D%A3%E8%AA%89%E6%A0%A1%E7%BA%A7%E4%BB%A5%E4%B8%8A">六、学术等荣誉（校级以上）</a></li>
-<li><a href="#%E4%B8%83-%E7%A4%BE%E4%BC%9A%E6%9C%8D%E5%8A%A1">七、社会服务</a></li>
-<li><a href="#%E5%85%AB-%E8%87%AA%E6%88%91%E6%A0%87%E7%AD%BE">八、自我标签</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
+            
+              <div class="tag-container">
+                
+                  <a href="https://xishengyu.github.io/tag/aboutme/" class="tag">
+                    关于我
+                  </a>
+                
+              </div>
+            
+            
+
+            
+
+          </div>
+
         </div>
-
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a>
-  <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
