@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-04-16T13:10:22.195Z</updated>
+    <updated>2021-04-16T13:12:16.489Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -23,6 +23,13 @@
         <link href="https://xishengyu.github.io/post/1/">
         </link>
         <updated>2021-01-20T05:36:08.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[两篇工作：期权的熵定价方法+高频数据下的波动率估计]]></title>
+        <id>https://xishengyu.github.io/post/10/</id>
+        <link href="https://xishengyu.github.io/post/10/">
+        </link>
+        <updated>2020-12-18T13:11:07.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[Qudratic Variation of Broqnian Motion (布朗运动的二阶变差)]]></title>
