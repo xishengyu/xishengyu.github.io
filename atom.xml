@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-04-16T05:40:14.438Z</updated>
+    <updated>2021-04-16T05:40:38.560Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -16,11 +16,6 @@
         <link href="https://xishengyu.github.io/post/1/">
         </link>
         <updated>2021-01-20T05:36:08.000Z</updated>
-        <content type="html"><![CDATA[<p>这是基于Github托管、采用Gridea端的第一篇文章。</p>
-<p>以前使用非常强大的Wordpress搭建个人网站，然常出现bug。解决了一个bug又来一个，直至登录不起。遂罢了。</p>
-<p>而基于Github+Gridea的“傻瓜”平台，简洁、无需服务器费用。对于简单的文字写作，足以。</p>
-<p>【但还是真心觉得Wordpress好  😒】</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的简介👦]]></title>
@@ -28,157 +23,5 @@
         <link href="https://xishengyu.github.io/post/aboutme/">
         </link>
         <updated>2020-09-01T04:01:23.000Z</updated>
-        <content type="html"><![CDATA[<blockquote>
-<h2 id="余喜生-yuxishengswufeeducn"><strong>余喜生</strong> <em>(yuxisheng@swufe.edu.cn)</em></h2>
-</blockquote>
-<p>金融学博士（金融工程），数学硕士（泛函分析）；西南财经大学副教授，新南威尔士大学访问学者；首批四川省&quot;天府万人计划&quot;入选者，&quot;天府英才卡&quot;A卡持有人；西南财经大学&quot;百人计划（学术B类）入选者；国家自科基金项目同行评议专家，教育部学位中心通讯评审专家；中国工业与应用数学学会金融科技专委会委员，中国优选法统筹法与经济数学研究会经济数学与管理数学分会理事；成都市新经济产业委员会智库专家，成都市天府新区对冲基金学会金融数学专委会委员。</p>
-<blockquote>
-<h4 id="一-研究方向">一、研究方向</h4>
-<p>衍生品定价与对冲；量化交易与金融科技</p>
-</blockquote>
-<blockquote>
-<h4 id="二-讲授课程">二、讲授课程</h4>
-<p>金融随机分析、金融衍生品定价、金融数学方法</p>
-</blockquote>
-<blockquote>
-<h4 id="三-学术论文摘选">三、学术论文（摘选）</h4>
-</blockquote>
-<ul>
-<li>
-<p><strong>X., Yu</strong>. “Nonparametric estimation of quadratic variation using high-frequency data”, <em>Math. Method. Appl Sci.</em>, 2021, <a href="https://www.researchgate.net/publication/344224871_Nonparametric_estimation_of_quadratic_variation_using_high-frequency_data">6863</a>.</p>
-<p>【<em><strong>贡献</strong></em>：提出了半鞅过程(资产收益过程)QV的两种估计式，比现有估计式具有更优的收敛性(收敛方式、收敛速度与估计误差)。提供了使用高频数据估计波动率的两种结果。受到著名计量经济学学家Eric Michel Renault的关注(“索要”详文)】</p>
-</li>
-<li>
-<p><strong>X., Yu</strong>. “Development of financial option pricing system based on FPGA and machine learning&quot;, <em>Microprocess Microsy</em>., 2021(81), 103708.</p>
-</li>
-<li>
-<p><strong>X., Yu</strong>. “Risk-Neutrality of RND and Option Pricing within an Entropy Framework”, <em>Entropy</em>, 2020, 22(8), 836.</p>
-</li>
-<li>
-<p><strong>余喜生</strong>，姚雨薇，”一类期权策略指数设计及其实证研究”，<em>中国软科学</em>，2019 (A1)：291-300.</p>
-</li>
-<li>
-<p><strong>X., Yu</strong>*, X., Xie. “Pricing American options: RNMs-constrained entropic least-squares approach”, <em>North Am. J. Econ. Finance</em>, 2015(31), <a href="https://www.researchgate.net/publication/268693877_Pricing_American_options_RNMs-constrained_entropic_least-squares_approach">155-173</a>.</p>
-<p>【<em><strong>贡献</strong></em>：首次将Risk-neutral Moment引入期权的Entropy (熵) 定价模型，为实际金融市场提供了精准的风险中性定价测度，且是唯一的(无需要求市场完备)；从而提高了期权定价的精确性。一定程度上丰富了期权的熵定价方法研究内容】</p>
-</li>
-<li>
-<p><strong>X., Yu</strong>*, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, <em>Discrete Dyn. Nat. Soc.</em>, 2014.</p>
-</li>
-<li>
-<p><strong>X., Yu</strong>*, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, <em>Math. Probl.  Eng.</em>, 2014.</p>
-</li>
-<li>
-<p>Q., Liu, <strong>X., Yu</strong>*, “Canonical Least-Squares Monte Carlo: Empirical Evidence from S&amp;P 100 Index and IBM Puts”, <em>Int. Rev. Appl Financ Issues Econ.</em>, 2013(05), 29-35.</p>
-</li>
-<li>
-<p>C., Luo*，<strong>X., Yu</strong>. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, <em>Math. Comput. Model.</em>, 2010(51), 361-368.</p>
-</li>
-<li>
-<p><strong>余喜生</strong>.  “双因素可转债定价的非参数方法（离散情形）——基于新的鞅方法”. <em>技术经济</em>, 2009 (6): 92-95.</p>
-</li>
-<li>
-<p><strong>余喜生</strong>. “一种新非参数方法在可转债定价中的应用”．<em>统计与决策</em>, 2009(19): 150-151.<br>
-<strong>专著</strong></p>
-</li>
-<li>
-<p><strong>余喜生</strong> 等，四川省上市公司发展报告（2019），西南财经大学出版社，40万字，2020年12月.</p>
-</li>
-<li>
-<p><strong>余喜生</strong>，期权的价格信息与熵定价方法，西南财经大学出版社，18.5万字，2016年4月.<br>
-<strong>工作论文</strong></p>
-</li>
-<li>
-<p>On two novel estimators of quadratic variation.</p>
-</li>
-<li>
-<p>A unified entropic framework of option pricing: Using Cressie-Read divergence.</p>
-</li>
-<li>
-<p>An accurate static hedging using nearby option contracts.</p>
-</li>
-<li>
-<p>Valuation of European options on stocks with discrete known dividends: An accurate dividend-weighted model.</p>
-</li>
-<li>
-<p>A simple accurate valuation for American options on stocks with discrete dividends.</p>
-</li>
-</ul>
-<blockquote>
-<h4 id="四-主持科研项目省厅以上">四、主持科研项目（省厅以上）</h4>
-</blockquote>
-<ul>
-<li>2019年10月：2019年度四川省哲学社会科学规划项目（重点项目）：重要区域金融中心形成动力机制研究——基于经济、金融阈值效应的视角 (SC19A017);</li>
-<li>2019年6月：2019年成都市哲学社会科学规划项目“‘五中心一枢纽’建设背景下金融中心城市形成动力机制研究 (2019L53);</li>
-<li>2019年3月： “金融科技孵化中心+人才培养”项目(入驻成都交子金融科技中心)，产学研落地项目；</li>
-<li>2018年11月：四川省“天府万人计划”青年拔尖人才类别项目：“新兴数字化投资技术创新”;</li>
-<li>2015年12月-：2015年四川省社科规划专项：“我国期权市场波动率指数编制问题研究” (SC15XS021);</li>
-<li>2014年3月—2016年1月：四川省教育厅项目：“衍生品理性定价研究：基于信息矩约束的熵方法” (14ZB0448);</li>
-<li>2014年1月—2016年12月：国家自然科学基金（青年基金项目）：“衍生证券的熵定价方法研究—基于衍生证券市场的有效信息”（71301132）。<strong>另以第一主研参与：</strong></li>
-<li>2019.01-2022.12: 国家自然科学基金面上项目(71871187)，完全信息与住房抵押贷款风险模型  ;</li>
-<li>2017.01-2020.12: 国家自然科学基金面上项目(11671323)，复杂衍生品定价的新型拉氏变换方法。</li>
-</ul>
-<blockquote>
-<h4 id="五-学术会议摘选">五、学术会议（摘选）</h4>
-</blockquote>
-<ul>
-<li>第4届全国网络治理青年学者论坛，SSEBXM指数设计及其策略绩效——基于中国50ETF期权市场的研究，成都，2019年10月12-13. <strong>大会邀请</strong>报告；</li>
-<li>第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，Estimating Quadratic Variation Using a Generalized Ito Isometry, 敦煌，2019年8月23-26. <strong>大会邀请</strong>报告；</li>
-<li>11期香樟经济学论坛——金融工程与金融科技Seminar（成都），成都，2019年4月13-14，<strong>召集人</strong>；</li>
-<li>International Conference on Applied Financial Economics，“Estimating Quadratic Variation Using a Generalized It^o Isometry”, Shanghai, July 2-3, 2016;// <strong>Session commentator</strong>, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada</li>
-<li>7th CSBF &amp; 11th IEFA , “Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation”. <strong>Taipei</strong>，Apr. 28-May 1, 2015；</li>
-<li><strong>Session Discussant</strong>, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；</li>
-<li><strong>Session commentator</strong>, 7th China Finance Review International Conference, Shanghai China (July 8-9, 2013)；</li>
-<li>2011-Financial Management Associate Meeting (2011-FMA), <strong>Denver,</strong> USA (Oct. 19-22, 2011);</li>
-<li>the 24th Australian Finance and Business Conference, “Entropic Least-Square Valuation of American Option Subject to Moment constraints”, <strong>Sydney</strong>, Australia, (Dec. 14-16, 2011).</li>
-</ul>
-<blockquote>
-<h4 id="六-学术等荣誉校级以上">六、学术等荣誉（校级以上）</h4>
-</blockquote>
-<ul>
-<li>2020年11月：西南财经大学“优秀毕业论文”（期权静态对冲策略研究）指导教师；</li>
-<li>2019年：西南财经大学“光华英才工程”项目（百人计划学术B类）；</li>
-<li>2019年：四川省“天府英才卡”A卡持有人；</li>
-<li>2018年11月：入选四川省“天府万人计划”青年拔尖人才（金融菁英项目）；</li>
-<li>2018年3月：首届“中国国际高校量化金融大赛（教育部等单位主办）”优秀指导教师；</li>
-<li>2016年7月：西南财经大学优秀科研成果奖;</li>
-<li>2013年10月：中国期货业协会，参赛论文获“第二届全国高校期货论文大奖赛”一等奖；</li>
-<li>2013年7月：西南财经大学，优秀共产党员教师；</li>
-<li>2011年10月：会议论文在全球四大顶级金融学术年会（AFA，WFA，FMA, EFA）之一的FMA 2011年年会（Denver, USA, Oct. 2011）上宣讲论文，并获优秀论文提名；<strong>成果转化</strong></li>
-<li>2020年6月：四川省上市公司研究报告；</li>
-<li>2019年3月：一金融科技类孵化项目顺利进驻“成都交子金融科技中心”；</li>
-<li>2019年3月：成都私募基金行业发展报告；</li>
-<li>2015年4月：华西期货有限公司，“余喜生学术成果采纳”证书；<strong>学术兼职</strong></li>
-<li>国家自然科学基金项目同行评议专家（管理科学部）；</li>
-<li>教育部学位与研究生教育发展中心通讯评议专家；</li>
-<li>多类学术期刊审稿人；</li>
-<li>中国优选法统筹法与经济数学研究会经济数学与管理数学分会理事；中国数学会会员；</li>
-<li>第11期香樟经济学论坛—金融工程与金融科技会议（2019），召集人；</li>
-<li>全国金融数学与金融工程学科建设和学术研讨会（2019），组织委员会委员；</li>
-<li>天府国际金融数学国际会议（两年一届）, 组织委员会委员；</li>
-<li>中国工业与应用数学学会“金融科技专委会与计算”委员。</li>
-</ul>
-<blockquote>
-<h4 id="七-社会服务">七、社会服务</h4>
-</blockquote>
-<ul>
-<li>成都市天府新区“对冲基金学会”金融数学专委会委员；</li>
-<li>西南财经大学“特拉华数据科学学院”特聘导师；</li>
-<li>特聘讲师：策略星学院（国内高端期权培训机构）；</li>
-<li>专栏：和讯名家专栏，喜马拉雅（商业财经）；</li>
-<li>为省内经济金融行业建言献策，如：<br>
-任中国科技城（绵阳）基金小镇（高能致远公司）学术顾问；受邀参加“科技城集中发展区建设发展工作领导小组”会议，提出建设性意见（2019.4.15）；</li>
-<li>为四川省上市公司发展进行调研把脉，形成40万字研究报告（2019.12，“四川上市公司蓝皮书首次发布填补研究空白”）；</li>
-<li>邀请讲座/报告: 四川省证券期货业协会、成都宽客俱乐部、中金所会员单位（西南期货、瑞达期货、国贸期货等）、天府新区对冲基金学会；</li>
-<li>国际性量化金融赛事、创新创业项目导师/评委：如：首届中国（横琴）国际高校量化金融大赛评委；西南财经大学创新创业俱乐部评委等。</li>
-</ul>
-<blockquote>
-<h4 id="八-自我标签">八、自我标签</h4>
-</blockquote>
-<ul>
-<li>脑有科学，胸怀道义；</li>
-<li>规格严格，功夫到家；</li>
-<li>我的人生无宗教信仰，我的世界尽唯物主义。</li>
-</ul>
-]]></content>
     </entry>
 </feed>
