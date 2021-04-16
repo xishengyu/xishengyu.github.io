@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-04-16T05:58:56.678Z</updated>
+    <updated>2021-04-16T06:04:15.605Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -10,13 +10,6 @@
     <logo>https://xishengyu.github.io/images/avatar.png</logo>
     <icon>https://xishengyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Dr. Yu&apos;s Space......</rights>
-    <entry>
-        <title type="html"><![CDATA[做科研需要好的身体]]></title>
-        <id>https://xishengyu.github.io/post/zuo-ke-yan-xu-yao-hao-de-shen-ti/</id>
-        <link href="https://xishengyu.github.io/post/zuo-ke-yan-xu-yao-hao-de-shen-ti/">
-        </link>
-        <updated>2021-04-16T05:55:52.000Z</updated>
-    </entry>
     <entry>
         <title type="html"><![CDATA[由Wordpress换用为Github+Gridea]]></title>
         <id>https://xishengyu.github.io/post/1/</id>
