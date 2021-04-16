@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-04-16T14:03:28.587Z</updated>
+    <updated>2021-04-16T14:09:47.058Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://xishengyu.github.io/images/avatar.png</logo>
     <icon>https://xishengyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Dr. Yu&apos;s Space......</rights>
+    <entry>
+        <title type="html"><![CDATA[期权1️⃣-抽象概念的通俗理解😛]]></title>
+        <id>https://xishengyu.github.io/post/21/</id>
+        <link href="https://xishengyu.github.io/post/21/">
+        </link>
+        <updated>2021-03-12T14:08:41.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大学数学，爱也罢恨也罢]]></title>
+        <id>https://xishengyu.github.io/post/19/</id>
+        <link href="https://xishengyu.github.io/post/19/">
+        </link>
+        <updated>2021-03-08T14:03:34.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[我和咖啡☕️]]></title>
         <id>https://xishengyu.github.io/post/14/</id>
@@ -30,6 +44,13 @@
         <link href="https://xishengyu.github.io/post/15/">
         </link>
         <updated>2021-03-01T13:49:05.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[奇特的Editor😛]]></title>
+        <id>https://xishengyu.github.io/post/20/</id>
+        <link href="https://xishengyu.github.io/post/20/">
+        </link>
+        <updated>2021-02-28T14:05:42.000Z</updated>
     </entry>
     <entry>
         <title type="html"><![CDATA[海外街头，歌声中的祖国💖]]></title>
@@ -58,26 +79,5 @@
         <link href="https://xishengyu.github.io/post/7/">
         </link>
         <updated>2021-01-25T07:41:56.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[两篇工作：期权的熵定价方法+高频数据下的波动率估计]]></title>
-        <id>https://xishengyu.github.io/post/10/</id>
-        <link href="https://xishengyu.github.io/post/10/">
-        </link>
-        <updated>2020-12-18T13:11:07.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[难得的旅途寂寞]]></title>
-        <id>https://xishengyu.github.io/post/17/</id>
-        <link href="https://xishengyu.github.io/post/17/">
-        </link>
-        <updated>2020-12-12T13:41:11.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qudratic Variation of Broqnian Motion (布朗运动的二阶变差)]]></title>
-        <id>https://xishengyu.github.io/post/8/</id>
-        <link href="https://xishengyu.github.io/post/8/">
-        </link>
-        <updated>2020-12-07T09:15:28.000Z</updated>
     </entry>
 </feed>
