@@ -5,7 +5,7 @@
     
 <meta charset="utf-8" >
 
-<title>“几分钟带你看完新冠病毒的所有论文” | Dr. Yu&#39;s Space......</title>
+<title>Black-Scholes方程推导中的一个关键——自融资条件 | Dr. Yu&#39;s Space......</title>
 <meta name="description" content="Contact: xishengyu@gmail.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -80,15 +80,15 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">“几分钟带你看完新冠病毒的所有论文”</h2>
+          <h2 class="post-title">Black-Scholes方程推导中的一个关键——自融资条件</h2>
           <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-09-03</span>
+            <span><i class="icon-calendar-outline"></i> 2021-02-01</span>
             
               <span>
                 <i class="icon-pricetags-outline"></i>
                 
-                  <a href="https://xishengyu.github.io/tag/comment/">
-                    碎筆
+                  <a href="https://xishengyu.github.io/tag/professional/">
+                    專課
                     
                   </a>
                 
@@ -96,18 +96,32 @@
             
           </div>
           <div class="post-content">
-            <p>疫情期间，偶尔翻翻有关疫情的新闻，依然是那么地不令人抱以期望：意识形态的互殴、猛烈的节奏风是由来已久，还有更多无畏的无知，理性客观科学符逻辑的仍旧是出自那么三三两两之人。便以下面的视频，聊以自安。</p>
-<p>视频：”科学家光写论文不抗疫情？几分钟带你看完新冠病毒的所有论文”</p>
-<p><a href="https://www.bilibili.com/video/av88290870?from=search&amp;seid=16993539722835092550">https://www.bilibili.com/video/av88290870?from=search&amp;seid=16993539722835092550</a></p>
+            <p>【今天看到一个很小但很重要的教学视频：<a href="https://b23.tv/BTepfy">https://b23.tv/BTepfy</a>，讲授关于“Black-Scholes方程的推导”。虽然主讲老师并没有完全解决所提的问题（在9分40秒前后。确切地说，将“前两项和解释为零”是错误的），但依然足以值得推荐给学生学习】</p>
+<p>每学期讲到“Black-Scholes方程（B-S PDE）”时，其推导过程中的一个关键处很容易就被学生忽略。这个关键之处是，方程证明过程中涉及到的形如以下一个推导环节：</p>
+<p><em>X(t)=θ_1(t)S(t)+θ_2(t)V(t) =&gt; dX(t)=θ_1(t)dS(t)+θ_2(t)dV(t)   -------(1)</em></p>
+<p>其中系数θ(t)为t时刻持有股票S(t)与期权V(t)的份数，与时间t有关。</p>
+<p>上式 (1) 的得来，不少学生很轻易地认为“理所当然”，而且许多相关书籍资料中，并没有严格证明。据查证，Black-Scholes方程的得来，在当时也是“轻易地”得到这一式(1)。以至于牛人Harrison在1979、1980年还专门写有论文说明这一问题。</p>
+<p>N年前初入金融工程门槛，在看John Hull的书本时，觉得书中得到(1)式应是有问题的（即Hull书中f关于S的偏导保持不变）。当时自行推导无法消除其他四项（Ito公式计算），直到后来知晓此处的假设前提：自融资（self-financing condition; Harrison &amp; Kreps, 1979）,于是似懂非懂地“接受”了这一结果（式(1)）。随着知识的累积，包括学习随机数学及阅读了经典教材Arbitrage Theory in Continuous Time by T. Bjork，便清楚并解决了这个“易于被忽视”的问题。</p>
+<blockquote>
+<p>“前面提到的视频中未解决的问题”之原因</p>
+</blockquote>
+<p><strong>视频中的问题形如</strong>：让Δt—&gt;0， Δθ(t) S(t)不能记作 S(t) dθ(t)  （ Δθ(t)= θ(t)-θ(t-Δt)）</p>
+<p><strong>原因</strong>：所有的积分（或微分）均在Ito意义下展开的，而此处的S(t)取值右端点，违背Ito积分意义。</p>
+<blockquote>
+<p>对于随机数学基础不够的学生，如何去讲？</p>
+</blockquote>
+<p>对于整个课堂的学生，我通常还是会在课堂中按以下惯常思路：通过离散化后，推导得到“自融资条件下的财富组合过程”；再将其连续化，便直接“得到”上式（1）(见下图)。但要指出这个“得到”还需要一定的转折：使用Ito积分含义，有兴趣的学生可参考资料(如 by Tomas Bjork)。<br>
+<img src="https://xishengyu.github.io/post-images/1618578901583.jpg" alt="" loading="lazy"><br>
+式（1）是一个特别重要的结果，没有它便不能严谨推导B-S方程，要知道这一式子的成立是“自融资”条件的结果。</p>
 
           </div>
         </div>
 
         
           <div class="next-post">
-            <a class="purple-link" href="https://xishengyu.github.io/post/3/">
+            <a class="purple-link" href="https://xishengyu.github.io/post/7/">
               <h3 class="post-title">
-                下一篇：“中国不需要为病毒起源与否向世界道歉”
+                下一篇：数学专业学生要有一定的数学素养—–“研究生推免复试”所想
               </h3>
             </a>
           </div>
