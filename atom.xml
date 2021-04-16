@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-04-16T14:09:47.058Z</updated>
+    <updated>2021-04-16T14:14:44.130Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -10,6 +10,20 @@
     <logo>https://xishengyu.github.io/images/avatar.png</logo>
     <icon>https://xishengyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Dr. Yu&apos;s Space......</rights>
+    <entry>
+        <title type="html"><![CDATA[期权2️⃣-何为期权的杠杆?]]></title>
+        <id>https://xishengyu.github.io/post/24/</id>
+        <link href="https://xishengyu.github.io/post/24/">
+        </link>
+        <updated>2021-04-12T14:11:44.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[填数独失败]]></title>
+        <id>https://xishengyu.github.io/post/23/</id>
+        <link href="https://xishengyu.github.io/post/23/">
+        </link>
+        <updated>2021-03-26T14:10:19.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[期权1️⃣-抽象概念的通俗理解😛]]></title>
         <id>https://xishengyu.github.io/post/21/</id>
@@ -65,19 +79,5 @@
         <link href="https://xishengyu.github.io/post/12/">
         </link>
         <updated>2021-02-02T13:25:21.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Black-Scholes方程推导中的一个关键——自融资条件]]></title>
-        <id>https://xishengyu.github.io/post/11/</id>
-        <link href="https://xishengyu.github.io/post/11/">
-        </link>
-        <updated>2021-02-01T13:13:57.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[数学专业学生要有一定的数学素养—–“研究生推免复试”所想]]></title>
-        <id>https://xishengyu.github.io/post/7/</id>
-        <link href="https://xishengyu.github.io/post/7/">
-        </link>
-        <updated>2021-01-25T07:41:56.000Z</updated>
     </entry>
 </feed>
