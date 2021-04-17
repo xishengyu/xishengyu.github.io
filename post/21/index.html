@@ -1,102 +1,102 @@
+
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" >
+    
+<meta charset="utf-8" >
 
 <title>期权1️⃣-抽象概念的通俗理解😛 | Dr. Yu&#39;s Space......</title>
+<meta name="description" content="Contact: xishengyu@gmail.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1618650935697">
+<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1618651272733">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://xishengyu.github.io/styles/main.css">
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
-    <meta name="description" content="作为重要的金融衍生品——期权，在国内上市交易已有六年多的时间，并在金融市场中越来越“受宠”。它不像股票或期货，有着更高的专业性要求，而众多的图书资料往往过于书面化，理解起来比较晦涩。将通过现实的例子，进行一种通俗易懂、不失本质的解说。
-
-期..." />
-    <meta name="keywords" content="專課" />
   </head>
   <body>
     <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://xishengyu.github.io">
-        <img src="https://xishengyu.github.io/images/avatar.png?v=1618650935697" class="site-logo">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://xishengyu.github.io">
+        <img class="avatar" src="https://xishengyu.github.io/images/avatar.png?v=1618651272733" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://xishengyu.github.io">
         <h1 class="site-title">Dr. Yu&#39;s Space......</h1>
       </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
     </div>
-    <div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
       
         
-          <a href="/" class="site-nav">
+          <a href="/" class="menu purple-link">
             首页
           </a>
         
       
         
-          <a href="/archives" class="site-nav">
+          <a href="/archives" class="menu purple-link">
             归档
           </a>
         
       
         
-          <a href="/tags" class="site-nav">
+          <a href="/tags" class="menu purple-link">
             标签
           </a>
         
       
         
-          <a href="https://xishengyu.github.io/post/aboutme" class="site-nav" target="_blank">
+          <a class="menu purple-link" href="https://xishengyu.github.io/post/aboutme" class="menu" target="_blank">
             关于我
           </a>
         
       
     </div>
   </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      Contact: xishengyu@gmail.com
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
+</transition>
 
 
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">期权1️⃣-抽象概念的通俗理解😛</h2>
-            <div class="post-date">2021-03-12</div>
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">期权1️⃣-抽象概念的通俗理解😛</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2021-03-12</span>
             
-            <div class="post-content" v-pre>
-              <p>作为重要的金融衍生品——期权，在国内上市交易已有六年多的时间，并在金融市场中越来越“受宠”。它不像股票或期货，有着更高的专业性要求，而众多的图书资料往往过于书面化，理解起来比较晦涩。将通过现实的例子，进行一种通俗易懂、不失本质的解说。</p>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://xishengyu.github.io/tag/professional/">
+                    專課
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>作为重要的金融衍生品——期权，在国内上市交易已有六年多的时间，并在金融市场中越来越“受宠”。它不像股票或期货，有着更高的专业性要求，而众多的图书资料往往过于书面化，理解起来比较晦涩。将通过现实的例子，进行一种通俗易懂、不失本质的解说。</p>
 <hr>
 <p>期权在国内是一种新鲜的金融衍生产品，我国真正意义上的第一支期权“上证50ETF期权”，于2015年2月9日上市交易，所以2015年也被誉为我国的“期权”年。</p>
 <p>【其实早在1992年，我国就有类似于“期权”的金融品种——权证，但当时一方面由于市场各方面的不规范，其次许多的投资者根本就不知晓何为“权证”，所以导致了后来对权证业务的关关停停（1996年6月，2005年8月），以及陆陆续续的“权证事件”。以2008年“南航认沽权证事件”为例，当时的南航股票价格远高于执行价（即使是2007年6月正股价的下跌），以至于这些权证合约根本就没有价值；但是另一方面，众多的<strong>普通投资者以为买权证就像买股票</strong>，而且因为极其便宜，多争相购买；加上券商可以<strong>无限制地创设南航认沽权证</strong>（26家券商创设128亿），比如申银万国就创设了1.3亿张合约出售，因此造成了价格急剧下降，投资者绝望中割肉退出；而此时上交所和合格券商又大量回购，致使其价格又开始大幅飙升。可想最后这些投资者的投资全归申银万国。 】</p>
@@ -116,39 +116,45 @@
 <p>看可以看出：看跌期权持有者老板希望将来标的证券（衣服）价格下跌，这样他可以获得更多收益；一旦价格上涨（突破行权价980元），他可以选择不行权，则最多损失期权费28元。</p>
 <p>上述两例中：<strong>标的价格通常记为S=1000，执行价格K=1010（980），到期日T=7天，看涨期权价格C=34元，看跌期权P=28元</strong>。</p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://xishengyu.github.io/tag/professional/" class="tag">
-                    專課
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://xishengyu.github.io/post/19/">
-                  <h3 class="post-title">
-                    大学数学，爱也罢恨也罢
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
           </div>
-
         </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://xishengyu.github.io/post/19/">
+              <h3 class="post-title">
+                下一篇：大学数学，爱也罢恨也罢
+              </h3>
+            </a>
+          </div>
+          
       </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">Contact: xishengyu@gmail.com</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
     </div>
+    <script type="application/javascript">
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
+hljs.initHighlightingOnLoad()
 
 var app = new Vue({
   el: '#app',
@@ -158,8 +164,6 @@ var app = new Vue({
 })
 
 </script>
-
-
 
 
 
