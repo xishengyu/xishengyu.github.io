@@ -1,383 +1,259 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>碎筆 | Dr. Yu&#39;s Space......</title>
-<meta name="description" content="Contact: xishengyu@gmail.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619699669262">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619920916007">
 <link rel="stylesheet" href="https://xishengyu.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="Contact: xishengyu@gmail.com">
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://xishengyu.github.io">
-        <img class="avatar" src="https://xishengyu.github.io/images/avatar.png?v=1619699669262" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://xishengyu.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xishengyu.github.io">
+        <img src="https://xishengyu.github.io/images/avatar.png?v=1619920916007" class="site-logo">
         <h1 class="site-title">Dr. Yu&#39;s Space......</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a class="menu purple-link" href="https://xishengyu.github.io/post/aboutme" class="menu" target="_blank">
+          <a href="https://xishengyu.github.io/post/aboutme" class="site-nav" target="_blank">
             关于我
           </a>
         
       
     </div>
   </div>
-</transition>
-
-
-      <div class="content-container">
-
-        <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 碎筆
-          </h2> 
-        </div>
-
-        
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/26/">
-        <h2 class="post-title">《丁香花开的时候》——一篇写给母亲的散文</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-04-30</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/25/">
-        <h2 class="post-title">这几天比较累</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-04-13</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/23/">
-        <h2 class="post-title">填数独失败</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-03-26</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/14/">
-        <h2 class="post-title">我和咖啡☕️</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-03-06</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/15/">
-        <h2 class="post-title">红杯咖啡</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-03-01</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/13/">
-        <h2 class="post-title">海外街头，歌声中的祖国💖</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-02-16</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/7/">
-        <h2 class="post-title">数学专业学生要有一定的数学素养—–“研究生推免复试”所想</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2021-01-25</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/17/">
-        <h2 class="post-title">难得的旅途寂寞</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-12-12</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/4/">
-        <h2 class="post-title">“几分钟带你看完新冠病毒的所有论文”</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-09-03</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-<section class="post-item">
-    <div class="content">
-      <a href="https://xishengyu.github.io/post/3/">
-        <h2 class="post-title">“中国不需要为病毒起源与否向世界道歉”</h2>
-      </a>
-      <div class="post-abstract">
-        
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2020-09-03</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://xishengyu.github.io/tag/comment/">
-                碎筆
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-  </section>
-
-
-<div class="pagination-container">
-  
-  
-</div>
-
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">Contact: xishengyu@gmail.com</div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      Contact: xishengyu@gmail.com
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
 
-    </div>
-    <script type="application/javascript">
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <h2 class="current-tag">标签: 碎筆</h2>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/26/">
+                  <h2 class="post-title">《丁香花开的时候》——一篇写给母亲的散文</h2>
+                </a>
+                <div class="post-date">
+                  2021-04-30
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/25/">
+                  <h2 class="post-title">这几天比较累</h2>
+                </a>
+                <div class="post-date">
+                  2021-04-13
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/23/">
+                  <h2 class="post-title">填数独失败</h2>
+                </a>
+                <div class="post-date">
+                  2021-03-26
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/14/">
+                  <h2 class="post-title">我和咖啡☕️</h2>
+                </a>
+                <div class="post-date">
+                  2021-03-06
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/15/">
+                  <h2 class="post-title">红杯咖啡</h2>
+                </a>
+                <div class="post-date">
+                  2021-03-01
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/13/">
+                  <h2 class="post-title">海外街头，歌声中的祖国💖</h2>
+                </a>
+                <div class="post-date">
+                  2021-02-16
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/7/">
+                  <h2 class="post-title">数学专业学生要有一定的数学素养—–“研究生推免复试”所想</h2>
+                </a>
+                <div class="post-date">
+                  2021-01-25
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/17/">
+                  <h2 class="post-title">难得的旅途寂寞</h2>
+                </a>
+                <div class="post-date">
+                  2020-12-12
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/4/">
+                  <h2 class="post-title">“几分钟带你看完新冠病毒的所有论文”</h2>
+                </a>
+                <div class="post-date">
+                  2020-09-03
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
+            <article class="post-item">
+              <div class="left">
+                <a href="https://xishengyu.github.io/post/3/">
+                  <h2 class="post-title">“中国不需要为病毒起源与否向世界道歉”</h2>
+                </a>
+                <div class="post-date">
+                  2020-09-03
+                </div>
+                <div class="post-abstract">
+                  
+                </div>
+              </div>
+              
+            </article>
+          
 
-hljs.initHighlightingOnLoad()
+          <div class="pagination-container">
+  
+  
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -387,6 +263,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 

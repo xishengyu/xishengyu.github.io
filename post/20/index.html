@@ -1,147 +1,140 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>奇特的Editor😛 | Dr. Yu&#39;s Space......</title>
-<meta name="description" content="Contact: xishengyu@gmail.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619699669262">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619920916007">
 <link rel="stylesheet" href="https://xishengyu.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="数月前投了一期刊（我单位外文A级），上周终于等来Editor的结果：拒绝（rejected）！
+看了一下审稿人的审稿意见：推荐发表（recommend this paper for publication），审稿意见随后附上几点小瑕疵建议。..." />
+    <meta name="keywords" content="平素" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://xishengyu.github.io">
-        <img class="avatar" src="https://xishengyu.github.io/images/avatar.png?v=1619699669262" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://xishengyu.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xishengyu.github.io">
+        <img src="https://xishengyu.github.io/images/avatar.png?v=1619920916007" class="site-logo">
         <h1 class="site-title">Dr. Yu&#39;s Space......</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a class="menu purple-link" href="https://xishengyu.github.io/post/aboutme" class="menu" target="_blank">
+          <a href="https://xishengyu.github.io/post/aboutme" class="site-nav" target="_blank">
             关于我
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Contact: xishengyu@gmail.com
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">奇特的Editor😛</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-02-28</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">奇特的Editor😛</h2>
+            <div class="post-date">2021-02-28</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://xishengyu.github.io/tag/social/">
-                    平素
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <p>数月前投了一期刊（我单位外文A级），上周终于等来Editor的结果：拒绝（rejected）！</p>
+            <div class="post-content" v-pre>
+              <p>数月前投了一期刊（我单位外文A级），上周终于等来Editor的结果：拒绝（rejected）！</p>
 <p>看了一下审稿人的审稿意见：推荐发表（recommend this paper for publication），审稿意见随后附上几点小瑕疵建议。</p>
 <p>一般而言，Editor做决定时，最重要的依据便是审稿人的意见。换而言之，外审专家的审稿意见几乎决定论文的“生或死”，否则Editor不会等这么久的审稿意见，让投稿人进行漫长等待。</p>
 <p>俺的这一论文，看不出Editor的拒绝理由何在。客观说，以前遇到不少“霸道”的拒稿理由，但完全无视审稿意见（且做出与审稿意见截然相反的决定）的Editor，还是第一次遇到。于是写了个“申辩”email（如下），尽管知道不会有回应😛。<br>
 <img src="https://xishengyu.github.io/post-images/1618581986128.jpg" alt="" loading="lazy"><br>
 要发个外文A级期刊，容易吗我😂</p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://xishengyu.github.io/tag/social/" class="tag">
+                    平素
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xishengyu.github.io/post/13/">
+                  <h3 class="post-title">
+                    海外街头，歌声中的祖国💖
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://xishengyu.github.io/post/13/">
-              <h3 class="post-title">
-                下一篇：海外街头，歌声中的祖国💖
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">Contact: xishengyu@gmail.com</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -151,6 +144,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 

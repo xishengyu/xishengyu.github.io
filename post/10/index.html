@@ -1,147 +1,139 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>两篇工作：期权的熵定价方法+高频数据下的波动率估计 | Dr. Yu&#39;s Space......</title>
-<meta name="description" content="Contact: xishengyu@gmail.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619699669262">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619920916007">
 <link rel="stylesheet" href="https://xishengyu.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="一篇为有关”期权的熵定价方法”，标题为“Risk-Neutrality of RND and Option Pricing within an Entropy Framework” (Link)，2020年7月见刊于信息学期刊Entropy..." />
+    <meta name="keywords" content="專課" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://xishengyu.github.io">
-        <img class="avatar" src="https://xishengyu.github.io/images/avatar.png?v=1619699669262" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://xishengyu.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xishengyu.github.io">
+        <img src="https://xishengyu.github.io/images/avatar.png?v=1619920916007" class="site-logo">
         <h1 class="site-title">Dr. Yu&#39;s Space......</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a class="menu purple-link" href="https://xishengyu.github.io/post/aboutme" class="menu" target="_blank">
+          <a href="https://xishengyu.github.io/post/aboutme" class="site-nav" target="_blank">
             关于我
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Contact: xishengyu@gmail.com
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">两篇工作：期权的熵定价方法+高频数据下的波动率估计</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-12-18</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">两篇工作：期权的熵定价方法+高频数据下的波动率估计</h2>
+            <div class="post-date">2020-12-18</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://xishengyu.github.io/tag/professional/">
-                    專課
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <p>一篇为有关”期权的熵定价方法”，标题为“Risk-Neutrality of RND and Option Pricing within an Entropy Framework” (<a href="https://www.mdpi.com/1099-4300/22/8/836">Link</a>)，2020年7月见刊于信息学期刊Entropy（熵，JCR一区，8/62，Mathematical Physics）。</p>
+            <div class="post-content" v-pre>
+              <p>一篇为有关”期权的熵定价方法”，标题为“Risk-Neutrality of RND and Option Pricing within an Entropy Framework” (<a href="https://www.mdpi.com/1099-4300/22/8/836">Link</a>)，2020年7月见刊于信息学期刊Entropy（熵，JCR一区，8/62，Mathematical Physics）。</p>
 <p>该工作是系列的后续，在M. Stutzer(1996)首次提出的期权熵定价框架基础上进行部分完善，构建能够将期权市场有效信息准确提取并嵌入的熵定价框架。主要工作：证明了提出的信息矩是准确的；多角度检验所构建的框架能够提供精准的风险中性定价测度；Black-Scholes 和Heston环境下均具有精确的定价能力。重点是验证了所得熵测度的“风险中性”（risk-neutrality is deeply verified based on simulations），说明了该非参数定价框架能够为衍生证券定价提供精确的定价测度。</p>
 <p>这项工作的思路，主要起源于Stutzer(1996)在Journal of Finance的一篇文章，毕竟Stutzer被认为是期权的熵（Entropy）定价方法的奠基人之一。值得注意的是，Stutzer教授在期刊Entropy上发表过至少2篇文章（1999年、2018年）。正是看到他在Entropy上发过文章，便将我的这项工作，也试投了该期刊，幸运地很快修改并被接受。</p>
 <p>另一篇有关“使用高频金融数据进行波动率估计”，题目为“Nonparametric estimation of quadratic variation using high-frequency data”(<a href="https://www.researchgate.net/publication/344224871_Nonparametric_estimation_of_quadratic_variation_using_high-frequency_data">Link1</a>, or <a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.6863">Link2</a>，已在线出版于MMAS，JCR一区，45/368，Mathematics, Applied）。</p>
 <p>这一工作受著名计量金融学专家Barndorff-Nielsen 和 Shephard在2002及2004年的重要结果启发。直觉上提出了半鞅过程的qudratic variation（QV）的两个估计式，用于准确估计波动率，在一定条件下，是目前文献已有估计式中最优的估计。主要贡献：理论上证明了所提出的两个估计式，能够收敛于QV，并给出了收敛速度、逼近误差；并基于IBM股票中、高频数据，进行了实证检验估计式的有效性，实证结果非常完美地印证了理论结果。</p>
 <p>这篇文章的构思，始于2013年，中途因各种原因断断续续地进行着。主要是涉及的证明极其复杂繁琐，补习了一些高等随机过程的知识，修改过多遍，方最后证明出来。前后搁置过多次，差点放弃。记得在2019年2月前往迪拜度假的航班上，在之前基础上，拿出来再翻阅，才有了重要进展。经过多次的投稿拒稿，修修改改，总算被一杂志mmas接收发表。</p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://xishengyu.github.io/tag/professional/" class="tag">
+                    專課
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xishengyu.github.io/post/17/">
+                  <h3 class="post-title">
+                    难得的旅途寂寞
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://xishengyu.github.io/post/17/">
-              <h3 class="post-title">
-                下一篇：难得的旅途寂寞
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">Contact: xishengyu@gmail.com</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -151,6 +143,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 

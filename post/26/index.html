@@ -1,102 +1,101 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>《丁香花开的时候》——一篇写给母亲的散文 | Dr. Yu&#39;s Space......</title>
-<meta name="description" content="Contact: xishengyu@gmail.com">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619699669262">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://xishengyu.github.io/favicon.ico?v=1619920916007">
 <link rel="stylesheet" href="https://xishengyu.github.io/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="母亲节快到了。
+早上，在去上班的地铁上，听着散文诵读——《丁香花开的时候》（文章作者为刘少华，内蒙古日报社原首席记者，长江韬奋奖获得者）。这是一篇纪念母亲的散文，文中的每一句，无不流露出其对母亲真挚、朴实而动人的情感。听着听着，渐成文中人，..." />
+    <meta name="keywords" content="碎筆" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://xishengyu.github.io">
-        <img class="avatar" src="https://xishengyu.github.io/images/avatar.png?v=1619699669262" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://xishengyu.github.io">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xishengyu.github.io">
+        <img src="https://xishengyu.github.io/images/avatar.png?v=1619920916007" class="site-logo">
         <h1 class="site-title">Dr. Yu&#39;s Space......</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a class="menu purple-link" href="https://xishengyu.github.io/post/aboutme" class="menu" target="_blank">
+          <a href="https://xishengyu.github.io/post/aboutme" class="site-nav" target="_blank">
             关于我
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Contact: xishengyu@gmail.com
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">《丁香花开的时候》——一篇写给母亲的散文</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2021-04-30</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">《丁香花开的时候》——一篇写给母亲的散文</h2>
+            <div class="post-date">2021-04-30</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="https://xishengyu.github.io/tag/comment/">
-                    碎筆
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <p>母亲节快到了。</p>
+            <div class="post-content" v-pre>
+              <p>母亲节快到了。</p>
 <p>早上，在去上班的地铁上，听着散文诵读——《丁香花开的时候》（文章作者为刘少华，内蒙古日报社原首席记者，长江韬奋奖获得者）。这是一篇纪念母亲的散文，文中的每一句，无不流露出其对母亲真挚、朴实而动人的情感。听着听着，渐成文中人，不知什么时候，已是泪襟，止不住地。</p>
 <p>“日月轮回，往事如烟，惟有妈妈是我心中一道不落的彩虹”、“妈妈是我们生命的保护神，妈妈是我们心中的一盏灯”。我的母亲便是如此。</p>
 <p>文章写道：</p>
@@ -135,45 +134,39 @@
 <p>而今，历史已经翻开了新春的扉页。看，妈妈从乌兰浩特洮河边走来，又向大草原深处走去。她的身影多么熟悉，多么亲切。我们看见了，她在遥远地凝视。她的目光是多么的温热、多么慈祥。我要说，草原的路有多长，妈妈对儿女的牵挂和祝福就有多长。无论妈妈走到什么地方，其实，永远没有走出留给儿女这顶母爱的毡房……</p>
 <p>又是丁香花开时，花香袭人，花色迷人。此间，妈妈是一首甜婉的歌。听，“生活中正因为有了您，我们的生命才有意义。”这不是诗人浪漫的格言，这是儿女心底的回声。伴着儿女轻声的呢喃，亲爱的妈妈早已回来了。瞧，她不正微笑在紫丁香的花丛之中吗？</p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://xishengyu.github.io/tag/comment/" class="tag">
+                    碎筆
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xishengyu.github.io/post/25/">
+                  <h3 class="post-title">
+                    这几天比较累
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="https://xishengyu.github.io/post/25/">
-              <h3 class="post-title">
-                下一篇：这几天比较累
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">Contact: xishengyu@gmail.com</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank"> XishengYu  © CopyRight 2021</a> | <a class="rss" href="https://xishengyu.github.io/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -183,6 +176,8 @@ var app = new Vue({
 })
 
 </script>
+
+
 
 
 
