@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xishengyu.github.io</id>
     <title>Dr. Yu&apos;s Space......</title>
-    <updated>2021-05-04T16:25:28.486Z</updated>
+    <updated>2021-05-05T01:21:45.496Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xishengyu.github.io"/>
     <link rel="self" href="https://xishengyu.github.io/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://xishengyu.github.io/images/avatar.png</logo>
     <icon>https://xishengyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Dr. Yu&apos;s Space......</rights>
+    <entry>
+        <title type="html"><![CDATA[“雪球产品”的定价准确吗？——“雪球”的背后解析]]></title>
+        <id>https://xishengyu.github.io/post/27/</id>
+        <link href="https://xishengyu.github.io/post/27/">
+        </link>
+        <updated>2021-05-05T12:58:33.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《丁香花开的时候》——一篇写给母亲的散文]]></title>
         <id>https://xishengyu.github.io/post/26/</id>
@@ -72,12 +79,5 @@
         <link href="https://xishengyu.github.io/post/15/">
         </link>
         <updated>2021-03-01T13:49:05.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[奇特的Editor😛]]></title>
-        <id>https://xishengyu.github.io/post/20/</id>
-        <link href="https://xishengyu.github.io/post/20/">
-        </link>
-        <updated>2021-02-28T14:05:42.000Z</updated>
     </entry>
 </feed>
