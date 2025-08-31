@@ -1,4 +1,4 @@
-# Dr. Yu (CV_En https://github.com/xishengyu/xishengyu.github.io/blob/main/deepseek_markdown_20250831_2a67f2.md)
+# Dr. Yu ([CV_En] (https://github.com/xishengyu/xishengyu.github.io/blob/main/deepseek_markdown_20250831_2a67f2.md))
 **余喜生**-- 金融学博士 (金融工程, 2012), 数学硕士 (泛函分析)；西南财经大学副教授，新南威尔士大学访问学者。首批四川省"万人计划"入选者，西南财经大学"百人计划"人选；国家自科基金项目同行评议专家，教育部学位中心通讯评审专家，四川省高校职称评定同行评议专家。中国工业与应用数学学会"金融科技专委会"委员，中国优选法统筹法与经济数学研究会"经济数学与管理数学分会"理事，中国运筹学会"金融工程与金融风险分会"理事；成都市新经济产业委员会、青羊区人社局专家顾问。曾任金融数学系副主任，中金所会员单位培训讲师。
     
 
@@ -14,7 +14,7 @@
 
 > ### 三、重要论著（选）
 
-- **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://github.com/xishengyu/Dr.Yu/blob/main/OptionPricing_DiscreteDividend.pdf)"，*数学学报* (数学类顶刊)，forthcoming    
+ **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://github.com/xishengyu/Dr.Yu/blob/main/OptionPricing_DiscreteDividend.pdf)"，*数学学报* (数学类顶刊)，forthcoming    
   -【*贡献*：研究了具挑战性的问题“多次离散分红欧式期权定价“：直觉逻辑并理论上，构建起能够给出期权价格解析表达的模型。进一步修正了经典的Spot与Forward模型，其定价结果是目前国际上已有封闭解中最精确(之一)】 
 
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://www.researchgate.net/publication/344771552_On_the_convergence_of_two_types_of_estimators_of_quadratic_variation)”, *Math. Method. Appl. Sci.,* 45(18), 2022, [12206-12221](https://doi.org/10.1002/mma.8007). (JCR-Q1)  
