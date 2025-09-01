@@ -121,9 +121,8 @@
 - **余喜生**，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯名家专栏*，2019/01;  
 - **余喜生**，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
-> ### 九、其他
-
-- 标签：规格严格，功夫到家
+### 九、其他
+- Tag：规格严格，功夫到家
 - E-mail: *<u>yuxisheng@swufe.edu.cn</u>*
 
 
