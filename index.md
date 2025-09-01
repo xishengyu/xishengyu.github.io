@@ -8,7 +8,7 @@
 ### 二、主授课程
 金融随机分析、金融衍生品定价、金融数学方法、金融资产定价     
 
-### 三、重要论著（选）
+### 三、主要论著
 - **X., Yu**. “An Enhanced Static Hedge: Using Two Symmetric Pairs of Options”, *J. Deriv.*, 2025, 33 (02), to appear
 - Y. Xiang, L. Long, **X., Yu<sup>*</sup>**. “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078
