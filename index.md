@@ -29,7 +29,7 @@
 - **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://doi.org/10.1016/j.najef.2021.101495))”, *N. Am. J. Econ. Financ.*, 2021 (58), 101495  
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
   
-- **X., Yu**. “[Risk-Neutrality of RND and Option Pricing within an Entropy Framework](https://www.mdpi.com/1099-4300/20/5/369)  
+- **X., Yu**. “[Risk-Neutrality of RND and Option Pricing within an Entropy Framework](https://www.mdpi.com/1099-4300/20/5/369)”, *Entropy*, 2020, 22(08), 836  
   -【*贡献*：M. Stutzer首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】
 
 - **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019 (z1)：291-300
@@ -48,6 +48,8 @@
 - **余喜生**. “双因素可转债定价的非参数方法（离散情形）——基于新的鞅方法”. *技术经济*, 2009 (6): 92-95
 
 - **余喜生**. “一种新非参数方法在可转债定价中的应用”．*统计与决策*, 2009(19): 150-151
+  
+- **余喜生**，李辉，《四川省上市公司发展报告（2019）》（ISBN: 978-7-5504-4664-9），西南财经大学出版社，40万字，2020.12
 
 - **余喜生**，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月
 
