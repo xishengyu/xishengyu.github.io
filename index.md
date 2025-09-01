@@ -15,6 +15,8 @@
   
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078  
    -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果】
+
+- 徐凤、**余喜生**、林谦，部分异质情形下面板协整参数的估计研究，*数理统计与管理*，2023, 42 (06): 973-992
   
 - **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814  
   -【*贡献*：贡献：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁】
@@ -29,7 +31,7 @@
   -【*贡献*：M. Stutzer首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】
 
 - **X., Yu<sup>*</sup>**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173
-  -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy (熵) 定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
+    -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy (熵) 定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
 
 - **余喜生**，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月.
 
