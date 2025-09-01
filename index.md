@@ -63,7 +63,10 @@
 - 2025中国金融科技学术年会，*Unfolding Dividends: A Novel Analytical Method to Efficiently and Accurately Price Options with Discrete Dividends*，2025/06/06–06；
 - 大会报告(**最佳论文奖**)，第八届中国衍生品青年论坛暨第一届国际智能金融和区块链金融论坛，北航，2024/07/07–08  
   40-min Talk: Accurate Analytical Pricing Formula for Options with Discrete Dividends  
-  **Discussant**, *Illiquidity Bitcoin Options. Presented by: 王茵田, 清华大学*
+  **Discussant**, *Illiquidity Bitcoin Options. Presented by: Y. Wang, Tsinghua University*
+- 中国优选法统筹法与经济数学研究会经济数学与管理数学分会2023年学术年会，舟山，2023/11/10–12. **邀请报告**;
+- **Session Chair,** 第五届中国优选法统筹法与经济数学研究会量化金融与保险分会学术年会，*A Novel Recombining Tree for American Options with Discrete Dividends*，2023/05/26–28，武汉
+- 粤港澳大湾区人工智能、区块链与金融科技国际学术会议（2023-CSIAM金融科技与算法专委会年会），*Dealing with discrete known dividends: An analytical valuation*，2023/04/14–16, 珠海 (**traveling expenses covered**);
 - 第二十届中国金融工程学年会，*Market Time-series Reversal：Evidence from China’s market*，西藏，2022/06/25，线上； 
 - 第十八届中国金融学年会，*Valuation of European options on stock with discrete known dividends: An accurate dividend-weighted model*，厦门大学，2021/10/31，线上；  
 - 第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, 敦煌，2019年8月23-26. **大会邀请**报告；  
