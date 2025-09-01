@@ -71,16 +71,15 @@
 - 第十八届中国金融学年会，*Valuation of European options on stock with discrete known dividends: An accurate dividend-weighted model*，厦门大学，2021/10/31，线上；  
 - 第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, 敦煌，2019年8月23-26. **大会邀请**报告；  
 - 11期香樟经济学论坛 (金融工程与金融科技) Seminar（成都），成都，2019年4月13-14，**联合召集人**；
-- International Conference on Applied Financial Economics，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, Shanghai, July 2-3, 2016;
-   **Session commentator**, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions*. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；     
+- International Conference on Applied Financial Economics，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, Shanghai, July 2-3, 2016;  
+  **Session commentator**, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions*. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；     
 - 7th CSBF & 11th IEFA , *Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation*. *Taipei*，Apr. 28-May 1, 2015；  
 - **Session Discussant**, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；  
 - **Session commentator**, 7th China Finance Review International Conference, Shanghai China (July 8-9, 2013)；  
 - **Nomination Award** for Excellent Paper, 2011-Financial Management Associate Meeting (2011-FMA), *Denver,* USA (Oct. 19-22, 2011);   
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
 
-> ### 六、荣誉
-
+ ### 六、荣誉
 - 学术/人才称号
   - 2019/10：四川省“天府英才卡”A卡持有人 (省人才办)；
   - 2019/07：西南财大“光华英才工程”项目（百人计划学术B类）；
