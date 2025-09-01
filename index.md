@@ -73,8 +73,9 @@
 - 11期香樟经济学论坛 (金融工程与金融科技) Seminar（成都），成都，2019年4月13-14，**联合召集人**；
 - International Conference on Applied Financial Economics，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, Shanghai, July 2-3, 2016;  
   **Session commentator**, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions*. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；     
-- 7th CSBF & 11th IEFA , *Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation*. *Taipei*，Apr. 28-May 1, 2015；  
-- **Session Discussant**, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；  
+- 7th CSBF & 11th IEFA , *Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation*. 台湾大学, *Taipei*，Apr. 28-May 1, 2015；  
+- **Session Discussant**, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；
+- 全国高校期货教学与人才培养研讨会暨“期望杯”高校期货论文大奖赛颁奖典礼，北京，2013/10/26–28. **获奖嘉宾**（一等奖,第一名） 
 - **Session commentator**, 7th China Finance Review International Conference, Shanghai China (July 8-9, 2013)；  
 - **Nomination Award** for Excellent Paper, 2011-Financial Management Associate Meeting (2011-FMA), *Denver,* USA (Oct. 19-22, 2011);   
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
