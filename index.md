@@ -72,7 +72,7 @@
 - 第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, 敦煌，2019年8月23-26. **大会邀请**报告；  
 - 11期香樟经济学论坛 (金融工程与金融科技) Seminar（成都），成都，2019年4月13-14，**联合召集人**；  
 - International Conference on Applied Financial Economics，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, Shanghai, July 2-3, 2016;
-  **Session commentator**, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions*. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；  
+   **Session commentator**, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions*. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；  
 - 7th CSBF & 11th IEFA , *Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation*. **Taipei**，Apr. 28-May 1, 2015；  
 - **Session Discussant**, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；  
 - **Session commentator**, 7th China Finance Review International Conference, Shanghai China (July 8-9, 2013)；  
