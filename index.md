@@ -10,7 +10,7 @@
 
 ### 三、重要论著（选）
 - **X., Yu**. “An Enhanced Static Hedge: Using Two Symmetric Pairs of Options”, *J. Deriv.*, 2025, 33 (02), to appear
-- Y. Xiang, L. Long, X., **Yu** *. “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
+- Y. Xiang, L. Long, X., **Yu<sup>*</sup>**. “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
 - **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814    
   -【*贡献*：贡献：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁】 
 
