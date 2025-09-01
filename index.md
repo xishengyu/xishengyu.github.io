@@ -37,7 +37,19 @@
 - **X., Yu<sup>*</sup>**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
  -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy (熵) 定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
 
-- **余喜生**，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月.
+- **X., Yu<sup>*</sup>**, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, *Discrete Dyn. Nat. Soc.*, 2014
+ 
+- **X., Yu<sup>*</sup>**, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, *Math. Probl. Eng.*, 2014
+  
+- Q., Liu, X., Yu*, “Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts”
+
+- C., Luo*，X., Yu. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, Math. Comput. Model., 2010(51), 361-368
+  
+- **余喜生**. “双因素可转债定价的非参数方法（离散情形）——基于新的鞅方法”. *技术经济*, 2009 (6): 92-95
+
+- **余喜生**. “一种新非参数方法在可转债定价中的应用”．*统计与决策*, 2009(19): 150-151
+
+- **余喜生**，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月
 
 > ### 四、项目
 
