@@ -35,7 +35,7 @@
 - **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019 (z1)：291-300
 
 - **X., Yu**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
- -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy (熵) 定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
+ -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
 
 - **X., Yu**, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, *Discrete Dyn. Nat. Soc.*, 2014
  
