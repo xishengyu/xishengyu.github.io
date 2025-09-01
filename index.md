@@ -16,15 +16,11 @@
 - **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814    
   -【*贡献*：贡献：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁】
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, 12206-12221 
-  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理，证明了在较弱条件下，其中的time-varying volatility可放松至stochastic volatility】
-- **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://www.researchgate.net/publication/352493790_A_Unified_Entropic_Pricing_Framework_of_Option_Using_Cressie-Read_Family_of_Divergences?_sg%5B0%5D=f5WJL6XISc8VYsRoLBiurV3KAHfQHUhlP_zVXY4PjaaH5gghGyj5Kv3wW665KVtSb7YnDm4aYRdCs6JLW0Pd3wwXQdNuSlMuIbVVHWL8.TGf4PzwLj2QqbBaJuEhlIZKD-_qMESEfE8WqtM85lHChGGe9O-jWTsteiWfQpMdvNxONWOZrkUaYRQT0GtPuhw)”, *North Am. J. Econ. Finance*, 2021 (58), [101495](https://doi.org/10.1016/j.najef.2021.101495). (ABS-2☆)   
+  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
+- **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://doi.org/10.1016/j.najef.2021.101495))”, *N. Am. J. Econ. Financ.*, 2021 (58), 101495
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
-
-- **X., Yu**. “[Nonparametric estimation of quadratic variation using high-frequency data](https://www.researchgate.net/publication/344224871_Nonparametric_estimation_of_quadratic_variation_using_high-frequency_data)”, *Math. Method. Appl. Sci.*, 2021, [6863](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863). (JCR-Q1)    
-   
-
-- **X., Yu**. “[Risk-Neutrality of RND and Option Pricing within an Entropy Framework](https://www.researchgate.net/publication/343331402_Risk-Neutrality_of_RND_and_Option_Pricing_within_an_Entropy_Framework?_sg%5B0%5D=hogg-oTpvJ5V58EMYtM8UeQgMSHtYPJ7e2wZKoaa6g5QZtaJDaEl4Jq6rfi9kiEIFWC3gN5TBiyGztyJn8MmgDpeEFPf3_aeixsjIkN1.7zQQygMZkiVWleYQLPblaMKZ9LuD4PzSqYQMeJ_D2POxes7y8ETPLTyTvqsZl4Jziu0B_5OzOAW_Zkto7CMDoA)”, *Entropy*, 2020, 22(8), [836](https://www.mdpi.com/1099-4300/22/8/836).   (JCR-Q2；“期权Entropy定价方法”的**创立者M. Stutzer在此期刊独立发表论文**[两篇](https://www.mdpi.com/1099-4300/20/5/369))    
-  -【*贡献*：证明了在Entropy框架下，嵌入RNM得到的定价测度为风险中性的，从而可用于期权定价】
+- **X., Yu**. “[Risk-Neutrality of RND and Option Pricing within an Entropy Framework](https://www.mdpi.com/1099-4300/20/5/369).
+- 【*贡献*：M. Stutzer首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】
 
 - **X., Yu★**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://www.researchgate.net/publication/268693877_Pricing_American_options_RNMs-constrained_entropic_least-squares_approach)”, *North Am. J. Econ. Finance*, 2015(31), [155-173](https://www.sciencedirect.com/science/article/abs/pii/S1062940814001144?via%3Dihub). （ABS-2☆）    
   -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy (熵) 定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
