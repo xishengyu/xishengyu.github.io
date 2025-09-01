@@ -82,6 +82,7 @@
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
 
  ### 六、荣誉
+ 
 - 学术/人才荣誉
   - 2024/12：成都市C类人才（省级重大人才计划入选）；
   - 2024/07  “最佳(大会报告)论文”，第八届中国衍生品青年论坛暨一届国际智能金融和区块链金融论坛；
