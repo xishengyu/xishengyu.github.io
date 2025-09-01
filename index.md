@@ -59,7 +59,7 @@
 - 第一主研国家自科面上项目2项 (71871187, 11671323);
 - 教改项目若干.
 
-### 五、学术会议（选）
+### 五、主要会议
 - 2025中国金融科技学术年会，*Unfolding Dividends: A Novel Analytical Method to Efficiently and Accurately Price Options with Discrete Dividends*，2025/06/06–06；
 - 大会报告(**最佳论文奖**)，第八届中国衍生品青年论坛暨第一届国际智能金融和区块链金融论坛，北航，2024/07/07–08  
   40-min Talk: Accurate Analytical Pricing Formula for Options with Discrete Dividends  
@@ -69,8 +69,7 @@
 - 粤港澳大湾区人工智能、区块链与金融科技国际学术会议（2023-CSIAM金融科技与算法专委会年会），*Dealing with discrete known dividends: An analytical valuation*，2023/04/14–16, 珠海 (**traveling expenses covered**);
 - 第二十届中国金融工程学年会，*Market Time-series Reversal: Evidence from China’s market*，西藏，2022/06/25，线上； 
 - 第十八届中国金融学年会，*Valuation of European options on stock with discrete known dividends: An accurate dividend-weighted model*，厦门大学，2021/10/31，线上；
-- 邀请报告，第4届全国网络治理青年学者论坛，电子科技大学（成都），2019/10/12
-Keynote Talk: SSEBXM指数设计及其策略绩效——基于中国50ETF期权市场的研究  
+- 第4届全国网络治理青年学者论坛，*SSEBXM指数设计及其策略绩效——基于中国50ETF期权市场的研究*，电子科技大学（成都），2019/10/12，邀请报告
 - 第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, 敦煌，2019年8月23-26. **大会邀请**报告；  
 - 11期香樟经济学论坛 (金融工程与金融科技) Seminar（成都），成都，2019年4月13-14，**联合召集人**；
 - International Conference on Applied Financial Economics，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, Shanghai, July 2-3, 2016;  
@@ -83,9 +82,12 @@ Keynote Talk: SSEBXM指数设计及其策略绩效——基于中国50ETF期权�
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
 
  ### 六、荣誉
-- 学术/人才称号
+- 学术/人才荣誉
+  - 2024/12：成都市C类人才（省级重大人才计划入选）；
+  - 2024/07  “最佳(大会报告)论文”，第八届中国衍生品青年论坛暨一届国际智能金融和区块链金融论坛；
+  - 2024/23/19：学术年会邀请主旨/大会报告；
   - 2019/10：四川省“天府英才卡”A卡持有人 (省人才办)；
-  - 2019/07：西南财大“光华英才工程”项目（百人计划学术B类）；
+  - 2019/07：西南财大“光华英才工程”项目（百人计划）；
   - 2018/11：入选省“万人计划”青年拔尖人才（金融菁英项目）；
   - 2016/07：西南财大“优秀科研成果奖”;
   - 2014/02：学院“科研突出成绩奖”；
@@ -93,10 +95,13 @@ Keynote Talk: SSEBXM指数设计及其策略绩效——基于中国50ETF期权�
   - 2011/10：FMA-2011年会（四大顶级金融学术年会之一）宣讲论文，获优秀论文提名.
 
 - 人才培养
-  - 2021/07：西南财大“优秀毕业论文”指导教师（该生被推荐保送至*复旦大学*数学学院金融专硕）；
-  - 2020/11：西南财大“优秀毕业论文”指导教师（该生被推荐保送至*北京大学*汇丰商学院）；
-  - 2018/03：首届“中国国际高校量化金融大赛（教育部等单位主办）”优秀指导教师；
-  - 2017/01：西南财大“2016年度优秀教学成果奖”一等奖.
+  - 2024/06：西南财大“优秀毕业论文”指导教师（该生出国深造）；
+  - 2023/2019：指导本科生发表论文 (学校认定高水平期刊)；
+  - 2021/07：西南财大“优秀毕业论文”指导教师（科研指导，该生被推荐保送至*复旦大学*数学学院金融专硕）；
+  - 2020/12: 带领本科生团队（其中一名获保送研究生），出版《四川省上市公司发展研究报告》
+  - 2020/11：西南财大“优秀毕业论文”指导教师（科研指导，该生被推荐保送至*北京大学*汇丰商学院）；
+  - 2018/03：首届“中国(横琴)国际高校量化金融大赛（教育部等单位主办）”优秀指导教师（排名12/528）；
+  - 2017/01：西南财大“2016年度优秀教学成果奖”一等奖（参加）.
 
 - 服务/管理
   - 学校：优秀共产党员、抗震救灾先进个人；
