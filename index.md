@@ -41,7 +41,7 @@
  
 - **X., Yu<sup>*</sup>**, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, *Math. Probl. Eng.*, 2014
   
-- Q., Liu, **X., Yu**, “[Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts](http://dx.doi.org/10.2139/ssrn.1573405)”, Available at SSRN: http://dx.doi.org/10.2139/ssrn.1573405
+- Q., Liu, **X., Yu**, “[Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts](http://dx.doi.org/10.2139/ssrn.1573405)”, Available at SSRN: dx.doi.org/10.2139/ssrn.1573405
 
 - C., Luo*，X., Yu. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, Math. Comput. Model., 2010(51), 361-368
   
