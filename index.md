@@ -11,8 +11,8 @@
 ### 三、重要论著（选）
 - **X., Yu**. “An Enhanced Static Hedge: Using Two Symmetric Pairs of Options”, *J. Deriv.*, 2025, 33 (02), to appear
 - Y. Xiang, L. Long, X., **Yu** *. “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
-- **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报* (数学类顶刊)，forthcoming    
-  -【*贡献*：研究了具挑战性的问题“多次离散分红欧式期权定价“：直觉逻辑并理论上，构建起能够给出期权价格解析表达的模型。进一步修正了经典的Spot与Forward模型，其定价结果是目前国际上已有封闭解中最精确(之一)】 
+- **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814    
+  -【*贡献*：贡献：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁】 
 
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://www.researchgate.net/publication/344771552_On_the_convergence_of_two_types_of_estimators_of_quadratic_variation)”, *Math. Method. Appl. Sci.,* 45(18), 2022, [12206-12221](https://doi.org/10.1002/mma.8007). (JCR-Q1)  
   -【*贡献*：对之前提出的QV两个估计式进行了扩展：通过构造重要定理，证明了在较弱条件下，其中的time-varying volatility (时变波动率?)可放松至随机波动率】
