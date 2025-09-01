@@ -81,7 +81,6 @@
 - **Nomination Award** for Excellent Paper, 2011-Financial Management Associate Meeting (2011-FMA), *Denver,* USA (Oct. 19-22, 2011);   
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
 
-
  ### 六、荣誉
 - 学术/人才荣誉
   - 2024/12：成都市C类人才（省级重大人才计划入选）；
