@@ -15,9 +15,8 @@
 - 【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果】
 - **余喜生**. "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814    
   -【*贡献*：贡献：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁】
-- **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, [12206-12221](https://doi.org/10.1002/mma.8007). (JCR-Q1)  
-  -【*贡献*：对之前提出的QV两个估计式进行了扩展：通过构造重要定理，证明了在较弱条件下，其中的time-varying volatility (时变波动率?)可放松至随机波动率】
-
+- **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, 12206-12221 
+  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理，证明了在较弱条件下，其中的time-varying volatility可放松至stochastic volatility】
 - **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://www.researchgate.net/publication/352493790_A_Unified_Entropic_Pricing_Framework_of_Option_Using_Cressie-Read_Family_of_Divergences?_sg%5B0%5D=f5WJL6XISc8VYsRoLBiurV3KAHfQHUhlP_zVXY4PjaaH5gghGyj5Kv3wW665KVtSb7YnDm4aYRdCs6JLW0Pd3wwXQdNuSlMuIbVVHWL8.TGf4PzwLj2QqbBaJuEhlIZKD-_qMESEfE8WqtM85lHChGGe9O-jWTsteiWfQpMdvNxONWOZrkUaYRQT0GtPuhw)”, *North Am. J. Econ. Finance*, 2021 (58), [101495](https://doi.org/10.1016/j.najef.2021.101495). (ABS-2☆)   
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
 
