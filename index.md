@@ -117,7 +117,7 @@
 ### 八、谈点杂文
 - **余喜生**，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)》，*期权世界*，2021/05;
 - **余喜生**，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
-- **余喜生**，《[标的价格为负时，期权价格怎么办？——原油期货价格为负所想](https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&amp;mid=2649702308&amp;idx=3&amp;sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd)》, *债券圈*，2020/04;  
+- **余喜生**，《[标的价格为负时，期权价格怎么办？——原油期货价格为负所想](https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&amp;mid=2649702308&amp;idx=3&amp;sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd)》, *债券圈* ([雪球网](https://xueqiu.com/7539894803/147836568))，2020/04;  
 - **余喜生**，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯名家专栏*，2019/01;  
 - **余喜生**，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
