@@ -43,7 +43,7 @@
   
 - Q., Liu, **X., Yu**, “[Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts](http://dx.doi.org/10.2139/ssrn.1573405)”, Available at SSRN: http://dx.doi.org/10.2139/ssrn.1573405
 
-- C., Luo*，X., Yu. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, Math. Comput. Model., 2010(51), 361-368
+- *C., Luo**，X., Yu. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, Math. Comput. Model., 2010(51), 361-368
   
 - **余喜生**. “双因素可转债定价的非参数方法（离散情形）——基于新的鞅方法”. *技术经济*, 2009 (6): 92-95
 
