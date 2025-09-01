@@ -41,7 +41,7 @@
  
 - **X., Yu**, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, *Math. Probl. Eng.*, 2014
   
-- Q., Liu, **X., Yu**, “[Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts]”, Available at SSRN: http://dx.doi.org/10.2139/ssrn.1573405
+- Q., Liu, **X., Yu**, “Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts”, Available at SSRN: http://dx.doi.org/10.2139/ssrn.1573405
 
 - C., Luo，**X., Yu**. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, Math. Comput. Model., 2010(51), 361-368
   
@@ -54,7 +54,7 @@
 - **余喜生**，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月
 
 ### 四、主要项目
-- 主持国家自科青年项目1项 (71301132)、省社科项目3项 (重点1项, 结项"良好": SC19A017, SC15XS021, 14ZB0448)、市厅项目2项、其他若干；  
+- 主持国家自科青年项目1项 (71301132)、省社科项目3项 (重点1项, 结项"良好"；SC19A017, SC15XS021, 14ZB0448)、市厅项目2项、其他若干；  
 - 主持产学研/横向落地 (金融科技与量化交易) 项目3项 (CGZH20210106, JKHT20211110)；  
 - 第一主研国家自科面上项目2项 (71871187, 11671323);
 - 教改项目若干.
