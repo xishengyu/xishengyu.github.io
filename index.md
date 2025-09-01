@@ -114,12 +114,12 @@
 - “金融科技孵化——新兴数字化投资技术创新”，成都交子金融科技中心某单位，2020；
 - “衍生品定价模型”，某期货有限公司，2015/04.
 
-### 八、热点杂文
-- **余喜生**，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484093&idx=1&sn=df8fc125026035fb4817368cc392c9b1&chksm=faf445a2cd83ccb4a1f217d2fa44e67d971b0b23e1d515111242f1dd092c3896a2e47c763c21&token=641027228&lang=zh_CN#rd)》，*期权世界*【 [转载](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)】，2021/05;
+### 八、谈点杂文
+- **余喜生**，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)》，*期权世界*，2021/05;
 - **余喜生**，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
-- **余喜生**，《[标的价格为负时，期权价格怎么办？——原油期货价格为负所想](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484058&idx=1&sn=dacd17d754903df4da6d4fd41121098b&chksm=faf44585cd83cc93dd4f32cd55d90c0a2532574dbae558ea14fcd8a4b1da1b8b346057595c66&token=641027228&lang=zh_CN#rd)》, *债券圈*  【[转载](https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&amp;mid=2649702308&amp;idx=3&amp;sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd)】，2020/04;  
-- **余喜生**，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247483998&idx=1&sn=89c174d8eb5229bd24e1f52fd86beb40&chksm=faf44541cd83cc579782cadaea6e2eedd1d45822e72e59489674ee81c6189fb8514455d359a0&token=641027228&lang=zh_CN#rd)》, *和讯名家*【[专栏](http://options.hexun.com/2019-01-02/195740909.html)】，2019/01;  
-- **余喜生**，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247483921&idx=1&sn=719928ebf1d5dedaa4fd02986b8159cc&chksm=faf4450ecd83cc18690b91b8b84c93be923594fcca917352eb750c783e5f5d14726d7162bd11&token=641027228&lang=zh_CN#rd)》，*中国数学会*【[转载](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)】，2018/03.
+- **余喜生**，《[标的价格为负时，期权价格怎么办？——原油期货价格为负所想](https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&amp;mid=2649702308&amp;idx=3&amp;sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd)》, *债券圈*，2020/04;  
+- **余喜生**，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯名家专栏*，2019/01;  
+- **余喜生**，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
 > ### 九、其他
 
