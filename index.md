@@ -1,7 +1,7 @@
 # Dr. Yu_Résumé
 <span style="font-size:21px;">**余喜生**</span>-- 金融学博士 (金融工程, 2012)；西南财经大学副教授，新南威尔士大学访问学者。2004/07哈尔滨工业大学数学硕士毕业（泛函分析）加入西南财经大学数学学院（原经济数学系）；工作数年后攻读博士学位（2008/09从电子科技大学转学至西南财大），2010/03-2011/04在新南威尔士大学商学院（悉尼）以访问学者从事博士课题研究，2012/06获西南财经大学博士学位，留西财继续从事教学科研工作；2014/12晋升副教授。
 
-首批四川省“天府万人计划” (金融菁英)入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳 (大会报告) 论文 (2024)”；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊IJFE副主编等。
+首批四川省“天府万人计划” (金融菁英)入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文 (大会报告，2024)”；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊IJFE副主编等。
 
 ### 一、研究兴趣
 金融科技与量化金融、金融数学模型与计算、金融资产与衍生品定价方法
@@ -22,7 +22,7 @@
 - **余喜生**, 姚雨薇, "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814  
   -【*贡献*：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，比较发现其定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁。<span style="font-size:13px;">该论文其实存在一些瑕疵，且因篇幅要求，只发表了其中少部分的研究思想内容。*然该研究提出的思路巧妙，且幸运地理论上得以证明，从研究思想和结果这一角度看，愚以为该成果值得国际Top期刊拥有*；鉴于当时诸原因，加上这种冷板凳研究不太属当下流行话题，匆匆投罢了</span>】
 
-- **余喜生**，"西部区域金融中心形成机制研究——经济与金融发展适度关系的视角"，*社科论坛*，2023 (01): 53-59.
+- **余喜生**，"西部区域金融中心形成机制研究—经济与金融发展适度关系的视角"，*社科论坛*，2023 (01): 53-59.
   
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, 12206-12221  
   -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
@@ -72,20 +72,20 @@
 - 粤港澳大湾区人工智能、区块链与金融科技国际学术会议（2023-CSIAM金融科技与算法专委会年会），*Dealing with discrete known dividends: An analytical valuation*，2023/04/14–16, 珠海 (***traveling expenses covered***);
 - 第二十届中国金融工程学年会，*Market Time-series Reversal: Evidence from China’s market*，西藏，2022/06/25，线上； 
 - 第十八届中国金融学年会，*Valuation of European options on stock with discrete known dividends: An accurate dividend-weighted model*，厦门大学，2021/10/31，线上；
-- 第4届全国网络治理青年学者论坛，*SSEBXM指数设计及其策略绩效——基于中国50ETF期权市场的研究*，电子科技大学（成都），2019/10/12，邀请报告
+- 第4届全国网络治理青年学者论坛，*SSEBXM指数设计及其策略绩效——基于中国50ETF期权市场的研究*，电子科技大学，成都，2019/10/12，邀请报告
 - 第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, 敦煌，2019年8月23-26. **大会邀请**报告；  
 - 11期香樟经济学论坛 (金融工程与金融科技) Seminar（成都），成都，2019年4月13-14，**联合召集人**；
 - International Conference on Applied Financial Economics，*Estimating Quadratic Variation Using a Generalized Ito Isometry*, Shanghai, July 2-3, 2016;  
   **Session commentator**, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions*. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；     
 - 7th CSBF & 11th IEFA , *Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation*. 台湾大学, *Taipei*，Apr. 28-May 1, 2015；  
 - **Session Discussant**, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；
-- 全国高校期货教学与人才培养研讨会暨“期望杯”高校期货论文大奖赛颁奖典礼，北京，2013/10/26–28. **获奖嘉宾**（一等奖,第一名） 
+- 全国高校期货教学与人才培养研讨会暨“期望杯”高校期货论文大奖赛颁奖典礼，北京，2013/10/26–28. **获奖嘉宾**（一等奖, 第一名，获奖篇数45/800+） 
 - **Session commentator**, 7th China Finance Review International Conference, Shanghai China (July 8-9, 2013)；  
 - **Nomination Award** for Excellent Paper, 2011-Financial Management Associate Meeting (2011-FMA), *Denver,* USA (Oct. 19-22, 2011);   
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
 
 ### 六、荣誉
-- 学术/人才荣誉
+- 学术/称号
   - 2024/12：成都市C类人才（省级重大人才计划入选）；
   - 2024/07  “最佳(大会报告)论文”，第八届中国衍生品青年论坛暨一届国际智能金融和区块链金融论坛；
   - 2024/23/19：学术年会邀请主旨/大会报告；
