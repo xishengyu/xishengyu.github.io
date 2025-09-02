@@ -120,7 +120,7 @@
 ### 八、主要兼职
 - 国家自科基金项目同行评议专家 (含教育部青年长江--都能送我这，至少说明当年相对公正)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所一些会员单位讲师
 - CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事
-- 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;">大多为主流期刊，国际Top期刊没找过我，太差的又不接受；审稿认真; 只要论文水平不敷衍，都力争给修改机会，review report写得很仔细 </span>）
+- 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;">大多为主流期刊，国际Top期刊没找过我，太差的又不接受；审稿认真; 只要论文水平不敷衍，都给修改机会，review report写得很仔细 </span>）
 
 
 ### 九、谈点杂文
