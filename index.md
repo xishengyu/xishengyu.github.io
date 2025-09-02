@@ -50,7 +50,7 @@
 
 - **余喜生**. “一种新非参数方法在可转债定价中的应用”．*统计与决策*, 2009(19): 150-151
   
-- X., Yu. “Entropy Valuation of Option: Using Option-implied Information”. In: R. Chacon (ed.). Entropy: Theory and New Insights (ISBN: 978-93-90014-12-5). Hyderabad, India: Vide Leaf. Apr. 2021 (Book Chapter)
+- **X., Yu**. “Entropy Valuation of Option: Using Option-implied Information”. In: R. Chacon (ed.). Entropy: Theory and New Insights (ISBN: 978-93-90014-12-5). Hyderabad, India: Vide Leaf. Apr. 2021 (Book Chapter)
   
 - **余喜生**，李辉 等，《四川省上市公司发展报告（2019）》（ISBN: 978-7-5504-4664-9），西南财经大学出版社，40万字，2020.12
 
