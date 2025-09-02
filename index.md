@@ -33,7 +33,7 @@
 - **X., Yu**. “[Risk-Neutrality of RND and Option Pricing within an Entropy Framework](https://www.mdpi.com/1099-4300/20/5/369)”, *Entropy*, 2020, 22(08), 836  
   -【*贡献*：M. Stutzer首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】
 
-- **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019 (z1)：291-300
+- **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019(z1):291-300
 
 - **X., Yu**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
  -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
