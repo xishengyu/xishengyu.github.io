@@ -10,7 +10,7 @@
 金融随机分析、衍生品定价、金融数学方法、金融资产定价
 
 ### 三、主要论著
-- **X., Yu**. “An Enhanced Static Hedge: Using two symmetric pairs of options”, *J. Deriv.*, 2025, 33 (02), forthcoming
+- **X., Yu**. “An Enhanced Static Hedge: Using two symmetric pairs of options”, *J. Deriv.*, 2025, 33 (02), forthcoming  
    -【<span style="font-size:13px;">主编和审稿人给出的评价比较高，故修改环节进一步补充了佐证</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
@@ -37,7 +37,7 @@
 - **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019(z1):291-300
 
 - **X., Yu**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
- -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，一个审稿人意见差，一个审稿人非常满意，自然被拒了，没再等迅速投了该刊</span>】
+ -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，一个审稿人意见差，一个审稿人非常满意，自然被拒了呀，没再等迅速改投</span>】
 
 - **X., Yu**, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, *Discrete Dyn. Nat. Soc.*, 2014
  
