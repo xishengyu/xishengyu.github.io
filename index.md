@@ -20,7 +20,7 @@
 - 徐凤, **余喜生**, 林谦，"部分异质情形下面板协整参数的估计研究"，*数理统计与管理*，2023, 42 (06): 973-992
   
 - **余喜生**, 姚雨薇, "[离散分红情形下的欧式期权定价新模型](https://doi.org/10.12386/A20200164)"，*数学学报*，2023, 66(05): 801-814  
-  -【*贡献*：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，比较发现其定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁。<span style="font-size:13px;">该论文其实存在一些瑕疵，且因篇幅所限，只发表了其中少部分的研究思想内容。*然该研究提出的思路独特，且幸运地在理论上得以巧妙地证明，从研究思想和结果这一角度看，愚以为该成果值得国际一流权威期刊拥有*；鉴于当时诸原因，加上这种冷板凳研究不太属当下流行话题，匆匆投罢了</span>。继续努力】
+  -【*贡献*：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，比较发现其定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁。<span style="font-size:13px;">该论文其实存在一些瑕疵，且因篇幅所限，只发表了其中少部分的研究思想内容。*然该研究提出的思路独特，且幸运地在理论上得以巧妙地证明，从研究思想和结果这一角度看，愚以为该成果值得国际一流权威期刊拥有*；鉴于当时诸原因，加上这种冷板凳研究不太属当下流行话题，匆匆投罢了</span>。继续努力[fist]】
 
 - **余喜生**，"西部区域金融中心形成机制研究—经济与金融发展适度关系的视角"，*社科论坛*，2023 (01): 53-59.
   
@@ -69,7 +69,7 @@
   **Discussant**, *Illiquidity Bitcoin Options. Presented by: Y. Wang, Tsinghua University*
 - 中国优选法统筹法与经济数学研究会经济数学与管理数学分会2023年学术年会，舟山，2023/11/10–12. **邀请报告**;
 - 第20届中国金融学年会，25-min Talk: *Dealing with discrete dividends: An analytical valuationapproach*, 2023/10/27-29, 中央财经大学
-    **Session Commentator**,: Consolidating Joint Predictability of Firm Characteristics in Chinese Stock Market: A Subset Combination Approach
+    **Session Commentator**: Consolidating Joint Predictability of Firm Characteristics in Chinese Stock Market: A Subset Combination Approach
 - **Session Chair,** 第五届中国优选法统筹法与经济数学研究会量化金融与保险分会学术年会，*A Novel Recombining Tree for American Options with Discrete Dividends*，2023/05/26–28，武汉
 - 粤港澳大湾区人工智能、区块链与金融科技国际学术会议（2023-CSIAM金融科技与算法专委会年会），*Dealing with discrete known dividends: An analytical valuation*，2023/04/14–16, 珠海 (***traveling expenses covered***);
 - 第二十届中国金融工程学年会，*Market Time-series Reversal: Evidence from China’s market*，西藏，2022/06/25，线上； 
@@ -122,7 +122,7 @@
 ### 八、主要学术兼职
 - 国家自科基金项目同行评议专家 (含教育部青年长江--都能送我这，至少说明当年相对公正)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所一些会员单位讲师
 - CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事
-- 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;">大多为主流期刊，最好的期刊没找过我，太差的又不接受；审稿认真; 只要论文水平不敷衍，都会给修改机会，review report写得很仔细 </span>）
+- 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;">大多为主流期刊，最好的期刊没找过我，太差的又不接受；审稿认真; 只要论文水平不敷衍，基本都给修改机会，review report写得很仔细 </span>）
 
 
 ### 九、谈点杂文
