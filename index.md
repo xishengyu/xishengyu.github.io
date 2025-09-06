@@ -11,12 +11,12 @@
 
 ### 三、主要论著
 - **X., Yu**. “An Enhanced Static Hedge: Using two symmetric pairs of options”, *J. Deriv.*, 2025, 33 (02), forthcoming
-    -【<span style="font-size:13px;">主编和审稿人给出的评价比较高，故修改环节进一步补充了佐证</span>】
+   -【<span style="font-size:13px;">主编和审稿人给出的评价比较高，故修改环节进一步补充了佐证</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078  
-   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于对高等概率论与数理统计的研究，理论上的证明一直进展不顺，被两家top期刊连续拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明--恰好一半篇幅的证明，搞了很长时期，搞疲了发在该刊物上。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
+   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于自己没有对高等概率论与数理统计的研究水平，理论上的证明一直进展不顺，被两家top期刊连续拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明---恰好一半篇幅的证明，搞了很长时期，搞疲了发在该刊物上。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
 
 - 徐凤, **余喜生**, 林谦，"部分异质情形下面板协整参数的估计研究"，*数理统计与管理*，2023, 42 (06): 973-992
   
@@ -37,7 +37,7 @@
 - **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019(z1):291-300
 
 - **X., Yu**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
- -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性】
+ -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，一个审稿人意见差，一个审稿人非常满意，自然被拒了，没再等迅速投了该刊</span>】
 
 - **X., Yu**, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, *Discrete Dyn. Nat. Soc.*, 2014
  
