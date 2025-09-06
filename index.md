@@ -11,12 +11,12 @@
 
 ### 三、主要论著
 - **X., Yu**. “An Enhanced Static Hedge: Using two symmetric pairs of options”, *J. Deriv.*, 2025, 33 (02), forthcoming
-   -【<span style="font-size:13px;">主编和审稿人给出的评价比较高，故修改环节进一步补充了佐证</span>】
+    -【<span style="font-size:13px;">主编和审稿人给出的评价比较高，故修改环节进一步补充了佐证</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078  
-   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于对高等概率论与数理统计的研究，理论上的证明一直进展不顺，导致被两家top期刊拒稿，后进一步自学高等概率统计相关知识，完成了理论的证明。又经</span>】
+   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于对高等概率论与数理统计的研究，理论上的证明一直进展不顺，被两家top期刊连续拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明--恰好一半篇幅的证明，搞了很长时期，搞疲了发在该刊物上。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
 
 - 徐凤, **余喜生**, 林谦，"部分异质情形下面板协整参数的估计研究"，*数理统计与管理*，2023, 42 (06): 973-992
   
