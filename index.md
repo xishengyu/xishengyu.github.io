@@ -68,6 +68,8 @@
   40-min Talk: Accurate Analytical Pricing Formula for Options with Discrete Dividends  
   **Discussant**, *Illiquidity Bitcoin Options. Presented by: Y. Wang, Tsinghua University*
 - 中国优选法统筹法与经济数学研究会经济数学与管理数学分会2023年学术年会，舟山，2023/11/10–12. **邀请报告**;
+- 第20届中国金融学年会，25-min Talk: *Dealing with discrete dividends: An analytical valuationapproach*, 2023/10/27-29, 中央财经大学
+    **Session Commentator**,: Consolidating Joint Predictability of Firm Characteristics in Chinese Stock Market: A Subset Combination Approach
 - **Session Chair,** 第五届中国优选法统筹法与经济数学研究会量化金融与保险分会学术年会，*A Novel Recombining Tree for American Options with Discrete Dividends*，2023/05/26–28，武汉
 - 粤港澳大湾区人工智能、区块链与金融科技国际学术会议（2023-CSIAM金融科技与算法专委会年会），*Dealing with discrete known dividends: An analytical valuation*，2023/04/14–16, 珠海 (***traveling expenses covered***);
 - 第二十届中国金融工程学年会，*Market Time-series Reversal: Evidence from China’s market*，西藏，2022/06/25，线上； 
