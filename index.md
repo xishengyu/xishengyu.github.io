@@ -16,7 +16,7 @@
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078  
-   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于自己在高等概率论与数理统计方面的研究水平，理论上的证明一直进展不顺，被两家top期刊连续拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明--原稿有近30页的证明，搞了很长时期，记得一次去迪拜的飞机上都在推导（航行时间长），搞疲了发在该刊物上。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
+   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于自己在高等概率论与数理统计方面的研究水平，理论上的证明一直进展不顺，被两家top期刊连续以其中一个定理的证明存在问题为由拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明--原稿有近30页的证明，搞了很长时期，记得一次去迪拜的飞机上都在推导（航行时间长），搞疲了便随便发发。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
 
 - 徐凤, **余喜生**, 林谦，"部分异质情形下面板协整参数的估计研究"，*数理统计与管理*，2023, 42 (06): 973-992
   
@@ -26,7 +26,7 @@
 - **余喜生**，"西部区域金融中心形成机制研究—经济与金融发展适度关系的视角"，*社科论坛*，2023 (01): 53-59.
   
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, 12206-12221  
-  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
+  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理（其中折腾出一个有意思俺称之为Genralized Ito Isometry的新结论，看能否作为教科书结论的一个推广哈哈），证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
   
 - **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://doi.org/10.1016/j.najef.2021.101495))”, *N. Am. J. Econ. Financ.*, 2021 (58), 101495  
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
