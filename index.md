@@ -16,7 +16,7 @@
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078  
-   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于自己没有对高等概率论与数理统计的研究水平，理论上的证明一直进展不顺，被两家top期刊连续拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明---恰好一半篇幅的证明，搞了很长时期，搞疲了发在该刊物上。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
+   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于自己在高等概率论与数理统计方面的研究水平，理论上的证明一直进展不顺，被两家top期刊连续拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明--原稿有近30页的证明，搞了很长时期，记得一次去迪拜的飞机上都在推导（航行时间长），搞疲了发在该刊物上。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的另一篇文章</span>】
 
 - 徐凤, **余喜生**, 林谦，"部分异质情形下面板协整参数的估计研究"，*数理统计与管理*，2023, 42 (06): 973-992
   
@@ -32,12 +32,12 @@
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
   
 - **X., Yu**. “[Risk-Neutrality of RND and Option Pricing within an Entropy Framework](https://www.mdpi.com/1099-4300/20/5/369)”, *Entropy*, 2020, 22(08), 836  
-  -【*贡献*：M. Stutzer首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】
+  -【*贡献*：Entropy定价方法的奠基人M. Stutzer教授首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】
 
 - **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019(z1):291-300
 
 - **X., Yu**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
- -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，一个审稿人意见差，一个审稿人又非常好，自然被拒了呀，没再等迅速改投</span>】
+ -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，有两个审稿人意见截然相左，自然被拒了呀，没再等迅速改投</span>】
 
 - **X., Yu**, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, *Discrete Dyn. Nat. Soc.*, 2014
  
