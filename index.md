@@ -26,7 +26,7 @@
 - **余喜生**，"西部区域金融中心形成机制研究—经济与金融发展适度关系的视角"，*社科论坛*，2023 (01): 53-59.
   
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, 12206-12221  
-  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理（其中折腾出一个有意思俺称之为Genralized Ito Isometry的新结论，看能否作为教科书结论的一个推广哈哈），证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
+  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理<span style="font-size:13px;">（其中折腾出一个有意思俺称之为Genralized Ito Isometry的新结论，看能否作为教科书结论的一个推广哈哈）</span>，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
   
 - **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://doi.org/10.1016/j.najef.2021.101495))”, *N. Am. J. Econ. Financ.*, 2021 (58), 101495  
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
