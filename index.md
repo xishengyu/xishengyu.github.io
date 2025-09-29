@@ -10,7 +10,7 @@
 金融随机分析、衍生品定价、金融数学方法、金融资产定价
 
 ### 三、主要论著
-- **X., Yu**. “An Enhanced Static Hedge: Using two symmetric pairs of options”, *J. Deriv.*, 2025, 33 (02), forthcoming  
+- **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), forthcoming  
    -【<span style="font-size:13px;">在细节上做了不少功夫，敲代码也花了很大时间，理论须服务实业。主编和审稿人给出的评价比较高，修改环节进一步补充了佐证</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
@@ -134,6 +134,7 @@
 - 余喜生，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
 ### 十、其他
+- Self-Evaluation: *我纯粹，很努力，很坦荡*
 - My Motto：*规格严格,功夫到家*
 - E-mail: *<u>yuxisheng@swufe.edu.cn</u>*
 
