@@ -11,7 +11,7 @@
 
 ### 三、主要论著
 - **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), forthcoming  
-   -【<span style="font-size:13px;">Advance了前辈的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略（细节上下了不少功夫，敲代码也花了很大时间），理论须服务实业。主编和审稿人给出的评价比较高</span>】
+   -【<span style="font-size:13px;">Advance了前辈的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略，理论服务实业。主编和审稿人给出的评价比较高</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
