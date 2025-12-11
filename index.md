@@ -125,7 +125,6 @@
 - CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事
 - 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;">大多为主流期刊，最好的期刊没找过我，太差的又不接受；审稿认真; 只要论文水平不敷衍，基本都给修改机会，review report写得很仔细 </span>）
 
-
 ### 九、谈点杂文
 - 余喜生，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)》，*期权世界*，2021/05;
 - 余喜生，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
@@ -133,7 +132,11 @@
 - 余喜生，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯专栏*，2019/01;  
 - 余喜生，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
-### 十、其他
+### 九、谈点杂文
+- 余喜生，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)》，*期权世界*，2021/05;
+- 余喜生，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
+
+### 十一、其他
 - Self-Evaluation: *我纯粹, 努力, 坦荡*
 - My Motto: *规格严格,功夫到家*
 - E-mail: *<u>yuxisheng@swufe.edu.cn</u>*
