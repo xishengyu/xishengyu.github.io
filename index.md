@@ -133,8 +133,8 @@
 - 余喜生，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
 ### 十、业界实务报告交流
-- 余喜生，《[“雪球产品”的定价准确吗？——“雪球”的背后解析]》，*期权世界*，2021/05;
-- 余喜生，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
+- 余喜生，《绵阳基金小镇建设之我见》，*科技城集中发展区建设发展工作领导小组（实验区管委会）*，2019/04/15;
+- 余喜生，《股指期货对冲的关键原理及应用》 *国贸期货有限公司*，2020/08/11;
 
 ### 十一、其他
 - Self-Evaluation: *我纯粹, 努力, 坦荡*
