@@ -11,7 +11,7 @@
 
 ### 三、主要论著
 - **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), 52-80  
-   -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。<span style="font-size:13px;">主编和审稿人均给出较高评价</span>——... we find your article to be of high quality and deserving of our attention...; ...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives…</span>】
+   -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。 <span style="font-size:13px;"> 主编和审稿人均给出较高评价</span>——... we find your article to be of high quality and deserving of our attention...; ...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives…】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
@@ -37,7 +37,7 @@
 - **余喜生**, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019(z1):291-300
 
 - **X., Yu**, X., Xie. “[Pricing American options: RNMs-constrained entropic least-squares approach](https://doi.org/10.1016/j.najef.2014.10.009)”, *North Am. J. Econ. Finance*, 2015(31), 155-173  
- -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，有两个审稿人意见截然相左，被拒改投</span>. <span style="font-size:13px;"> JBF的两审稿人相反意见—— (1) ...I like the proposed idea. The paper makes an important contribution to the
+ -【*贡献*：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span style="font-size:13px;">最开始投了JBF，有两个审稿人意见截然相左，被拒改投. JBF的两审稿人相反意见—— (1) ...I like the proposed idea. The paper makes an important contribution to the
 computational aspect of American option prices. The paper is well-written and I find it relatively clear to read...; (2)... the main contribution of the manuscript is not essentially different from Bakshi et al. (2003, Theorem 1) and since the performance of the MEL method proposed is not impressive...】
 
 - **X., Yu**, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, *Discrete Dyn. Nat. Soc.*, 2014
