@@ -7,16 +7,16 @@
 金融科技与量化金融、金融数学模型与计算、金融资产与衍生品定价
 
 ### 二、主授课程
-金融随机分析、衍生品定价、金融数学方法、金融资产定价、高等数学
+衍生品定价、金融数学方法、金融资产定价、金融随机分析、高等数学
 
 ### 三、主要论著
 - **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), 52-80  
-   -【<span style="font-size:13px;">推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，且实证效果尤为显著。主编和审稿人给出了较高评价</span>】
+   -【*贡献*：<span style="font-size:13px;">推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。主编和审稿人均给出较高评价</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
 - **Yu, X.** "[Nonparametric estimation of quadratic variation using high-frequency data](https://onlinelibrary.wiley.com/doi/10.1002/mma.6863)", *Math. Method. Appl. Sci.*, 2024, 47(05): 3053–3078  
-   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">突发奇想想到的一个思路，但限于自己在高等概率论与数理统计方面的研究水平，理论上的证明一直进展不顺，被两家top期刊连续以其中一个定理的证明存在问题为由拒稿，后进一步自学高等概率统计相关知识，在较强条件约束下完成了理论的证明--原稿有近30页的证明。后又经ETH Zurich的大佬M. Schweizer教授的指点，有了后续的研究成果</span>】
+   -【*贡献*：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span style="font-size:13px;">“突发奇想”想到的一个思路，但限于自己在高等概率数理统计方面的研究水平，理论上的证明一直进展不顺，被两家top期刊连续以其中一个定理的证明存在问题为由拒稿，后进一步自学与请教，在较强条件约束下完成了理论的证明--原稿有近30页的证明。后又经ETH Zurich的大佬M. Schweizer教授指点，有了后续研究结果</span>】
 
 - 徐凤, **余喜生**, 林谦，"部分异质情形下面板协整参数的估计研究"，*数理统计与管理*，2023, 42 (06): 973-992
   
