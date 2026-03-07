@@ -11,7 +11,7 @@
 
 ### 三、主要论著
 - **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), 52-80  
-   -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。<span style="font-size:13px;">主编和审稿人均给出较高评价</span>——... we find your article to be of high quality and deserving of our attention...; ...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives…】
+   -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。<span style="font-size:13px;">主编和审稿人均给出较高评价</span>——... we find your article to be of high quality and deserving of our attention...; ...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives…</span>】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
