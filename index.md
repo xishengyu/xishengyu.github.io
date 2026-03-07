@@ -11,7 +11,7 @@
 
 ### 三、主要论著
 - **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), 52-80  
-   -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。<span style="font-size:13px;">主编和审稿人均给出较高评价</span>———— ...we find your article to be of high quality and deserving of our attention...,//...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives...】
+   -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。<span style="font-size:13px;">主编和审稿人均给出较高评价</span>—— ...we find your article to be of high quality and deserving of our attention...,//...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives...】
   
 - Y. Xiang, L. Long, **X., Yu** (通讯). “[Market Time-series Reversal: Evidence from China’s market](https://doi.org/10.3846/tede.2025.22634)”, *Technol. Econ. Dev. Eco.*, 2025, 31(04), 1050-1064
   
@@ -26,7 +26,7 @@
 - **余喜生**，"西部区域金融中心形成机制研究—经济与金融发展适度关系的视角"，*社科论坛*，2023 (01): 53-59.
   
 - **X., Yu**. “[On the convergence of two types of estimators of quadratic variation](https://doi.org/10.1002/mma.8007)”, *Math. Method. Appl. Sci.,* 45(18), 2022, 12206-12221  
-  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理<span style="font-size:13px;">（其中折腾出一个有意思俺称之为Genralized Ito Isometry的新结论，看能否作为教科书经典结论的一个推广哈哈————曾在某学术会议报告中，香港一学者称该结论成立的话则是教科书的一个重要推广）</span>，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
+  -【*贡献*：对QV两个估计式进行了扩展：通过构造重要引理<span style="font-size:13px;">（其中折腾出一个有意思俺称之为Genralized Ito Isometry的新结论，看能否作为教科书经典结论的一个推广哈哈——曾在某学术会议报告中，香港一学者称该结论成立的话则是教科书的一个重要推广）</span>，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】
   
 - **X., Yu**. “[A unified entropic pricing framework of option: Using Cressie-Read family of divergences](https://doi.org/10.1016/j.najef.2021.101495))”, *N. Am. J. Econ. Financ.*, 2021 (58), 101495  
   -【*贡献*：建立了广泛熵定价统一框架，对欧式期权进行了定价分析与比较。可用于美式等期权定价】
