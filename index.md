@@ -146,7 +146,7 @@ computational aspect of American option prices. The paper is well-written and I 
   - 余喜生，《绵阳基金小镇建设之我见》，*科技城集中发展区建设发展工作领导小组（实验区管委会）*，2019/04/15;
 
 
-### 十、其他
+### 九、其他
 - Self-Evaluation: *纯粹, 努力, 坦荡*
 - Attitude: *真做学问, 做真学问*
 - My Motto: *规格严格,功夫到家*
