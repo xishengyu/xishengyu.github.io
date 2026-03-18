@@ -1,3 +1,55 @@
+<style>
+    /* 整体布局：两栏 */
+    .wrapper { display: flex; gap: 40px; margin-top: 20px; }
+    
+    /* 左侧导航栏 */
+    .sidebar { width: 280px; flex-shrink: 0; position: sticky; top: 20px; height: fit-content; }
+    .sidebar ul { list-style: none; padding: 0; }
+    .sidebar li { margin: 12px 0; }
+    .sidebar a { font-weight: 800; font-size: 1.1em; color: #000 !important; text-decoration: none !important; }
+    .sidebar a:hover { color: #2980b9 !important; }
+    
+    /* 左侧座右铭区域 */
+    .sidebar-extra { margin-top: 30px; font-family: 'Georgia', serif; font-size: 0.95em; border-top: 1px solid #ccc; padding-top: 20px; line-height: 1.8; }
+    
+    /* 右侧内容区 */
+    .main-content { flex: 1; }
+    h2 { border-bottom: 2px solid #000; padding-bottom: 5px; margin-top: 30px; font-size: 1.4em; color: #000; }
+    a { color: #2980b9 !important; font-weight: 600; text-decoration: none !important; }
+    p, li { color: #000 !important; }
+    .note { font-size: 0.9em; color: #333; background: #f9f9f9; padding: 5px 10px; border-left: 3px solid #000; margin: 5px 0 10px 10px; }
+</style>
+
+<div class="wrapper">
+    <!-- 左侧导航 -->
+    <div class="sidebar">
+        <ul class="nav-links">
+            <li><a href="#about">Dr. Yu_Résumé</a></li>
+            <li><a href="#research">一、研究兴趣</a></li>
+            <li><a href="#courses">二、主授课程</a></li>
+            <li><a href="#papers">三、主要论著</a></li>
+            <li><a href="#projects">四、主要项目</a></li>
+            <li><a href="#conf">五、学术会议</a></li>
+            <li><a href="#honors">六、荣誉</a></li>
+            <li><a href="#services">七、产学研&学术服务</a></li>
+            <li><a href="#articles">八、业界报告与杂文</a></li>
+            <li><a href="#other">九、其他</a></li>
+        </ul>
+        <div class="sidebar-extra">
+            <p>Self-Evaluation: 纯粹, 努力, 坦荡</p>
+            <p>Attitude: 真做学问, 做真学问</p>
+            <p>My Motto: 规格严格,功夫到家</p>
+            <p>E-mail: yuxisheng@swufe.edu.cn</p>
+        </div>
+    </div>
+
+
+ <!-- 右侧内容 -->
+    <div class="main-content">
+        <section id="about">
+            <h2>Dr. Yu_Résumé</h2>
+
+
 金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 (电子科技大学)转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。
 
 首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。
