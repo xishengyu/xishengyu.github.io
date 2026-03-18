@@ -126,14 +126,7 @@ computational aspect of American option prices. The paper is well-written and I 
   - 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;"> 以主流期刊为主，审稿认真，review report写得很仔细 </span>）；
   - 国家自科基金项目同行评议专家 (含教育部青年长江一次)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所相关会员单位讲师
 
-### 八、报告与杂文
-- 随笔杂文
-  - 余喜生，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)》，*期权世界*，2021/05;
-  - 余喜生，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
-  - 余喜生，《[标的价格为负时，期权价格怎么办？——原油期货价格为负所想](https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&amp;mid=2649702308&amp;idx=3&amp;sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd)》, *债券圈* ([雪球网](https://xueqiu.com/7539894803/147836568))，2020/04;
-  - 余喜生，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯专栏*，2019/01;
-  - 余喜生，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
-
+### 八、业界报告与杂文
 - 业界报告
   - 余喜生，《期权策略解读——基本原理与逻辑》，*国信期货有限公司*，2025/07/26;
   - 余喜生，《期权在企业风险管理中的应用——与期货比较》，*宏信证券有限公司*，2022/07/07;
@@ -145,6 +138,12 @@ computational aspect of American option prices. The paper is well-written and I 
   - 余喜生，《期权及其交易认识》，*四川省证券期货业协会*，2019/07/03;
   - 余喜生，《绵阳基金小镇建设之我见》，*科技城集中发展区建设发展工作领导小组（实验区管委会）*，2019/04/15;
 
+- 随笔杂文
+  - 余喜生，《[“雪球产品”的定价准确吗？——“雪球”的背后解析](https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&amp;mid=2650935834&amp;idx=1&amp;sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd)》，*期权世界*，2021/05;
+  - 余喜生，《[炒股能挣钱吗](https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd)？》，2020/07;
+  - 余喜生，《[标的价格为负时，期权价格怎么办？——原油期货价格为负所想](https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&amp;mid=2649702308&amp;idx=3&amp;sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd)》, *债券圈* ([雪球网](https://xueqiu.com/7539894803/147836568))，2020/04;
+  - 余喜生，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯专栏*，2019/01;
+  - 余喜生，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
 ### 九、其他
 - Self-Evaluation: *纯粹, 努力, 坦荡*
