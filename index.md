@@ -5,11 +5,11 @@
 首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。
 
 ### 一、研究领域与授课
-- 研究兴趣：金融科技与量化金融、金融数学模型与计算、金融资产与衍生品定价
+- **研究兴趣**：金融科技与量化金融、金融数学模型与计算、金融资产与衍生品定价
 
-- 主授课程：衍生品定价、金融数学方法、金融资产定价、金融随机分析、高等数学
+- **主授课程**：衍生品定价、金融数学方法、金融资产定价、金融随机分析、高等数学
 
-### 三、主要论著
+### 二、主要论著
 - **X., Yu**. “[An Enhanced Static Hedge: Using two symmetric pairs of options](https://doi.org/10.3905/jod.2025.1.240)”, *J. Deriv.*, 2025, 33 (02), 52-80  
    -【*贡献*：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。 <span style="font-size:13px;"> 主编和审稿人均给出较高评价——... we find your article to be of high quality and deserving of our attention...; ...the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives…】
   
@@ -58,13 +58,13 @@ computational aspect of American option prices. The paper is well-written and I 
 
 - **余喜生**，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月
 
-### 四、主要项目
+### 三、研究项目
 - 主持国家自科青年项目1项 (71301132)、省社科项目3项 (重点1项, 结项"良好"；SC19A017, SC15XS021, 14ZB0448)、市厅及其他项目若干；  
 - 主持产学研/横向落地 (金融科技与量化交易) 项目3项 (CGZH20210106, JKHT20211110)；  
 - 第一主研国家自科面上项目2项 (71871187, 11671323);
 - 教改项目若干.
 
-### 五、学术会议
+### 四、学术会议
 - 2025中国金融科技学术年会，*Unfolding Dividends: A Novel Analytical Method to Efficiently and Accurately Price Options with Discrete Dividends*，2025/06/06–06；
 - 大会报告(**最佳论文奖**)，第八届中国衍生品青年论坛暨第一届国际智能金融和区块链金融论坛，北航，2024/07/07–08  
   40-min Talk: Accurate Analytical Pricing Formula for Options with Discrete Dividends  
@@ -88,7 +88,7 @@ computational aspect of American option prices. The paper is well-written and I 
 - **Nomination Award** for Excellent Paper, 2011-Financial Management Associate Meeting (2011-FMA), *Denver,* USA (Oct. 19-22, 2011);   
 - the 24th Australian Finance and Business Conference, *Entropic Least-Square Valuation of American Option Subject to Moment constraints*, *Sydney*, Australia, (Dec. 14-16, 2011).
 
-### 六、荣誉
+### 五、荣誉
 - 学术/称号
   - 2024/12：成都市C类人才（省级重大人才计划入选）；
   - 2024/07  “最佳(大会报告)论文”，第八届中国衍生品青年论坛暨一届国际智能金融和区块链金融论坛；
@@ -115,7 +115,7 @@ computational aspect of American option prices. The paper is well-written and I 
   - 学校：优秀共产党员、抗震救灾先进个人；
   - 学院：管理服务工作突出奖、优秀党员教师、优秀党务工作者、科研工作突出奖、管理工作突出奖.  
 
-### 七、产学研与学术服务
+### 六、产学研与学术服务
 - 产学研成果
   - “期权交易平台与衍生品数据开发”，成都交子金融科技中心某单位；2021始；
   -  余喜生 等著, 《[四川省上市公司发展研究报告](http://k.sina.com.cn/article_6456450127_180d59c4f02000rzv7.html)》, 西南财经大学出版社, 40万字, 2020年12月；
@@ -127,7 +127,7 @@ computational aspect of American option prices. The paper is well-written and I 
   - 期刊*International Journal of Financial Engineering* 副主编（Associate Editor）；多类期刊审稿专家 (<span style="font-size:13px;"> 以主流期刊为主，审稿认真，review report写得很仔细 </span>）；
   - 国家自科基金项目同行评议专家 (含教育部青年长江一次)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所相关会员单位讲师
 
-### 八、业界报告与杂文
+### 七、业界报告与随笔
 - 业界报告
   - 余喜生，《期权策略解读——基本原理与逻辑》，*国信期货有限公司*，2025/07/26;
   - 余喜生，《期权在企业风险管理中的应用——与期货比较》，*宏信证券有限公司*，2022/07/07;
@@ -146,7 +146,7 @@ computational aspect of American option prices. The paper is well-written and I 
   - 余喜生，《[“联合石化原油交易亏损‘事件’”若干问题的分析与思考](http://options.hexun.com/2019-01-02/195740909.html)》, *和讯专栏*，2019/01;
   - 余喜生，《[大学数学，爱也罢恨也罢](https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&amp;mid=2247485924&amp;idx=1&amp;sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd)》，*中国数学会*，2018/03.
 
-### 九、其他
+### 八、其他
 - Self-Evaluation: *纯粹, 努力, 坦荡*
 - Attitude: *真做学问, 做真学问*
 - My Motto: *规格严格,功夫到家*
