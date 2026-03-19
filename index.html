@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>余喜生(Dr. Yu_Résumé) | Dr. Yu’s Space</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --sidebar-bg: #f8f9fa;
+            --sidebar-text: #2c3e50;
+            --accent-color: #0056b3;
+            --content-text: #333;
+            --border-color: #e9ecef;
+        }
+
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', 'Noto Serif SC', serif;
+            line-height: 1.6;
+            color: var(--content-text);
+            background-color: #fff;
+            display: flex;
+        }
+
+        /* 左侧固定导航栏 */
+        aside {
+            width: 25%; /* 约为右侧的 1/3 */
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px 30px;
+            z-index: 100;
+        }
+
+        .nav-top h1 {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: var(--sidebar-text);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 12px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--sidebar-text);
+            font-size: 0.95rem;
+            transition: color 0.3s;
+            display: block;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent-color);
+            padding-left: 5px;
+        }
+
+        /* 侧边栏底部个人信息区 */
+        .sidebar-footer {
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .sidebar-footer div {
+            margin-bottom: 8px;
+        }
+
+        .sidebar-footer em {
+            font-style: italic;
+            color: #444;
+        }
+
+        /* 右侧内容区域 */
+        main {
+            margin-left: 25%;
+            width: 75%;
+            padding: 60px 80px;
+            max-width: 1000px;
+        }
+
+        .content-header {
+            margin-bottom: 50px;
+        }
+
+        h2, h3 {
+            color: var(--sidebar-text);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 15px;
+            margin-top: 40px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        /* 动态效果：进入时的淡入 */
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* 移动端适配 */
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            aside { position: relative; width: 100%; height: auto; }
+            main { margin-left: 0; width: 100%; padding: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+    <aside>
+        <div class="nav-top">
+            <h1>余喜生 (Dr. Yu)</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">简介</a></li>
+                    <li><a href="#section-1">一、研究兴趣</a></li>
+                    <li><a href="#section-2">二、主授课程</a></li>
+                    <li><a href="#section-3">三、主要论著</a></li>
+                    <li><a href="#section-4">四、主要项目</a></li>
+                    <li><a href="#section-5">五、学术会议</a></li>
+                    <li><a href="#section-6">六、荣誉</a></li>
+                    <li><a href="#section-7">七、产学研与学术服务</a></li>
+                    <li><a href="#section-8">八、业界报告与杂文</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="sidebar-footer">
+            <div><strong>Self-Evaluation:</strong> <em>纯粹, 努力, 坦荡</em></div>
+            <div><strong>Attitude:</strong> <em>真做学问, 做真学问</em></div>
+            <div><strong>My Motto:</strong> <em>规格严格,功夫到家</em></div>
+            <div><strong>E-mail:</strong> <a href="mailto:yuxisheng@swufe.edu.cn">yuxisheng@swufe.edu.cn</a></div>
+        </div>
+    </aside>
+
+    <main class="fade-in">
+        <section id="intro">
+            <h1><a href="https://xishengyu.github.io/" style="color: inherit; text-decoration: none;">余喜生(Dr. Yu_Résumé)</a></h1>
+            <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 (电子科技大学)转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
+            <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
+        </section>
+
+        <section id="section-1">
+            <h3>一、研究兴趣</h3>
+            <p>金融科技与量化金融、金融数学模型与计算、金融资产与衍生品定价</p>
+        </section>
+
+        <section id="section-2">
+            <h3>二、主授课程</h3>
+            <p>衍生品定价、金融数学方法、金融资产定价、金融随机分析、高等数学</p>
+        </section>
+
+        <section id="section-3">
+            <h3>三、主要论著</h3>
+            <ul>
+                <li><strong>X., Yu</strong>. “<a href="https://doi.org/10.3905/jod.2025.1.240">An Enhanced Static Hedge: Using two symmetric pairs of options</a>”, <em>J. Deriv.</em>, 2025, 33 (02), 52-80<br>
+                -【<em>贡献</em>：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略...】</li>
+                <li>Y. Xiang, L. Long, <strong>X., Yu</strong> (通讯). “<a href="https://doi.org/10.3846/tede.2025.22634">Market Time-series Reversal: Evidence from China’s market</a>”, <em>Technol. Econ. Dev. Eco.</em>, 2025, 31(04), 1050-1064</li>
+                <li><strong>Yu, X.</strong> “<a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.6863">Nonparametric estimation of quadratic variation using high-frequency data</a>”, <em>Math. Method. Appl. Sci.</em>, 2024, 47(05): 3053–3078</li>
+                <li><strong>余喜生</strong>，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月</li>
+            </ul>
+        </section>
+
+        <section id="section-4">
+            <h3>四、主要项目</h3>
+            <ul>
+                <li>主持国家自科青年项目1项 (71301132)、省社科项目3项 (重点1项, 结项”良好”；SC19A017, SC15XS021, 14ZB0448)；</li>
+                <li>主持产学研/横向落地 (金融科技与量化交易) 项目3项 (CGZH20210106, JKHT20211110)；</li>
+                <li>第一主研国家自科面上项目2项 (71871187, 11671323);</li>
+                <li>教改项目若干.</li>
+            </ul>
+        </section>
+
+        <section id="section-5">
+            <h3>五、学术会议</h3>
+            <ul>
+                <li>2025中国金融科技学术年会，<em>Unfolding Dividends...</em>，2025/06/06–06；</li>
+                <li>大会报告(<strong>最佳论文奖</strong>)，第八届中国衍生品青年论坛，北航，2024/07/07–08；</li>
+                <li>第20届中国金融学年会，中央财经大学，2023/10/27-29.</li>
+            </ul>
+        </section>
+
+        <section id="section-6">
+            <h3>六、荣誉</h3>
+            <ul>
+                <li><strong>学术/称号</strong>：成都市C类人才 (2024)；四川省“天府英才卡”A卡持有人 (2019)；入选省“万人计划”（金融菁英项目, 2018）。</li>
+                <li><strong>人才培养</strong>：多次获得西南财大“优秀毕业论文”指导教师。</li>
+                <li><strong>服务/管理</strong>：优秀共产党员、管理服务工作突出奖等。</li>
+            </ul>
+        </section>
+
+        <section id="section-7">
+            <h3>七、产学研与学术服务</h3>
+            <ul>
+                <li><strong>产学研成果</strong>：“期权交易平台与衍生品数据开发”；《四川省上市公司发展研究报告》等。</li>
+                <li><strong>学术服务</strong>：CSIAM “金融科技与算法”专委会委员；<em>International Journal of Financial Engineering</em> 副主编。</li>
+            </ul>
+        </section>
+
+        <section id="section-8">
+            <h3>八、业界报告与杂文</h3>
+            <ul>
+                <li>余喜生，《期权策略解读——基本原理与逻辑》，<em>国信期货有限公司</em>，2025/07/26;</li>
+                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&mid=2650935834&idx=1&sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd">“雪球产品”的定价准确吗？</a>》，<em>期权世界</em>，2021/05;</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
