@@ -34,16 +34,7 @@
         color: #003d82;
     }
 
-    /* 正文容器 */
-    .container {
-        max-width: 900px;
-        margin: 80px auto 50px; /* 为导航栏留出空间 */
-        padding: 40px;
-        background-color: #fff;
-        box-shadow: 0 0 15px rgba(0,0,0,0.02);
-        border-radius: 8px;
-    }
-
+  
     /* 标题样式 */
     h1 { color: #222; border-bottom: 2px solid #0056b3; padding-bottom: 10px; margin-top: 0; }
     h3 { color: #222; border-left: 5px solid #0056b3; padding-left: 15px; margin-top: 40px; background: #f8f9fa; padding-top: 5px; padding-bottom: 5px; }
