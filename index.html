@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>余喜生 | Dr. Yu’s Space</title>
+    <style>
+        :root {
+            --primary-blue: #0056b3;
+            --nav-text: #555555; /* 加深一点的导航文字 */
+            --nav-brand: #bbbbbb; /* 较浅的标题文字 */
+            --bg-grey: #f8f9fa;
+        }
+
+        body {
+            margin: 0; padding: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+            background-color: #fff; color: #444; line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* --- 导航栏 --- */
+        header {
+            position: fixed; top: 0; width: 100%;
+            background-color: #fff; border-bottom: 1px solid #eee;
+            z-index: 1000; transition: transform 0.3s ease-in-out;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .header-hidden { transform: translateY(-100%); }
+        .nav-container {
+            max-width: 1300px; margin: 0 auto; padding: 15px 30px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+        /* 要求1：标识颜色浅一点 */
+        .nav-title { font-size: 1.5rem; font-weight: bold; color: var(--nav-brand); }
+
+        nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 15px; flex-wrap: wrap; }
+        /* 要求1 & 6：字号大一号，不加粗，颜色加深 */
+        nav ul li a {
+            text-decoration: none; color: var(--nav-text);
+            font-size: 1.3rem; font-weight: normal; transition: 0.2s;
+        }
+        nav ul li a:hover { color: #000; text-decoration: underline; }
+
+        /* --- 主内容 --- */
+        main { max-width: 1000px; margin: 110px auto 50px; padding: 0 30px; box-sizing: border-box; }
+        section { margin-bottom: 50px; }
+        h1 { font-size: 2.2rem; color: #111; margin-bottom: 25px; }
+        h3 { 
+            font-size: 1.5rem; color: #222; border-bottom: 2px solid var(--bg-grey); 
+            padding-bottom: 10px; margin-top: 45px; 
+        }
+        h4 { font-size: 1.15rem; color: #333; margin: 20px 0 10px 0; }
+        
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        a { color: var(--primary-blue); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* --- 字号微调类 --- */
+        .contribution-text { font-style: italic; display: block; margin-top: 8px; color: #555; }
+        /* 要求7 & 10：缩小一号 */
+        .size-down-1 { font-size: 0.9rem; color: #666; }
+        /* 要求8 & 9：缩小两号 */
+        .size-down-2 { font-size: 0.8rem; color: #888; line-height: 1.4; }
+
+        footer { background-color: var(--bg-grey); border-top: 1px solid #ddd; padding: 20px 30px; margin-top: 60px; }
+        .footer-content { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+        .footer-item { font-size: 0.95rem; }
+        .footer-item strong { display: block; margin-bottom: 4px; color: #222; }
+
+        @media (max-width: 900px) { .nav-container { flex-direction: column; gap: 10px; } main { margin-top: 220px; } }
+    </style>
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="nav-container">
+            <div class="nav-title">Dr. Yu’s Résumé</div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">个人简介</a></li>
+                    <li><a href="#section-1">兴趣与课程</a></li>
+                    <li><a href="#section-3">主要论著</a></li>
+                    <li><a href="#section-4">研究项目</a></li>
+                    <li><a href="#section-5">学术会议</a></li>
+                    <li><a href="#section-6">荣誉</a></li>
+                    <li><a href="#section-7">产学研与服务</a></li>
+                    <li><a href="#section-8">报告随笔</a></li>
+                    <li><a href="#footer-contact">联系</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h1>余喜生</h1>
+            <p>金融学博士 (金融工程)，西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 电子科技大学转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
+            <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
+        </section>
+
+        <section id="section-1">
+            <h3>一、兴趣与课程</h3>
+            <ul>
+                <li><strong>研究兴趣</strong>：金融科技与量化金融、金融数学模型与计算、金融资产与衍生品定价</li>
+                <li><strong>主授课程</strong>：衍生品定价、金融数学方法、金融资产定价、金融随机分析、高等数学</li>
+            </ul>
+        </section>
+
+        <section id="section-3">
+            <h3>二、主要论著</h3>
+            <ul>
+                <li><strong>X., Yu</strong>. “<a href="https://doi.org/10.3905/jod.2025.1.240">An Enhanced Static Hedge: Using two symmetric pairs of options</a>”, <em>J. Deriv.</em>, 2025, 33 (02), 52-80<br>
+                <span class="contribution-text">【贡献：推进了著名学者P.Carr与L. Wu及Q. Liu的优秀工作（非模型依赖的静态对冲），提出一种对称组合的静态对冲策略；给出了理论证明，实证效果尤为显著。 <span class="size-down-1">主编和审稿人均给出较高评价——… we find your article to be of high quality and deserving of our attention…; …the strategy suggested in this manuscript is a major step to demonstrate the effectiveness of the static hedging to researchers and practitioners. The manuscript is well structured, clearly written with reasonable objectives…</span>】</span></li>
+                
+                <li>Y. Xiang, L. Long, <strong>X., Yu</strong> (通讯). “<a href="https://doi.org/10.3846/tede.2025.22634">Market Time-series Reversal: Evidence from China’s market</a>”, <em>Technol. Econ. Dev. Eco.</em>, 2025</li>
+                
+                <li><strong>Yu, X.</strong> “<a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.6863">Nonparametric estimation of quadratic variation using high-frequency data</a>”, <em>Math. Method. Appl. Sci.</em>, 2024, 47(05): 3053–3078<br>
+                <span class="contribution-text">【贡献：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。<span class="size-down-1">“突发奇想”想到的一个思路，但限于自己在高等概率数理统计方面的研究水平，理论上的证明一直进展不顺，被两家所谓top期刊连续以其中一个定理的证明存在问题为由拒稿，后进一步自学与请教，在较强条件约束下完成了理论的证明–原稿有近30页的证明。后又经ETH Zurich的大佬M. Schweizer教授指点，有了后续研究结果</span>】</span></li>
+                
+                <li><strong>余喜生</strong>, 姚雨薇, “离散分红情形下的欧式期权定价新模型“，<em>数学学报</em>，2023, 66(05): 801-814<br>
+                <span class="contribution-text">【贡献：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，创新性地构建起给出期权价格解析表达的模型。<span class="size-down-1">该论文其实存在一些瑕疵，且因篇幅所限，只发表了其中少部分的研究思想内容。然该研究提出的思路独特，且幸运地在理论上得以巧妙地证明，从研究思想和结果这一角度看，该成果的完整内容应值得国际一流权威期刊拥有；继续努力[fist]</span>】</span></li>
+                
+                <li><strong>X., Yu</strong>. “A unified entropic pricing framework of option”, <em>N. Am. J. Econ. Financ.</em>, 2021 (58), 101495<br>
+                <span class="contribution-text">【贡献：建立了广泛熵定价统一框架。<span class="size-down-2">可用于美式等期权定价. 审稿人评价高——… Well done, by and large, I wish more papers I reviewed had these attributes as in this paper…</span>】</span></li>
+                
+                <li><strong>X., Yu</strong>, X., Xie. “Pricing American options: RNMs-constrained entropic least-squares approach”, <em>North Am. J. Econ. Finance</em>, 2015(31), 155-173<br>
+                <span class="contribution-text">【贡献：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型。<span class="size-down-2">最开始投了JBF，有两个审稿人意见截然相左，被拒改投. JBF的两审稿人相反意见——</span> <span class="size-down-1">(1) …I like the proposed idea. The paper makes an important contribution…; (2)… the main contribution of the manuscript is not essentially different from Bakshi et al. (2003, Theorem 1)…</span>】</span></li>
+            </ul>
+        </section>
+
+        <section id="section-4">
+            <h3>三、研究项目</h3>
+            <ul>
+                <li>主持国家自科青年项目1项 (71301132)、省社科项目3项 (重点1项, 结项”良好”)；</li>
+                <li>主持产学研/横向落地 (金融科技与量化交易) 项目3项 (CGZH20210106, JKHT20211110)；</li>
+                <li>第一主研国家自科面上项目2项 (71871187, 11671323)；</li>
+                <li>教改项目若干。</li>
+            </ul>
+        </section>
+
+        <section id="section-5">
+            <h3>四、学术会议</h3>
+            <ul>
+                <li>2025中国金融科技学术年会，2025/06；</li>
+                <li>大会报告(<strong>最佳论文奖</strong>)，第八届中国衍生品青年论坛，北航，2024/07；</li>
+                <li>第20届中国金融学年会，中央财经大学，2023/10；</li>
+                <li><strong>Nomination Award</strong> for Excellent Paper, 2011-FMA Meeting, <em>Denver</em>, USA.</li>
+            </ul>
+        </section>
+
+        <section id="section-6">
+            <h3>五、荣誉</h3>
+            <h4>学术/称号</h4>
+            <ul>
+                <li>2024/12：成都市C类人才（省级重大人才计划入选）；</li>
+                <li>2024/07 “最佳(大会报告)论文”，第八届中国衍生品青年论坛暨一届国际智能金融和区块链金融论坛；</li>
+                <li>2024/-23/-19：学术年会邀请主旨/大会报告；</li>
+                <li>2019/10：四川省“天府英才卡”A卡持有人 (省人才办)；</li>
+                <li>2019/07：入选西南财大“光华英才工程”项目；</li>
+                <li>2018/11：入选省“万人计划”（金融菁英项目）；</li>
+                <li>2016/07：西南财大“优秀科研成果奖”;</li>
+                <li>2014/02：学院“科研突出成绩奖”；</li>
+                <li>2013/10：中期协“第二届全国高校期货论文大奖赛”一等奖 (第一名)；</li>
+                <li>2011/10：FMA-2011年会（四大顶级金融学术年会之一）宣讲论文，获优秀论文提名.</li>
+            </ul>
+            <h4>人才培养</h4>
+            <ul>
+                <li>2024/06：西南财大“优秀毕业论文”指导教师（该生出国深造）；</li>
+                <li>2023/2019：指导本科生发表论文 (学校认定高水平期刊)；</li>
+                <li>2021/07：西南财大“优秀毕业论文”指导教师（科研指导，该生被推荐保送至复旦大学数学学院金融专硕）；</li>
+                <li>2020/12：带领本科生团队，出版《四川省上市公司发展研究报告》，其中一名学生获保送攻读硕士；</li>
+                <li>2020/11：西南财大“优秀毕业论文”指导教师（科研指导，该生被推荐保送至北京大学汇丰商学院）；</li>
+                <li>2018/03：首届“中国(横琴)国际高校量化金融大赛（教育部等单位主办）”优秀指导教师（排名12/528）；</li>
+                <li>2017/01：西南财大“2016年度优秀教学成果奖”一等奖（参加）;</li>
+                <li>2016-2020: 主持建设校外金融机构学生实训实践基地（每年培养学生数十名）.</li>
+            </ul>
+            <h4>服务/管理</h4>
+            <ul>
+                <li>学校：优秀共产党员、抗震救灾先进个人；</li>
+                <li>学院：管理服务工作突出奖、优秀党员教师、优秀党务工作者、科研工作突出奖、管理工作突出奖.</li>
+            </ul>
+        </section>
+
+        <section id="section-7">
+            <h3>六、产学研与服务</h3>
+            <h4>产学研成果</h4>
+            <ul>
+                <li>“期权交易平台与衍生品数据开发”，成都交子金融科技中心某单位；2021始；</li>
+                <li>余喜生 等著, 《四川省上市公司发展研究报告》, 西南财经大学出版社, 40万字, 2020年12月；</li>
+                <li>“金融科技孵化—新兴数字化投资技术创新”，成都交子金融科技中心某单位，2020；</li>
+                <li>“衍生品定价模型”，某期货有限公司，2015/04.</li>
+            </ul>
+            <h4>学术服务</h4>
+            <ul>
+                <li>CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事；</li>
+                <li>期刊International Journal of Financial Engineering 副主编（Associate Editor）；多类期刊审稿专家 ( 以主流期刊为主，审稿认真，review report写得很仔细 ）；</li>
+                <li>国家自科基金项目同行评议专家 (含教育部青年长江一次)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所相关会员单位讲师。</li>
+            </ul>
+        </section>
+
+        <section id="section-8">
+            <h3>七、报告随笔</h3>
+            <h4>业界报告</h4>
+            <ul>
+                <li>余喜生，《期权策略解读——基本原理与逻辑》，国信期货有限公司，2025/07/26;</li>
+                <li>余喜生，《期权在企业风险管理中的应用——与期货比较》，宏信证券有限公司，2022/07/07;</li>
+                <li>余喜生，《股指期货对冲的关键原理及应用》, 国贸期货有限公司，2020/08/11;</li>
+                <li>余喜生，《股指期权定价原理与对冲机制》，西南期货有限公司，2020/07/17;</li>
+                <li>余喜生，《股指期货与股指期权——策略逻辑与疫情应对》，瑞达期货有限公司，2020/04/03;</li>
+                <li>余喜生，《期权及交易相关重要问题》，成都宽客俱乐部，2019/10/14;</li>
+                <li>余喜生，《期权若干本质问题解析——结合咏春PRO》，策略星学院，2019/08/08;</li>
+                <li>余喜生，《期权及其交易认识》，四川省证券期货业协会，2019/07/03;</li>
+                <li>余喜生，《绵阳基金小镇建设之我见》，科技城集中发展区管委会，2019/04/15.</li>
+            </ul>
+            <h4>随笔杂文</h4>
+            <ul>
+                <li>余喜生，《“雪球产品”的定价准确吗？——“雪球”的背后解析》，期权世界，2021/05;</li>
+                <li>余喜生，《炒股能挣钱吗？》，2020/07;</li>
+                <li>余喜生，《标的价格为负时，期权价格怎么办？——原油期货价格为负所想》, 债券圈 (雪球网)，2020/04;</li>
+                <li>余喜生，《“联合石化原油交易亏损‘事件’”若干问题的分析与思考》, 和讯专栏，2019/01;</li>
+                <li>余喜生，《大学数学，爱也罢恨也罢》，中国数学会，2018/03.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer id="footer-contact">
+        <div class="footer-content">
+            <div class="footer-item"><strong>Self-Evaluation</strong>纯粹, 努力, 坦荡</div>
+            <div class="footer-item"><strong>Attitude</strong>真做学问, 做真学问</div>
+            <div class="footer-item"><strong>My Motto</strong>规格严格, 功夫到家</div>
+            <div class="footer-item"><strong>E-mail</strong><a href="mailto:yuxisheng@swufe.edu.cn">yuxisheng@swufe.edu.cn</a></div>
+        </div>
+    </footer>
+
+    <script>
+        let lastScrollTop = 0;
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            if (scrollTop > lastScrollTop && scrollTop > 100) { header.classList.add('header-hidden'); } 
+            else { header.classList.remove('header-hidden'); }
+            lastScrollTop = scrollTop;
+        });
+    </script>
+</body>
+</html>
