@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>余喜生(Dr. Yu_Résumé) | Dr. Yu’s Space</title>
     <style>
-        /* 基础样式调整 */
+        /* 全局基础样式 */
         body {
             margin: 0;
             padding: 0;
@@ -13,35 +13,35 @@
             display: flex;
             background-color: #fff;
             color: #444; /* 黑色偏一点灰色 */
-            line-height: 1.5; /* 缩小行间距 */
+            line-height: 1.75; /* 增大行间距，提升阅读舒适度 */
         }
 
-        /* 左侧区域：占总宽度 1/3 左右 */
+        /* 左侧固定区域 */
         aside {
             width: 28%;
             height: 100vh;
             position: fixed;
             left: 0;
             top: 0;
-            background-color: #fcfcfc;
+            background-color: #f8f9fa;
             border-right: 1px solid #eee;
-            padding: 40px 25px;
+            padding: 50px 30px;
             display: flex;
             flex-direction: column;
             box-sizing: border-box;
             overflow-y: auto;
         }
 
-        /* 侧边栏导航 */
         .nav-title {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             font-weight: bold;
             color: #222;
-            margin-bottom: 25px;
-            border-left: 5px solid #0056b3;
-            padding-left: 10px;
+            margin-bottom: 30px;
+            border-left: 6px solid #0056b3;
+            padding-left: 15px;
         }
 
+        /* 导航栏样式微调 */
         nav ul {
             list-style: none;
             padding: 0;
@@ -49,67 +49,69 @@
         }
 
         nav ul li {
-            margin-bottom: 8px;
+            margin-bottom: 12px;
         }
 
         nav ul li a {
             text-decoration: none;
             color: #0056b3; /* 链接文字用蓝色 */
-            font-size: 0.95rem;
+            font-size: 1.1rem; /* 导航栏内容字体稍微大一点 */
+            font-weight: 500;
             transition: 0.2s;
         }
 
         nav ul li a:hover {
+            color: #003d82;
             text-decoration: underline;
         }
 
-        /* 侧边栏底部：原“九、其他”内容 */
+        /* 侧边栏底部：原“九、其他”内容（无标题） */
         .sidebar-bottom {
             margin-top: auto;
-            padding-top: 30px;
-            font-size: 0.9rem;
+            padding-top: 40px;
+            font-size: 0.95rem;
             color: #555;
+            border-top: 1px solid #ddd;
         }
 
         .sidebar-bottom div {
-            margin-bottom: 6px;
+            margin-bottom: 8px;
         }
 
-        /* 右侧区域：主内容 */
+        /* 右侧内容区域 */
         main {
             margin-left: 28%;
             width: 72%;
-            padding: 50px 60px;
+            padding: 60px 80px;
             box-sizing: border-box;
         }
 
-        /* 样式微调 */
-        h1 { font-size: 1.8rem; color: #222; margin-top: 0; }
-        h3 { font-size: 1.25rem; color: #333; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 35px; }
+        h1 { font-size: 2rem; color: #222; margin-top: 0; margin-bottom: 30px; }
+        h3 { font-size: 1.4rem; color: #333; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-top: 50px; }
         
-        ul { padding-left: 20px; }
-        li { margin-bottom: 6px; }
+        ul { padding-left: 22px; }
+        li { margin-bottom: 10px; }
 
-        a { color: #0056b3; text-decoration: none; }
+        a { color: #0056b3; text-decoration: none; transition: 0.2s; }
         a:hover { text-decoration: underline; }
 
-        /* 特定字样要求 */
-        .italic-content { font-style: italic; }
-        .small-note { font-size: 0.88rem; color: #666; display: block; margin-top: 2px; }
-        
-        /* 动态效果 */
+        /* 特定样式 */
+        .contribution-text { font-style: italic; display: block; margin-top: 5px; color: #555; }
+        .low-importance { font-size: 0.88rem; color: #777; } /* “想到的一个思路”偏小号字 */
+
+        /* 动态淡入效果 */
         .fade-in {
-            animation: fadeIn 0.8s ease-in;
+            animation: fadeIn 1s ease-out;
         }
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(5px); }
+            from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* 针对“贡献”和“思路”的特殊样式 */
-        .contribution-text { font-style: italic; }
-        .low-importance { font-size: 0.85rem; color: #777; }
-
+        @media (max-width: 1024px) {
+            aside { width: 32%; padding: 30px 20px; }
+            main { margin-left: 32%; width: 68%; padding: 40px 40px; }
+        }
     </style>
 </head>
 <body>
@@ -141,7 +143,7 @@
     <main class="fade-in">
         <section id="intro">
             <h1>余喜生(Dr. Yu_Résumé)</h1>
-            <p>金融学博士 (金融工程)，西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 电子科技大学转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
+            <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 (电子科技大学)转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
             <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
         </section>
 
@@ -189,12 +191,12 @@
                 
                 <li><strong>X., Yu</strong>, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, <em>Discrete Dyn. Nat. Soc.</em>, 2014</li>
                 <li><strong>X., Yu</strong>, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, <em>Math. Probl. Eng.</em>, 2014</li>
-                <li>Q., Liu, <strong>X., Yu</strong>, “Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts”, Available at SSRN</li>
+                <li>Q., Liu, <strong>X., Yu</strong>, “Canonical Least-Squares Monte Carlo: Empirical Evidence from S&P 100 Index and IBM Puts”, Available at SSRN: http://dx.doi.org/10.2139/ssrn.1573405</li>
                 <li>C., Luo，<strong>X., Yu</strong>. “Analysis of queue with p-entering discipline during adaptive multistage vacations”, <em>Math. Comput. Model.</em>, 2010(51), 361-368</li>
                 <li><strong>余喜生</strong>. “双因素可转债定价的非参数方法 (离散情形)—基于新的鞅方法”. <em>技术经济</em>, 2009 (6): 92-95</li>
                 <li><strong>余喜生</strong>. “一种新非参数方法在可转债定价中的应用”．<em>统计与决策</em>, 2009(19): 150-151</li>
-                <li><strong>X., Yu</strong>. “Entropy Valuation of Option: Using Option-implied Information”. In: R. Chacon (ed.). <em>Entropy: Theory and New Insights</em>. Hyderabad, India: Vide Leaf. Apr. 2021 (Book Chapter)</li>
-                <li><strong>余喜生</strong>，李辉 等，《四川省上市公司发展报告（2019）》，西南财经大学出版社，40万字，2020.12</li>
+                <li><strong>X., Yu</strong>. “Entropy Valuation of Option: Using Option-implied Information”. In: R. Chacon (ed.). <em>Entropy: Theory and New Insights</em> (ISBN: 978-93-90014-12-5). Hyderabad, India: Vide Leaf. Apr. 2021 (Book Chapter)</li>
+                <li><strong>余喜生</strong>，李辉 等，《四川省上市公司发展报告（2019）》（ISBN: 978-7-5504-4664-9），西南财经大学出版社，40万字，2020.12</li>
                 <li><strong>余喜生</strong>，期权的价格信息与熵定价方法，西南财经大学出版社，20万字，2016年4月</li>
             </ul>
         </section>
@@ -213,22 +215,23 @@
             <h3>五、学术会议</h3>
             <ul>
                 <li>2025中国金融科技学术年会，<em>Unfolding Dividends: A Novel Analytical Method to Efficiently and Accurately Price Options with Discrete Dividends</em>，2025/06/06–06；</li>
-                <li>大会报告(<strong>最佳论文奖</strong>)，第八届中国衍生品青年论坛暨第一届国际智能金融和区块链金融论坛，北航，2024/07/07–08. 40-min Talk: Accurate Analytical Pricing Formula for Options with Discrete Dividends. <strong>Discussant</strong>, <em>Illiquidity Bitcoin Options. Presented by: Y. Wang, Tsinghua University</em></li>
+                <li>大会报告(<strong>最佳论文奖</strong>)，第八届中国衍生品青年论坛暨第一届国际智能金融和区块链金融论坛，北航，2024/07/07–08 <br>40-min Talk: Accurate Analytical Pricing Formula for Options with Discrete Dividends. <br><strong>Discussant</strong>, <em>Illiquidity Bitcoin Options. Presented by: Y. Wang, Tsinghua University</em></li>
                 <li>中国优选法统筹法与经济数学研究会经济数学与管理数学分会2023年学术年会，舟山，2023/11/10–12. <strong>邀请报告</strong>;</li>
-                <li>第20届中国金融学年会，25-min Talk: <em>Dealing with discrete dividends: An analytical valuation approach</em>, 2023/10/27-29, 中央财经大学. <strong>Session Commentator</strong>: Consolidating Joint Predictability...</li>
+                <li>第20届中国金融学年会，25-min Talk: <em>Dealing with discrete dividends: An analytical valuation approach</em>, 2023/10/27-29, 中央财经大学 <br><strong>Session Commentator</strong>: Consolidating Joint Predictability of Firm Characteristics in Chinese Stock Market: A Subset Combination Approach</li>
                 <li><strong>Session Chair</strong>, 第五届中国优选法统筹法与经济数学研究会量化金融与保险分会学术年会，<em>A Novel Recombining Tree for American Options with Discrete Dividends</em>，2023/05/26–28，武汉</li>
-                <li>粤港澳大湾区人工智能、区块链与金融科技国际学术会议，<em>Dealing with discrete known dividends</em>，2023/04/14–16, 珠海 (<em>traveling expenses covered</em>);</li>
+                <li>粤港澳大湾区人工智能、区块链与金融科技国际学术会议（2023-CSIAM金融科技与算法专委会年会），<em>Dealing with discrete known dividends: An analytical valuation</em>，2023/04/14–16, 珠海 (<em>traveling expenses covered</em>);</li>
                 <li>第二十届中国金融工程学年会，<em>Market Time-series Reversal: Evidence from China’s market</em>，西藏，2022/06/25，线上；</li>
-                <li>第十八届中国金融学年会，厦门大学，2021/10/31，线上；</li>
-                <li>第4届全国网络治理青年学者论坛，电子科技大学，成都，2019/10/12，<strong>邀请报告</strong>;</li>
-                <li>第31届中国优选法统筹法与经济数学研究会经济数学与管理数学分会，敦煌，2019/08. <strong>大会邀请报告</strong>；</li>
-                <li>11期香樟经济学论坛 (金融工程与金融科技) Seminar，成都，2019/04，<strong>联合召集人</strong>；</li>
-                <li>International Conference on Applied Financial Economics, Shanghai, July 2-3, 2016. <strong>Session commentator</strong>, A look inside the box...;</li>
-                <li>7th CSBF & 11th IEFA, 台湾大学, Taipei，Apr. 28-May 1, 2015；</li>
-                <li><strong>Session Discussant</strong>, International Symposium on Differential Equations, Sanya, China (July 12-16, 2014)；</li>
-                <li>全国高校期货教学与人才培养研讨会暨“期望杯”大奖赛，北京，2013/10. <strong>获奖嘉宾</strong>（一等奖, 第一名）；</li>
-                <li><strong>Nomination Award</strong> for Excellent Paper, 2011-FMA, Denver, USA (Oct. 19-22, 2011);</li>
-                <li>the 24th Australian Finance and Business Conference, Sydney, Australia (Dec. 14-16, 2011).</li>
+                <li>第十八届中国金融学年会，<em>Valuation of European options on stock with discrete known dividends: An accurate dividend-weighted model</em>，厦门大学，2021/10/31，线上；</li>
+                <li>第4届全国网络治理青年学者论坛，<em>SSEBXM指数设计及其策略绩效——基于中国50ETF期权市场的研究</em>，电子科技大学，成都，2019/10/12，邀请报告</li>
+                <li>第31届 中国优选法统筹法与经济数学研究会经济数学与管理数学分会，<em>Estimating Quadratic Variation Using a Generalized Ito Isometry</em>, 敦煌，2019年8月23-26. <strong>大会邀请报告</strong>；</li>
+                <li>11期香樟经济学论坛 (金融工程与金融科技) Seminar（成都），成都，2019年4月13-14，<strong>联合召集人</strong>；</li>
+                <li>International Conference on Applied Financial Economics，<em>Estimating Quadratic Variation Using a Generalized Ito Isometry</em>, Shanghai, July 2-3, 2016; <br><strong>Session commentator</strong>, A look inside the box: Combining aggregate and marginal distributions to identify joint distributions. Presented by: Marie-Helene Felt, Carleton University, Bank of Canada；</li>
+                <li>7th CSBF & 11th IEFA , <em>Risk-Neutral Moment Recovery, Optimal Stopping Time and American Option Valuation</em>. 台湾大学, <em>Taipei</em>，Apr. 28-May 1, 2015；</li>
+                <li><strong>Session Discussant</strong>, International Symposium on Differential Equations and Stochastic Analysis in Mathematical Finance, Sanya, China, (July 12-16, 2014)；</li>
+                <li>全国高校期货教学与人才培养研讨会暨“期望杯”高校期货论文大奖赛颁奖典礼，北京，2013/10/26–28. <strong>获奖嘉宾</strong>（一等奖, 第一名，获奖篇数45/800+）</li>
+                <li><strong>Session commentator</strong>, 7th China Finance Review International Conference, Shanghai China (July 8-9, 2013)；</li>
+                <li><strong>Nomination Award</strong> for Excellent Paper, 2011-Financial Management Associate Meeting (2011-FMA), <em>Denver</em>, USA (Oct. 19-22, 2011);</li>
+                <li>the 24th Australian Finance and Business Conference, <em>Entropic Least-Square Valuation of American Option Subject to Moment constraints</em>, <em>Sydney</em>, Australia, (Dec. 14-16, 2011).</li>
             </ul>
         </section>
 
@@ -251,9 +254,9 @@
             <ul>
                 <li>2024/06：西南财大“优秀毕业论文”指导教师（该生出国深造）；</li>
                 <li>2023/2019：指导本科生发表论文 (学校认定高水平期刊)；</li>
-                <li>2021/07：西南财大“优秀毕业论文”指导教师（保送至复旦大学）；</li>
-                <li>2020/12：带领本科生团队，出版《四川省上市公司发展研究报告》，其中一名学生获保送攻读硕士；</li>
-                <li>2020/11：西南财大“优秀毕业论文”指导教师（保送至北京大学汇丰商学院）；</li>
+                <li>2021/07：西南财大“优秀毕业论文”指导教师（科研指导，保送至复旦大学）；</li>
+                <li>2020/12：带领本科生团队，出版《四川省上市公司发展研究报告》；</li>
+                <li>2020/11：西南财大“优秀毕业论文”指导教师（科研指导，保送至北京大学汇丰商学院）；</li>
                 <li>2018/03：首届“中国(横琴)国际高校量化金融大赛”优秀指导教师（排名12/528）；</li>
                 <li>2017/01：西南财大“2016年度优秀教学成果奖”一等奖（参加）;</li>
                 <li>2016-2020: 主持建设校外金融机构学生实训实践基地.</li>
@@ -270,7 +273,7 @@
             <p><strong>产学研成果</strong></p>
             <ul>
                 <li>“期权交易平台与衍生品数据开发”，成都交子金融科技中心某单位；2021始；</li>
-                <li>余喜生 等著, 《<a href="http://k.sina.com.cn/article_6456450127_180d59c4f02000rzv7.html">四川省上市公司发展研究报告</a>》, 西南财经大学出版社, 2020年12月；</li>
+                <li>余喜生 等著, 《<a href="http://k.sina.com.cn/article_6456450127_180d59c4f02000rzv7.html">四川省上市公司发展研究报告</a>》, 西南财经大学出版社, 40万字, 2020年12月；</li>
                 <li>“金融科技孵化—新兴数字化投资技术创新”，成都交子金融科技中心某单位，2020；</li>
                 <li>“衍生品定价模型”，某期货有限公司，2015/04.</li>
             </ul>
@@ -278,7 +281,7 @@
             <ul>
                 <li>CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事；</li>
                 <li>期刊 <em>International Journal of Financial Engineering</em> <strong>副主编 (Associate Editor)</strong>；多类期刊审稿专家；</li>
-                <li>国家自科基金项目同行评议专家、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所相关会员单位讲师.</li>
+                <li>国家自科基金项目同行评议专家、成都市新经济产业委员会智库专家、中金所相关会员单位讲师.</li>
             </ul>
         </section>
 
@@ -286,23 +289,23 @@
             <h3>八、业界报告与杂文</h3>
             <p><strong>业界报告</strong></p>
             <ul>
-                <li>余喜生，《期权策略解读——基本原理与逻辑》，国信期货，2025/07/26;</li>
-                <li>余喜生，《期权在企业风险管理中的应用》，宏信证券，2022/07/07;</li>
-                <li>余喜生，《股指期货对冲的关键原理及应用》, 国贸期货，2020/08/11;</li>
-                <li>余喜生，《股指期权定价原理与对冲机制》，西南期货，2020/07/17;</li>
-                <li>余喜生，《股指期货与股指期权——策略逻辑与疫情应对》，瑞达期货，2020/04/03;</li>
+                <li>余喜生，《期权策略解读——基本原理与逻辑》，国信期货有限公司，2025/07/26;</li>
+                <li>余喜生，《期权在企业风险管理中的应用——与期货比较》，宏信证券有限公司，2022/07/07;</li>
+                <li>余喜生，《股指期货对冲的关键原理及应用》, 国贸期货有限公司，2020/08/11;</li>
+                <li>余喜生，《股指期权定价原理与对冲机制》，西南期货有限公司，2020/07/17;</li>
+                <li>余喜生，《股指期货与股指期权——策略逻辑与疫情应对》，瑞达期货有限公司，2020/04/03;</li>
                 <li>余喜生，《期权及交易相关重要问题》，成都宽客俱乐部，2019/10/14;</li>
-                <li>余喜生，《期权若干本质问题解析》，策略星学院，2019/08/08;</li>
+                <li>余喜生，《期权若干本质问题解析——结合咏春PRO》，策略星学院，2019/08/08;</li>
                 <li>余喜生，《期权及其交易认识》，四川省证券期货业协会，2019/07/03;</li>
                 <li>余喜生，《绵阳基金小镇建设之我见》，2019/04/15;</li>
             </ul>
             <p><strong>随笔杂文</strong></p>
             <ul>
-                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&mid=2650935834&idx=1&sn=c16f00c84cdc0d4c25c5bb6dbc4893f9">“雪球产品”的定价准确吗？</a>》，<em>期权世界</em>，2021/05;</li>
-                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef">炒股能挣钱吗？</a>》，2020/07;</li>
-                <li>余喜生，《<a href="https://xueqiu.com/7539894803/147836568">标的价格为负时，期权价格怎么办？</a>》, <em>债券圈/雪球网</em>，2020/04;</li>
-                <li>余喜生，《<a href="http://options.hexun.com/2019-01-02/195740909.html">“联合石化原油交易亏损‘事件’”分析</a>》, <em>和讯专栏</em>，2019/01;</li>
-                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d">大学数学，爱也罢恨也罢</a>》，<em>中国数学会</em>，2018/03.</li>
+                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&mid=2650935834&idx=1&sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd">“雪球产品”的定价准确吗？——“雪球”的背后解析</a>》，<em>期权世界</em>，2021/05;</li>
+                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd">炒股能挣钱吗？</a>》，2020/07;</li>
+                <li>余喜生，《<a href="https://xueqiu.com/7539894803/147836568">标的价格为负时，期权价格怎么办？——原油期货价格为负所想</a>》, <em>债券圈/雪球网</em>，2020/04;</li>
+                <li>余喜生，《<a href="http://options.hexun.com/2019-01-02/195740909.html">“联合石化原油交易亏损‘事件’”若干问题的分析与思考</a>》, <em>和讯专栏</em>，2019/01;</li>
+                <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd">大学数学，爱也罢恨也罢</a>》，<em>中国数学会</em>，2018/03.</li>
             </ul>
         </section>
     </main>
