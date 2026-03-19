@@ -150,6 +150,6 @@ computational aspect of American option prices. The paper is well-written and I 
 - Self-Evaluation: *纯粹, 努力, 坦荡*
 - Attitude: *真做学问, 做真学问*
 - My Motto: *规格严格,功夫到家*
-- E-mail: <span style="color: blue;">*<u>yuxisheng@swufe.edu.cn</u>*</span>
+- E-mail: <span style="color: #008000;">*<u>yuxisheng@swufe.edu.cn</u>*</span>
 
 
