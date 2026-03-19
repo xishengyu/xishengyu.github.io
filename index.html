@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>余喜生(Dr. Yu_Résumé) | Dr. Yu’s Space</title>
     <style>
-        /* 全局基础样式 */
+        /* --- 全局基础样式 --- */
         body {
             margin: 0;
             padding: 0;
@@ -13,10 +13,10 @@
             display: flex;
             background-color: #fff;
             color: #444; /* 黑色偏一点灰色 */
-            line-height: 1.75; /* 增大行间距，提升阅读舒适度 */
+            line-height: 1.75; /* 较大的行间距 */
         }
 
-        /* 左侧固定区域 */
+        /* --- 电脑端布局 (默认) --- */
         aside {
             width: 28%;
             height: 100vh;
@@ -32,6 +32,14 @@
             overflow-y: auto;
         }
 
+        main {
+            margin-left: 28%;
+            width: 72%;
+            padding: 60px 80px;
+            box-sizing: border-box;
+        }
+
+        /* --- 导航样式 --- */
         .nav-title {
             font-size: 1.6rem;
             font-weight: bold;
@@ -41,31 +49,17 @@
             padding-left: 15px;
         }
 
-        /* 导航栏样式微调 */
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li {
-            margin-bottom: 12px;
-        }
-
+        nav ul { list-style: none; padding: 0; margin: 0; }
+        nav ul li { margin-bottom: 12px; }
         nav ul li a {
             text-decoration: none;
-            color: #0056b3; /* 链接文字用蓝色 */
-            font-size: 1.1rem; /* 导航栏内容字体稍微大一点 */
+            color: #0056b3; /* 链接蓝色 */
+            font-size: 1.1rem; /* 侧边栏字体稍微大一点 */
             font-weight: 500;
             transition: 0.2s;
         }
+        nav ul li a:hover { color: #003d82; text-decoration: underline; }
 
-        nav ul li a:hover {
-            color: #003d82;
-            text-decoration: underline;
-        }
-
-        /* 侧边栏底部：原“九、其他”内容（无标题） */
         .sidebar-bottom {
             margin-top: auto;
             padding-top: 40px;
@@ -74,43 +68,58 @@
             border-top: 1px solid #ddd;
         }
 
-        .sidebar-bottom div {
-            margin-bottom: 8px;
-        }
-
-        /* 右侧内容区域 */
-        main {
-            margin-left: 28%;
-            width: 72%;
-            padding: 60px 80px;
-            box-sizing: border-box;
-        }
-
-        h1 { font-size: 2rem; color: #222; margin-top: 0; margin-bottom: 30px; }
-        h3 { font-size: 1.4rem; color: #333; border-bottom: 1px solid #eee; padding-bottom: 8px; margin-top: 50px; }
+        /* --- 内容样式 --- */
+        h1 { font-size: 2.1rem; color: #222; margin-top: 0; margin-bottom: 30px; line-height: 1.2; }
+        h3 { font-size: 1.45rem; color: #333; border-bottom: 2px solid #eee; padding-bottom: 8px; margin-top: 55px; }
         
         ul { padding-left: 22px; }
-        li { margin-bottom: 10px; }
+        li { margin-bottom: 12px; }
 
         a { color: #0056b3; text-decoration: none; transition: 0.2s; }
         a:hover { text-decoration: underline; }
 
-        /* 特定样式 */
-        .contribution-text { font-style: italic; display: block; margin-top: 5px; color: #555; }
-        .low-importance { font-size: 0.88rem; color: #777; } /* “想到的一个思路”偏小号字 */
+        .contribution-text { font-style: italic; display: block; margin-top: 8px; color: #555; }
+        .low-importance { font-size: 0.88rem; color: #777; } /* 思路感悟小号字 */
 
-        /* 动态淡入效果 */
-        .fade-in {
-            animation: fadeIn 1s ease-out;
+        /* --- 手机端/平板响应式适配 --- */
+        @media (max-width: 992px) {
+            body { flex-direction: column; } /* 改为纵向排列 */
+            
+            aside {
+                width: 100%;
+                height: auto;
+                position: relative; /* 取消固定定位 */
+                padding: 30px 20px;
+                border-right: none;
+                border-bottom: 1px solid #eee;
+            }
+
+            main {
+                margin-left: 0;
+                width: 100%;
+                padding: 30px 20px; /* 缩小内边距，适应手机屏 */
+            }
+
+            .nav-title { font-size: 1.4rem; margin-bottom: 20px; }
+            nav ul {
+                display: flex;
+                flex-wrap: wrap; /* 导航项在手机端自动换行 */
+                gap: 10px 20px;
+            }
+            nav ul li { margin-bottom: 0; }
+            nav ul li a { font-size: 1rem; }
+            
+            .sidebar-bottom { margin-top: 25px; padding-top: 20px; }
+
+            h1 { font-size: 1.7rem; }
+            h3 { font-size: 1.3rem; margin-top: 35px; }
         }
+
+        /* 动画效果 */
+        .fade-in { animation: fadeIn 0.8s ease-out; }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
-        }
-
-        @media (max-width: 1024px) {
-            aside { width: 32%; padding: 30px 20px; }
-            main { margin-left: 32%; width: 68%; padding: 40px 40px; }
         }
     </style>
 </head>
@@ -121,29 +130,29 @@
         <nav>
             <ul>
                 <li><a href="#intro">个人简介</a></li>
-                <li><a href="#section-1">一、研究兴趣</a></li>
-                <li><a href="#section-2">二、主授课程</a></li>
-                <li><a href="#section-3">三、主要论著</a></li>
-                <li><a href="#section-4">四、主要项目</a></li>
-                <li><a href="#section-5">五、学术会议</a></li>
-                <li><a href="#section-6">六、荣誉</a></li>
-                <li><a href="#section-7">七、产学研与学术服务</a></li>
-                <li><a href="#section-8">八、业界报告与杂文</a></li>
+                <li><a href="#section-1">研究兴趣</a></li>
+                <li><a href="#section-2">主授课程</a></li>
+                <li><a href="#section-3">主要论著</a></li>
+                <li><a href="#section-4">主要项目</a></li>
+                <li><a href="#section-5">学术会议</a></li>
+                <li><a href="#section-6">荣誉记录</a></li>
+                <li><a href="#section-7">产学研服务</a></li>
+                <li><a href="#section-8">业界报告</a></li>
             </ul>
         </nav>
 
         <div class="sidebar-bottom">
-            <div><strong>Self-Evaluation</strong>: 纯粹, 努力, 坦荡</div>
-            <div><strong>Attitude</strong>: 真做学问, 做真学问</div>
-            <div><strong>My Motto</strong>: 规格严格,功夫到家</div>
-            <div><strong>E-mail</strong>: <a href="mailto:yuxisheng@swufe.edu.cn">yuxisheng@swufe.edu.cn</a></div>
+            <div><strong>Self-Evaluation:</strong> 纯粹, 努力, 坦荡</div>
+            <div><strong>Attitude:</strong> 真做学问, 做真学问</div>
+            <div><strong>My Motto:</strong> 规格严格,功夫到家</div>
+            <div><strong>E-mail:</strong> <a href="mailto:yuxisheng@swufe.edu.cn">yuxisheng@swufe.edu.cn</a></div>
         </div>
     </aside>
 
     <main class="fade-in">
         <section id="intro">
             <h1>余喜生(Dr. Yu_Résumé)</h1>
-            <p>金融学博士 (金融工程)，西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 电子科技大学转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
+            <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 (电子科技大学)转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
             <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
         </section>
 
@@ -312,3 +321,4 @@
 
 </body>
 </html>
+
