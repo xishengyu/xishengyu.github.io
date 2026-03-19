@@ -1,5 +1,10 @@
----
-layout: default
----
+# 定义导航栏文字和链接
+nav_links:
+  - title: 简介
+    url: "#intro"
+  - title: 主要论著
+    url: "#section-3"
+  - title: 主要项目
+    url: "#section-4"
 title: 余喜生(Dr. Yu_Résumé)
 
