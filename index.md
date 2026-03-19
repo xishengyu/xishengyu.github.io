@@ -1,58 +1,3 @@
- /* 顶部导航栏布局 */
-    header {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: #fff;
-        border-bottom: 1px solid #ddd;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        z-index: 1000;
-        padding: 10px 0;
-    }
-
-    nav {
-        max-width: 1100px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 15px;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: #0056b3;
-        font-weight: 500;
-        font-size: 0.95rem;
-        padding: 5px 8px;
-        transition: 0.3s;
-    }
-
-    nav a:hover {
-        background-color: #f0f7ff;
-        border-radius: 4px;
-        color: #003d82;
-    }
-
-  
-    /* 标题样式 */
-    h1 { color: #222; border-bottom: 2px solid #0056b3; padding-bottom: 10px; margin-top: 0; }
-    h3 { color: #222; border-left: 5px solid #0056b3; padding-left: 15px; margin-top: 40px; background: #f8f9fa; padding-top: 5px; padding-bottom: 5px; }
-    
-    /* 链接颜色 */
-    a { color: #0056b3; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    /* 列表间距 */
-    li { margin-bottom: 12px; }
-
-    /* 响应式适配 */
-    @media (max-width: 768px) {
-        nav { gap: 5px; }
-        nav a { font-size: 0.85rem; }
-        .container { padding: 20px; margin-top: 120px; }
-    }
-</style>
 
 <header>
     <nav>
@@ -67,9 +12,6 @@
         <a href="#八业界报告与杂文">业界报告/随笔</a>
     </nav>
 </header>
-
-
-
 
 
 金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 电子科技大学转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。
