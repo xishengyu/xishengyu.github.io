@@ -381,30 +381,40 @@
 
 
 <footer>
-    <div class="footer-info-bar" id="contact" style="
-        position: relative;        /* 如果不需要固定在屏幕底部，请改为 relative */
-        width: 100vw;              /* 核心修改：宽度占据 100% 视口宽度 */
-        margin-left: calc(-50vw + 50%); /* 核心修改：强制突破父容器宽度限制，实现全屏铺满 */
-        display: flex; 
-        flex-direction: column;    /* 纵向排列两行 */
-        align-items: center; 
-        justify-content: center; 
-        padding: 1px 0 5px 0;     /* 缩小顶部间距 (5px) */
-        background: #f8f9fa;       /* 柔和的浅灰色背景 */
-        border-top: 1px solid #eee;
-        font-family: 'Segoe UI', 'Lantinghei SC', 'Open Sans', sans-serif; /* 柔和字体 */
-        font-size: 15px;           /* 缩小字号 */
-        color: #666;               /* 柔和文字颜色 */
-        line-height: 1.2;
+    <div class="footer-info-bar" style="
+        width: 100vw;                     /* [1] 宽度占满视口 */
+        margin-left: calc(-50vw + 50%);  /* [2] 强制全屏水平铺满 */
+        display: flex;                    /* [3] 开启弹性布局 */
+        justify-content: center;          /* [4] 内容水平居中 */
+        align-items: center;              /* [5] 内容垂直居中 */
+        padding: 10px 0;                  /* [6] 设置上下内边距 */
+        background: #f8f9fa;              /* [7] 极浅灰色背景 */
+        border-top: 1px solid #eee;       /* [8] 顶部细分割线 */
+        font-family: 'Segoe UI', 'Lantinghei SC', sans-serif; /* [9] 柔和字体 */
+        font-size: 14px;                  /* [10] 字体大小 */
+        color: #666;                      /* [11] 柔和文字颜色 */
     ">
-
-        <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 12px; width: 100%;">
+        <div style="display: flex; justify-content: center; gap: 40px; width: 100%;">
             <div class="info-item"><strong>Self-Evaluation:</strong> 纯粹, 努力, 坦荡</div>
             <div class="info-item"><strong>Attitude:</strong> 真做学问, 做真学问</div>
             <div class="info-item"><strong>My Motto:</strong> 规格严格, 功夫到家</div>
         </div>
-        
-        <div style="display: flex; justify-content: center; gap: 20px; color: #888; width: 100%;">
+    </div>
+
+    <div style="height: 5px; background: white;"></div> <div class="footer-info-bar" style="
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 0;
+        background: #f1f3f5;              /* [13] 略深的灰色背景 */
+        border-top: 1px solid #e9ecef;
+        font-family: 'Segoe UI', 'Lantinghei SC', sans-serif;
+        font-size: 13px;                  /* [14] 较小的字号 */
+        color: #888;
+    ">
+        <div style="display: flex; justify-content: center; gap: 20px; width: 100%;">
             <div class="info-item">
                 <strong>E-mail:</strong> 
                 <a href="mailto:yuxisheng@swufe.edu.cn" style="color: navy; text-decoration: none;">yuxisheng@swufe.edu.cn</a>
@@ -413,7 +423,6 @@
         </div>
     </div>
 </footer>
-        
 
     
 
