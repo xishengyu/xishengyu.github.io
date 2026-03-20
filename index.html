@@ -147,10 +147,15 @@
         .pub-contribution {
             display: block;
             background: var(--light-bg);
+              /* 1. 调整背景颜色（灰色程度） */
+    background: #fbfbfb; /* 默认浅灰。若要更浅，可改为 #fbfbfb */
             padding: 10px 15px;
             margin-top: 8px;
             border-left: 3px solid #ddd;
-            font-size: 15px;
+            /* 2. 删除左侧竖线 */
+    border-left: none; /* 将原来的 3px solid #ddd 改为 none 即可删除竖线 */
+            font-size: 15px;   
+            line-height: 1.7;   /* 针对论文下方的灰色备注部分，修改 pub-contribution。增加备注文字的行间距 */
         }
 
         .sub-text {
