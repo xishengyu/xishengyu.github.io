@@ -40,7 +40,7 @@
         }
 
         nav {
-            max-width: 1100px;   /* 增加导航栏（顶部的菜单）的宽度 */
+            max-width: 1000px;   /* 增加导航栏（顶部的菜单）的宽度 */
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -50,35 +50,25 @@
 
         .nav-logo {
             font-weight: bold;
-            font-size: 1.3rem;
-            color: var(--primary-color);
+            font-size: 1.6rem; 
+            font-family: "Times New Roman", Times, serif; 
+            font-weight: 550;                            
+            color: #1a2a3a;                             
+            letter-spacing: 0.6px;                         
         }
 
         .nav-links {
             list-style: none;
             display: flex;
-            gap: 25px;               
+            gap: 20px;               
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--text-color);
-            font-size: 16px;                     
+            font-size: 20px;                     
             font-weight: 500;                    
             transition: color 0.3s;
-            /* [修改说明] 为实现两行排列，改为 flex 纵向布局 */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            line-height: 1.2;
-        }
-
-        /* [修改说明] 导航栏第二行小字的样式 */
-        .nav-links a span {
-            font-size: 10px;
-            font-weight: normal;
-            color: #888;
-            text-transform: uppercase;
         }
 
         .nav-links a:hover {
@@ -89,16 +79,14 @@
         .container {
             max-width: 1050px;        
             margin: 40px auto;
-            /* [修改说明] 宽度设为百分比，防止在窄屏下溢出 */
-            width: 92%;
-            padding: 0;         
+            padding: 0 25px;         
         }
 
         /* --- 个人简介部分 --- */
         .profile-section {
             display: flex;
             gap: 40px;
-            margin-bottom: 25px;
+            margin-bottom: 40px;  
             align-items: flex-start;
         }
 
@@ -107,10 +95,11 @@
         }
 
         .profile-text h1 {   
-            font-size: 1.7rem;  
-            margin-bottom: 10px;  
+            font-size: 1.45rem;  
+            margin-bottom: 12px;  
             color: var(--primary-color);
-            font-weight: 600;     
+            font-weight: 500;     
+            color: #2c3e50;       
             letter-spacing: 2px;  
         }
 
@@ -120,25 +109,37 @@
             line-height: 1.8;      
         }
 
-        /* --- 标题样式 --- */
-        h3 {
-            display: inline-block;
-            border-bottom: 1px solid #d1d5db; 
-            padding-bottom: 5px;
-            margin: 25px 0 15px 0;
-            color: var(--primary-color);
-            font-size: 1.5rem;
-            width: auto;
-            padding-right: 30px;
+        .avatar-placeholder {
+            width: 200px;
+            height: 260px;
+            background: #eee;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            flex-shrink: 0;
+            border: 1px solid #ddd;
         }
 
+        /* --- 标题样式 --- */
+        h3 {                  
+            width: auto;                
+            border-bottom: 0.25px solid var(--primary-color); 
+            color: var(--primary-color);             
+            font-weight: 500;           
+            padding-bottom: 8px;
+            margin: 35px 0 20px 0;    
+            font-size: 1.5rem;
+        }
+        
         ul {
             list-style-position: outside;
             margin-left: 20px;
         }
 
         li {
-            margin-bottom: 15px;
+            margin-bottom: 12px;
         }
 
         a {
@@ -152,12 +153,12 @@
 
         .pub-contribution {
             display: block;
-            background: #fdfdfd; 
-            padding: 8px 15px;
-            margin-top: 2px; 
+            background: #fefefe; 
+            padding: 10px 15px;
+            margin-top: -2px;  
             border-left: none; 
-            font-size: 14px;   
-            line-height: 1.6;   
+            font-size: 15px;   
+            line-height: 1.45;   
         }
 
         .sub-text {
@@ -167,29 +168,37 @@
 
         /* --- 底部 --- */
         footer {
-            width: 100vw;
-            margin-left: calc(-50vw + 50%);
-            background: #f8f9fa;
-            padding: 20px 0 30px 0;
-            border-top: 1px solid #eee;
             text-align: center;
-            margin-top: 50px;
+            padding: 40px 0;
+            background: var(--light-bg);
+            margin-top: 60px;
+            border-top: 1px solid #eee;
         }
 
-        /* ============================================================
-           [修改说明] 新增手机端适配代码块，解决布局错位和横向滚动条问题
-           ============================================================ */
+        /* [修改] 手机端适配逻辑 */
         @media (max-width: 768px) {
-            body { padding-top: 100px; } /* 导航栏变高，正文下移 */
-            nav { flex-direction: column; padding: 10px; }
-            .nav-links { gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 10px; }
-            .nav-links a { font-size: 14px; }
-            .nav-links a span { display: none; } /* 手机端空间极其有限，建议隐藏英文 */
-            .profile-section { flex-direction: column; gap: 20px; }
-            h3 { font-size: 1.3rem; width: 100%; padding-right: 0; }
-            /* 修正原代码中 100vw 导致的手机端溢出问题 */
-            footer { width: 100% !important; margin-left: 0 !important; padding: 20px 15px !important; }
-            footer div { flex-direction: column !important; gap: 10px !important; }
+            body { padding-top: 100px; } /* 留出空间给换行的导航栏 */
+            .profile-section {
+                flex-direction: column;
+                align-items: flex-start;
+                text-align: justify;
+            }
+            .nav-links {
+                flex-wrap: wrap; /* 允许菜单换行 */
+                gap: 10px;
+                justify-content: center;
+            }
+            .nav-links a {
+                font-size: 15px; /* 手机端字号缩小，否则 20px 太大 */
+            }
+            h3 { font-size: 1.3rem; }
+            .nav-logo { font-size: 1.3rem; }
+            /* 修正手机端 footer 溢出 */
+            footer { width: 100% !important; margin-left: 0 !important; }
+        }
+
+        body {
+            padding-bottom: 60px;
         }
     </style>
 </head>
@@ -199,14 +208,15 @@
         <nav>
             <div class="nav-logo">Dr. Yu's Résumé </div>
             <ul class="nav-links">
-                <li><a href="#intro">简介<span>Intro</span></a></li>
-                <li><a href="#section1">研究与授课<span>Research</span></a></li>
-                <li><a href="#section2">主要论著<span>Publications</span></a></li>
-                <li><a href="#section3">项目<span>Projects</span></a></li>
-                <li><a href="#section4">会议<span>Conferences</span></a></li>
-                <li><a href="#section5">荣誉<span>Honors</span></a></li>
-                <li><a href="#section6">服务<span>Service</span></a></li>
-                <li><a href="#section7">报告<span>Reports</span></a></li>
+                <li><a href="#intro">简介</a></li>
+                <li><a href="#section1">研究与授课</a></li>
+                <li><a href="#section2">主要论著</a></li>
+                <li><a href="#section3">项目</a></li>
+                <li><a href="#section4">会议</a></li>
+                <li><a href="#section5">荣誉</a></li>
+                <li><a href="#section6">产学研服务</a></li>
+                <li><a href="#section7">报告随笔</a></li>
+                <li><a href="#contact">联系</a></li>
             </ul>
         </nav>
     </header>
@@ -215,8 +225,8 @@
         <section class="profile-section">
             <div class="profile-text">
                 <h1 id="intro">余喜生</h1>
-                <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 电子科技大学转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
-                <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
+                <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 西南财大攻读博士学位(电子科技大学转)，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
+                <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持完成省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
             </div>
         </section>
 
@@ -235,7 +245,7 @@
             <li><strong>Yu, X.</strong> "<a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.6863">Nonparametric estimation of quadratic variation using high-frequency data</a>", <em>Math. Method. Appl. Sci.</em>, 2024, 47(05): 3053–3078
                 <span class="pub-contribution">【<em>贡献</em>：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span class="sub-text">“突发奇想”想到的一个思路，但限于自己在高等概率数理统计方面的研究水平，理论上的证明一直进展不顺，被两家所谓top期刊连续以其中一个定理的证明存在问题为由拒稿，后进一步自学与请教，在较强条件约束下完成了理论的证明--原稿有近30页的证明。后又经ETH Zurich的大佬M. Schweizer教授指点，有了后续研究结果</span>】</span>
             </li>
-            <li>徐凤, <strong>余喜生</strong>, 林谦，“部分异质情形下面板协整参数的估计研究”，<em>数理统计与管理</em>，2023, 42 (06): 973-992</li>
+            <li>徐凤, <strong>余喜生</strong>, 林谦，"部分异质情形下面板协整参数的估计研究"，<em>数理统计与管理</em>，2023, 42 (06): 973-992</li>
             <li><strong>余喜生</strong>, 姚雨薇, "<a href="https://doi.org/10.12386/A20200164">离散分红情形下的欧式期权定价新模型</a>"，<em>数学学报</em>，2023, 66(05): 801-814
                 <span class="pub-contribution">【<em>贡献</em>：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，创新性地构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，比较发现其定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁。<span class="sub-text">该论文其实存在一些瑕疵，且因篇幅所限，只发表了其中少部分的研究思想内容。*然该研究提出的思路独特，且幸运地在理论上得以巧妙地证明，从研究思想和结果这一角度看，该成果的完整内容应值得国际一流权威期刊拥有*；继续努力[fist]</span>】</span>
             </li>
@@ -251,7 +261,7 @@
             </li>
             <li><strong>余喜生</strong>, 姚雨薇，“一类期权策略指数设计及其实证研究”，2019，中国软科学，2019(z1):291-300</li>
             <li><strong>X., Yu</strong>, X., Xie. “<a href="https://doi.org/10.1016/j.najef.2014.10.009">Pricing American options: RNMs-constrained entropic least-squares approach</a>”, <em>North Am. J. Econ. Finance</em>, 2015(31), 155-173
-                <span class="pub-contribution">【<em>贡献</em>：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span class="sub-text">最开始投了JBF，有两个审稿人意见截然相左，被拒改投...</span>】</span>
+                <span class="pub-contribution">【<em>贡献</em>：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span class="sub-text">最开始投了JBF，有两个审稿人意见截然相左，被拒改投. JBF的两审稿人相反意见—— (1) ...I like the proposed idea. The paper makes an important contribution to the computational aspect of American option prices. The paper is well-written and I find it relatively clear to read...; (2)... the main contribution of the manuscript is not essentially different from Bakshi et al. (2003, Theorem 1) and since the performance of the MEL method proposed is not impressive...</span>】</span>
             </li>
             <li><strong>X., Yu</strong>, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, <em>Discrete Dyn. Nat. Soc.</em>, 2014</li>
             <li><strong>X., Yu</strong>, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, <em>Math. Probl. Eng.</em>, 2014</li>
@@ -336,7 +346,7 @@
         <p><strong>学术服务</strong></p>
         <ul>
             <li>CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事；</li>
-            <li>期刊<em>International Journal of Financial Engineering</em> 副主编（Associate Editor）；多类期刊审稿专家；</li>
+            <li>期刊<em>International Journal of Financial Engineering</em> 副主编（Associate Editor）；多类期刊审稿专家 (<span class="sub-text"> 以主流期刊为主，审稿认真，review report写得很仔细 </span>）；</li>
             <li>国家自科基金项目同行评议专家 (含教育部青年长江一次)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所相关会员单位讲师</li>
         </ul>
 
@@ -357,14 +367,21 @@
         <ul>
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&mid=2650935834&idx=1&sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd">“雪球产品”的定价准确吗？——“雪球”的背后解析</a>》，<em>期权世界</em>，2021/05;</li>
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd">炒股能挣钱吗</a>？》，2020/07;</li>
-            <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd">标的价格为负时，期权价格怎么办？——原油期货价格为负所想</a>》, <em>债券圈</em> (<a href="https://xueqiu.com/7539894803/147836568">雪球网</a>)，2020/04;</li>
+            <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&mid=2649702308&idx=3&sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd">标的价格为负时，期权价格怎么办？——原油期货价格为负所想</a>》, <em>债券圈</em> (<a href="https://xueqiu.com/7539894803/147836568">雪球网</a>)，2020/04;</li>
             <li>余喜生，《<a href="http://options.hexun.com/2019-01-02/195740909.html">“联合石化原油交易亏损‘事件’”若干问题的分析与思考</a>》, <em>和讯专栏</em>，2019/01;</li>
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd">大学数学，爱也罢恨也罢</a>》，<em>中国数学会</em>，2018/03.</li>
         </ul>
 
     </div> 
 
-    <footer id="contact">
+    <footer id="contact" style="
+        width: 100vw;                     
+        margin-left: calc(-50vw + 50%);  
+        background: #f8f9fa;              
+        padding: 15px 0 20px 0;           
+        border-top: 1px solid #eee;       
+        text-align: center;
+    ">
         <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 12px; font-size: 15px; color: #666;">
             <div class="info-item">Self-Evaluation:  <em>纯粹, 努力, 坦荡</em></div>
             <div class="info-item">Attitude: <em>真做学问, 做真学问</em></div>
@@ -381,24 +398,19 @@
     </footer>
 
     <script>
-        /* --- 导航栏滚动显示/隐藏逻辑 --- */
         let lastScrollTop = 0;
         const navbar = document.getElementById("navbar");
 
         window.addEventListener("scroll", function() {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
             if (scrollTop > lastScrollTop && scrollTop > 100) {
-                // 向下滚动 - 隐藏 (针对双行导航栏适当增加了隐藏位移)
-                navbar.style.top = "-110px";
+                navbar.style.top = "-120px";
             } else {
-                // 向上滚动 - 显示
                 navbar.style.top = "0";
             }
             lastScrollTop = scrollTop;
         });
 
-        // 平滑滚动
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
