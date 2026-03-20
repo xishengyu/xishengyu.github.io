@@ -74,7 +74,7 @@
 
         /* --- 容器 --- */
         .container {
-            max-width: 1100px;        /* 希望文字铺满，将原来的 900px 改为 1100px 或更大 */
+            max-width: 1050px;        /* 希望文字铺满，将原来的 900px 改为 1100px 或更大 */
             margin: 40px auto;
             padding: 0 25px;         /* 这是正文离屏幕边缘的最小间距，一般建议保留 */
         }
@@ -92,7 +92,7 @@
         }
 
         .profile-text h1 {   /*正文第一行的“余喜生”是放在 <h1> 标签内的。要调整它的字体（包括大小、粗细、颜色或字体样式），你需要修改 CSS 中 .profile-text h1 的属性。*/
-            font-size: 1.8rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.8rem */
+            font-size: 1.7rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.7rem */
             margin-bottom: 10px;  /* 调整与下方文字的间距 */
             color: var(--primary-color);
     font-weight: 600;     /* 调整粗细：400为常规，700或bold为粗体 */
@@ -192,6 +192,27 @@
                 display: none; /* 移动端简化 */
             }
         }
+
+        .footer-info-bar { /* 如果你希望这一栏像顶部的导航栏一样，始终固定在屏幕最下方（不随滚动条消失）：*/
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* 居中分布 */
+    gap: 50px;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+/* 注意：如果使用了固定底部，需要给 body 加一个 padding-bottom 防止内容被遮挡 */
+body {
+    padding-bottom: 60px;
+}
+
+        
     </style>
 </head>
 <body>
@@ -368,17 +389,16 @@
 
        
     </div>
+    <div class="footer-info-bar">
+    <div class="info-item"><strong>Self-Evaluation:</strong> 纯粹, 努力, 坦荡</div>
+    <div class="info-item"><strong>Attitude:</strong> 真做学问, 做真学问</div>
+    <div class="info-item"><strong>My Motto:</strong> 规格严格, 功夫到家</div>
+    <div class="info-item"><strong>E-mail:</strong> <a href="mailto:yuxisheng@swufe.edu.cn"><span style="color: navy;">yuxisheng@swufe.edu.cn</a></div>
+</div>
 
     <footer>
       
-         <h3 id="section8">八、其他</h3>
-        <ul>
-            <li>Self-Evaluation: <em>纯粹, 努力, 坦荡</em></li>
-            <li>Attitude: <em>真做学问, 做真学问</em></li>
-            <li>My Motto: <em>规格严格,功夫到家</em></li>
-            <li>E-mail: <span style="color: navy;"><em><u>yuxisheng@swufe.edu.cn</u></em></span></li>
-        </ul>
-        
+            
         <p class="motto">规格严格, 功夫到家</p>
         <p>&copy; 2026 Xisheng Yu (余喜生) | Southwestern University of Finance and Economics</p>
     </footer>
