@@ -95,10 +95,10 @@
         }
 
         .profile-text h1 {   /*正文第一行的“余喜生”是放在 <h1> 标签内的。要调整它的字体（包括大小、粗细、颜色或字体样式），你需要修改 CSS 中 .profile-text h1 的属性。*/
-            font-size: 1.7rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.7rem */
+            font-size: 1.6rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.7rem */
             margin-bottom: 10px;  /* 调整与下方文字的间距 */
             color: var(--primary-color);
-    font-weight: 600;     /* 调整粗细：400为常规，700或bold为粗体 */
+    font-weight: 400;     /* 调整粗细：400为常规，700或bold为粗体 */
     color: #2c3e50;       /* 调整颜色：可以改为黑色 #000 或其他颜色 */
      letter-spacing: 2px;  /* 可选：增加汉字之间的间距，显得更大气 */
         }
@@ -124,12 +124,28 @@
 
         /* --- 标题样式 --- */
         h3 {
-            border-bottom: 1px solid var(--primary-color);
-            padding-bottom: 8px;
-            margin: 40px 0 20px 0;
-            color: var(--primary-color);
-            font-size: 1.5rem;
+                  
+/* --- 1. 下划线长度调整 --- */
+    display: inline-block;      /* 使标题变为行内块，下划线将随文字长度变化 */
+    width: auto;                /* 长度自适应文字 */
+    border-bottom: 1px solid #0056b3; /* 调整线条粗细(1px)和颜色(深蓝) */
+    
+    /* --- 2. 文字颜色与粗细 --- */
+    color: #0056b3;             /* 调整为您想要的颜色（例如深蓝色）,默认 var(--primary-color) */
+    font-weight: 700;           /* 调整粗细：600为半粗，700为加粗 */
+    
+    /* --- 3. 间距与字号 --- */
+    padding-bottom: 8px;
+    margin: 40px 0 20px 0;
+    font-size: 1.5rem;
+    
+    /* 如果希望下划线占满整行但颜色变淡，请删掉 display: inline-block */
         }
+
+
+
+
+        
 
         /* --- 列表与文字内容 --- */
         ul {
