@@ -25,6 +25,8 @@
             color: var(--text-color);
             background-color: var(--bg-color);
             padding-top: 60px; /* Offset for nav */
+            /* 修改说明：为防止内容被固定底部遮挡，保持 padding-bottom */
+            padding-bottom: 80px; 
         }
 
         /* --- 动态导航栏 --- */
@@ -39,7 +41,7 @@
         }
 
         nav {
-            max-width: 1000px;   /* 增加导航栏（顶部的菜单）的宽度；建议比正文容器略宽一点，或者设为相同数值 */
+            max-width: 1000px;   
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -49,26 +51,38 @@
 
         .nav-logo {
             font-weight: bold;
-            font-size: 1.6rem; /*左上角 "Dr. Yu's Résumé" 的字体和字号； 调大字号 */
-            font-family: "Times New Roman", Times, serif; /* 换成学术风字体 */
-            font-weight: 550;                            /* 保持加粗 */
-    color: #1a2a3a;                             /* 换成更深沉的蓝色，原为：var(--primary-color) */
-    letter-spacing: 0.6px;                         /* 字母间距加宽一点点，更高级 */
-           
+            font-size: 1.6rem; 
+            font-family: "Times New Roman", Times, serif; 
+            font-weight: 550;                            
+            color: #1a2a3a;                             
+            letter-spacing: 0.6px;                         
         }
 
         .nav-links {
             list-style: none;
             display: flex;
-            gap: 20px;               /* 初始是 20px，调大这个数值可以增加菜单项之间的间距 */
+            gap: 20px;               
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--text-color);
-            font-size: 20px;                     /* 导航栏文字大小 */
-            font-weight: 500;                    /*导航栏文字粗细 */
+            font-size: 18px; /* 稍微调小以适配两行 */
+            font-weight: 500;                    
             transition: color 0.3s;
+            /* 修改说明：新增以下四行，支持导航栏文字上下两行排列 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            line-height: 1.2;
+        }
+
+        /* 修改说明：新增样式，用于控制导航栏第二行英文小字 */
+        .nav-links a span {
+            font-size: 10px;
+            font-weight: normal;
+            color: #888;
+            text-transform: uppercase;
         }
 
         .nav-links a:hover {
@@ -77,16 +91,16 @@
 
         /* --- 容器 --- */
         .container {
-            max-width: 1050px;        /* 希望文字铺满，将原来的 900px 改为 1100px 或更大 */
+            max-width: 1050px;        
             margin: 40px auto;
-            padding: 0 25px;         /* 这是正文离屏幕边缘的最小间距，一般建议保留 */
+            padding: 0 25px;         
         }
 
         /* --- 个人简介部分 --- */
         .profile-section {
             display: flex;
             gap: 40px;
-            margin-bottom: 40px;  /* 简介一段与下段"一、研究领域与授课"间距 */
+            margin-bottom: 40px;  
             align-items: flex-start;
         }
 
@@ -94,52 +108,30 @@
             flex: 1;
         }
 
-        .profile-text h1 {   /*正文第一行的“余喜生”是放在 <h1> 标签内的。要调整它的字体（包括大小、粗细、颜色或字体样式），你需要修改 CSS 中 .profile-text h1 的属性。*/
-            font-size: 1.45rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.7rem */
-            margin-bottom: 12px;  /* 调整与下方文字的间距 */
+        .profile-text h1 {   
+            font-size: 1.45rem;  
+            margin-bottom: 12px;  
             color: var(--primary-color);
-    font-weight: 500;     /* 调整粗细：400为常规，700或bold为粗体 */
-    color: #2c3e50;       /* 调整颜色：可以改为黑色 #000 或其他颜色 */
-     letter-spacing: 2px;  /* 可选：增加汉字之间的间距，显得更大气 */
+            font-weight: 500;     
+            letter-spacing: 2px;  
         }
 
         .profile-text p {
             margin-bottom: 15px;
             text-align: justify;
-            line-height: 1.8;      /* 单独调整个人简介，段落行间距；在这里单独添加或修改 */
-        }
-
-        .avatar-placeholder {
-            width: 200px;
-            height: 260px;
-            background: #eee;
-            border-radius: 4px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #999;
-            flex-shrink: 0;
-            border: 1px solid #ddd;
+            line-height: 1.8;      
         }
 
         /* --- 标题样式 --- */
         h3 {                  
-          /* --- 1. 下划线长度调整 --- */
-    /*display: inline-block;      /* 使标题变为行内块，下划线将随文字长度变化 */
-    width: auto;                /* 长度自适应文字 */
-    border-bottom: 0.25px solid var(--primary-color); /* 调整线条粗细(1px)和颜色(深蓝 #0056b3) */
-    
-    /* --- 2. 文字颜色与粗细 --- */
-    color: var(--primary-color);             /* 调整为您想要的颜色（例如深蓝色）,默认 var(--primary-color) */
-    font-weight: 500;           /* 调整粗细：600为半粗，700为加粗 */
-    
-    /* --- 3. 间距与字号 --- */
-    padding-bottom: 8px;
-    margin: 35px 0 20px 0;    /* --- 一级标题与上下文间距 --- */
-    font-size: 1.5rem;
-        /* 如果希望下划线占满整行但颜色变淡，请删掉 display: inline-block */
+            width: auto;                
+            border-bottom: 0.25px solid var(--primary-color); 
+            color: var(--primary-color);             
+            font-weight: 500;           
+            padding-bottom: 8px;
+            margin: 35px 0 20px 0;    
+            font-size: 1.5rem;
         }
-        
 
         /* --- 列表与文字内容 --- */
         ul {
@@ -162,16 +154,11 @@
 
         .pub-contribution {
             display: block;
-            background: var(--light-bg);
-              /* 1. 调整背景颜色（灰色程度） */
-    background: #fefefe; /* 默认浅灰。若要稍浅，可改为 #fbfbfb 调浅灰色，数值越接近 fff 颜色越浅*/
+            background: #fefefe; 
             padding: 10px 15px;
-            margin-top: -2px;  /* 论文与下方贡献 间距修改此处：将 4px 改为 0 或 -2px */
-            border-left: 3px solid #ddd;
-            /* 2. 删除左侧竖线 */
-    border-left: none; /* 将原来的 3px solid #ddd 改为 none 即可删除竖线 */
+            margin-top: -2px;  
             font-size: 15px;   
-            line-height: 1.45;   /* 针对论文下方的灰色备注部分，修改 pub-contribution。增加备注文字的行间距 */
+            line-height: 1.45;   
         }
 
         .sub-text {
@@ -188,44 +175,28 @@
             border-top: 1px solid #eee;
         }
 
-        .motto {
-            font-style: italic;
-            color: #555;
-            margin-bottom: 10px;
-        }
-
-        /* 响应式适配 */
+        /* 修改说明：新增媒体查询，专门处理手机浏览兼容性，不影响电脑端 */
         @media (max-width: 768px) {
-            .profile-section {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
+            body { padding-top: 100px; }
+            nav { flex-direction: column; padding: 10px; }
+            .nav-logo { margin-bottom: 10px; font-size: 1.3rem; }
+            .nav-links { gap: 10px; flex-wrap: wrap; justify-content: center; }
+            .nav-links a { font-size: 14px; }
+            .nav-links a span { font-size: 9px; }
+            .container { width: 100%; padding: 0 15px; }
+            .profile-section { flex-direction: column; align-items: center; text-align: center; }
+            h3 { font-size: 1.3rem; width: 100%; }
+            /* 强制修正手机端全屏页脚引起的溢出和晃动 */
+            footer[style*="width: 100vw"] {
+                width: 100% !important;
+                margin-left: 0 !important;
+                padding: 20px 10px !important;
             }
-            .nav-links {
-                display: none; /* 移动端简化 */
+            footer[style*="width: 100vw"] div {
+                flex-direction: column !important;
+                gap: 10px !important;
             }
         }
-
-        .footer-info-bar { /* 如果你希望这一栏像顶部的导航栏一样，始终固定在屏幕最下方（不随滚动条消失）：*/
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
-    z-index: 1000;
-    display: flex;
-    justify-content: center; /* 居中分布 */
-    gap: 50px;
-    padding: 10px 0;
-    border-top: 1px solid #ddd;
-}
-/* 注意：如果使用了固定底部，需要给 body 加一个 padding-bottom 防止内容被遮挡 */
-body {
-    padding-bottom: 60px;
-}
-
-        
     </style>
 </head>
 <body>
@@ -234,15 +205,15 @@ body {
         <nav>
             <div class="nav-logo">Dr. Yu's Résumé </div>
             <ul class="nav-links">
-                <li><a href="#intro">简介</a></li>
-                <li><a href="#section1">研究与授课</a></li>
-                <li><a href="#section2">主要论著</a></li>
-                <li><a href="#section3">项目</a></li>
-                <li><a href="#section4">会议</a></li>
-                <li><a href="#section5">荣誉</a></li>
-                <li><a href="#section6">产学研服务</a></li>
-                <li><a href="#section7">报告随笔</a></li>
-                <li><a href="#section7">联系</a></li>
+                <li><a href="#intro">简介<span>Intro</span></a></li>
+                <li><a href="#section1">研究与授课<span>Research</span></a></li>
+                <li><a href="#section2">主要论著<span>Publications</span></a></li>
+                <li><a href="#section3">项目<span>Projects</span></a></li>
+                <li><a href="#section4">会议<span>Conferences</span></a></li>
+                <li><a href="#section5">荣誉<span>Honors</span></a></li>
+                <li><a href="#section6">产学研服务<span>Service</span></a></li>
+                <li><a href="#section7">报告随笔<span>Reports</span></a></li>
+                <li><a href="#contact">联系<span>Contact</span></a></li>
             </ul>
         </nav>
     </header>
@@ -253,8 +224,6 @@ body {
                 <h1 id="intro">余喜生</h1>
                 <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 西南财大攻读博士学位(电子科技大学转)，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
                 <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持完成省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
-            </div>
-           <! <div class="avatar-placeholder">         <!     照片占位
             </div>
         </section>
 
@@ -273,11 +242,11 @@ body {
             <li><strong>Yu, X.</strong> "<a href="https://onlinelibrary.wiley.com/doi/10.1002/mma.6863">Nonparametric estimation of quadratic variation using high-frequency data</a>", <em>Math. Method. Appl. Sci.</em>, 2024, 47(05): 3053–3078
                 <span class="pub-contribution">【<em>贡献</em>：构造了资产收益半鞅过程QV的两种新估计式，比现有估计式具有更优的收敛性与应用性。提供了使用高频数据估计波动率的两种结果。<span class="sub-text">“突发奇想”想到的一个思路，但限于自己在高等概率数理统计方面的研究水平，理论上的证明一直进展不顺，被两家所谓top期刊连续以其中一个定理的证明存在问题为由拒稿，后进一步自学与请教，在较强条件约束下完成了理论的证明--原稿有近30页的证明。后又经ETH Zurich的大佬M. Schweizer教授指点，有了后续研究结果</span>】</span>
             </li>
-            <li>徐凤, <strong>余喜生</strong>, 林谦，"部分异质情形下面板协整参数的估计研究"，<em>数理统计与管理</em>，2023, 42 (06): 973-992</li>
+            <li>徐凤, <strong>余喜生</strong>, 林谦，“部分异质情形下面板协整参数的估计研究”，<em>数理统计与管理</em>，2023, 42 (06): 973-992</li>
             <li><strong>余喜生</strong>, 姚雨薇, "<a href="https://doi.org/10.12386/A20200164">离散分红情形下的欧式期权定价新模型</a>"，<em>数学学报</em>，2023, 66(05): 801-814
                 <span class="pub-contribution">【<em>贡献</em>：研究挑战性的问题“多次现金分红下的欧式期权定价”：直觉逻辑并理论上，创新性地构建起给出期权价格解析表达的模型。进一步修正了经典的Escrowed与Forward模型，比较发现其定价结果是目前上已有封闭解中最精确之一，特别是价格表达式尤为简洁。<span class="sub-text">该论文其实存在一些瑕疵，且因篇幅所限，只发表了其中少部分的研究思想内容。*然该研究提出的思路独特，且幸运地在理论上得以巧妙地证明，从研究思想和结果这一角度看，该成果的完整内容应值得国际一流权威期刊拥有*；继续努力[fist]</span>】</span>
             </li>
-            <li><strong>余喜生</strong>，"西部区域金融中心形成机制研究—经济与金融发展适度关系的视角"，<em>社科论坛</em>，2023 (01): 53-59.</li>
+            <li><strong>余喜生</strong>，“西部区域金融中心形成机制研究—经济与金融发展适度关系的视角”，<em>社科论坛</em>，2023 (01): 53-59.</li>
             <li><strong>X., Yu</strong>. “<a href="https://doi.org/10.1002/mma.8007">On the convergence of two types of estimators of quadratic variation</a>”, <em>Math. Method. Appl. Sci.,</em> 45(18), 2022, 12206-12221
                 <span class="pub-contribution">【<em>贡献</em>：对QV两个估计式进行了扩展：通过构造重要引理<span class="sub-text">（其中折腾出一个有意思俺称之为Genralized Ito Isometry的新结论，看能否作为教科书经典结论的一个推广哈哈——曾在2019年的某学术会议报告中，香港一学者称该结论成立的话则是教科书的一个重要推广）</span>，证明了在较弱条件下，其中的时变波动率可放松至随机波动率】</span>
             </li>
@@ -287,9 +256,9 @@ body {
             <li><strong>X., Yu</strong>. “<a href="https://www.mdpi.com/1099-4300/20/5/369">Risk-Neutrality of RND and Option Pricing within an Entropy Framework</a>”, <em>Entropy</em>, 2020, 22(08), 836
                 <span class="pub-contribution">【<em>贡献</em>：Entropy定价方法的奠基人M. Stutzer教授首次提出“期权Entropy定价方法”(*J. Financ.*, 1996; *Entropy*, 2000)，本文通过引入风险中性矩 (RNM) 进一步发展了其定价框架】</span>
             </li>
-            <li><strong>余喜生</strong>, 姚雨薇，"一类期权策略指数设计及其实证研究"，2019，中国软科学，2019(z1):291-300</li>
+            <li><strong>余喜生</strong>, 姚雨薇，“一类期权策略指数设计及其实证研究”，2019，中国软科学，2019(z1):291-300</li>
             <li><strong>X., Yu</strong>, X., Xie. “<a href="https://doi.org/10.1016/j.najef.2014.10.009">Pricing American options: RNMs-constrained entropic least-squares approach</a>”, <em>North Am. J. Econ. Finance</em>, 2015(31), 155-173
-                <span class="pub-contribution">【<em>贡献</em>：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span class="sub-text">最开始投了JBF，有两个审稿人意见截然相左，被拒改投. JBF的两审稿人相反意见—— (1) ...I like the proposed idea. The paper makes an important contribution to the computational aspect of American option prices. The paper is well-written and I find it relatively clear to read...; (2)... the main contribution of the manuscript is not essentially different from Bakshi et al. (2003, Theorem 1) and since the performance of the MEL method proposed is not impressive...</span>】</span>
+                <span class="pub-contribution">【<em>贡献</em>：首次将Risk-neutral Moments引入期权的Entropy-LSMC定价模型，为实际金融市场提供了精准的唯一风险中性定价测度；提高了美式期权定价的精确性。<span class="sub-text">最开始投了JBF，有两个审稿人意见截然相左，被拒改投...</span>】</span>
             </li>
             <li><strong>X., Yu</strong>, L., Yang. “Pricing American Options using a Nonparametric Entropy Approach”, <em>Discrete Dyn. Nat. Soc.</em>, 2014</li>
             <li><strong>X., Yu</strong>, Q., Liu. “Canonical Least-Squares Monte Carlo Valuation of American Options: Convergence and Empirical Pricing Analysis”, <em>Math. Probl. Eng.</em>, 2014</li>
@@ -374,7 +343,7 @@ body {
         <p><strong>学术服务</strong></p>
         <ul>
             <li>CSIAM “金融科技与算法”专委会委员、中国优选法统筹法与经济数学研究会经济数学与管理数学分会常务理事、中国运筹学会金融工程与金融风险分会理事；</li>
-            <li>期刊<em>International Journal of Financial Engineering</em> 副主编（Associate Editor）；多类期刊审稿专家 (<span class="sub-text"> 以主流期刊为主，审稿认真，review report写得很仔细 </span>）；</li>
+            <li>期刊<em>International Journal of Financial Engineering</em> 副主编（Associate Editor）；多类期刊审稿专家；</li>
             <li>国家自科基金项目同行评议专家 (含教育部青年长江一次)、教育部学位与研究生教育发展中心评审专家；成都市新经济产业委员会智库专家、青羊区人力资源和社会保障局创业导师、中金所相关会员单位讲师</li>
         </ul>
 
@@ -400,13 +369,15 @@ body {
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd">大学数学，爱也罢恨也罢</a>》，<em>中国数学会</em>，2018/03.</li>
         </ul>
 
-    </div> <footer style="
-        width: 100vw;                     /* 确保背景占据 100% 视口宽度 */
-        margin-left: calc(-50vw + 50%);  /* 突破 container 宽度限制实现全屏铺满 */
-        background: #f8f9fa;              /* 统一使用浅灰色背景 */
-        padding: 15px 0 20px 0;           /* 设置上下内边距 */
-        border-top: 1px solid #eee;       /* 添加顶部分隔线 */
-        font-family: 'Segoe UI', 'Lantinghei SC', 'Open Sans', sans-serif; /* 使用柔和字体 */
+    </div> 
+
+    <footer id="contact" style="
+        width: 100vw;                     
+        margin-left: calc(-50vw + 50%);  
+        background: #f8f9fa;              
+        padding: 15px 0 20px 0;           
+        border-top: 1px solid #eee;       
+        font-family: 'Segoe UI', 'Lantinghei SC', 'Open Sans', sans-serif; 
         text-align: center;
     ">
         <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 12px; font-size: 15px; color: #666;">
@@ -434,7 +405,7 @@ body {
             
             if (scrollTop > lastScrollTop && scrollTop > 100) {
                 // 向下滚动 - 隐藏
-                navbar.style.top = "-80px";
+                navbar.style.top = "-110px";
             } else {
                 // 向上滚动 - 显示
                 navbar.style.top = "0";
