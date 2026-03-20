@@ -91,10 +91,13 @@
             flex: 1;
         }
 
-        .profile-text h1 {
-            font-size: 2.2rem;
-            margin-bottom: 10px;
+        .profile-text h1 {   /*正文第一行的“余喜生”是放在 <h1> 标签内的。要调整它的字体（包括大小、粗细、颜色或字体样式），你需要修改 CSS 中 .profile-text h1 的属性。*/
+            font-size: 1.8rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.8rem */
+            margin-bottom: 10px;  /* 调整与下方文字的间距 */
             color: var(--primary-color);
+    font-weight: 600;     /* 调整粗细：400为常规，700或bold为粗体 */
+    color: #2c3e50;       /* 调整颜色：可以改为黑色 #000 或其他颜色 */
+     letter-spacing: 2px;  /* 可选：增加汉字之间的间距，显得更大气 */
         }
 
         .profile-text p {
