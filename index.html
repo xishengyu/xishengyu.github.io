@@ -134,7 +134,7 @@
         }
 
         li {
-            margin-bottom: 12px;
+            margin-bottom: 20px; /* 修改说明：增加列表项之间的间距，使论文整体之间更清晰 */
         }
 
         a {
@@ -148,11 +148,11 @@
 
         .pub-contribution {
             display: block;
-            background: var(--light-bg);
-              /* 1. 调整背景颜色（灰色程度） */
-    background: #fbfbfb; /* 默认浅灰。若要更浅，可改为 #fbfbfb */
-            padding: 10px 15px;
-            margin-top: 8px;
+            /* 修改说明：背景色调浅至 #fdfdfd，接近白色但有微弱区别 */
+            background: #fdfdfd; 
+            padding: 8px 15px;
+            /* 修改说明：margin-top 缩小至 4px，使论文标题与贡献说明贴合更紧密 */
+            margin-top: 4px; 
             border-left: 3px solid #ddd;
             /* 2. 删除左侧竖线 */
     border-left: none; /* 将原来的 3px solid #ddd 改为 none 即可删除竖线 */
@@ -163,6 +163,17 @@
         .sub-text {
             font-size: 13px;
             color: #666;
+        }
+
+        /* 修改说明：针对“学术/称号”等二级小标题，字号由默认调大至 1.2rem */
+        strong + ul, p > strong {
+            font-size: 1.2rem;
+        }
+        /* 针对 p 标签内的粗体标题单独加强 */
+        p strong {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 1.2rem; 
         }
 
         /* --- 底部 --- */
@@ -370,15 +381,15 @@
      
   
     </div> <footer>
-        <p class="motto">规格严格, 功夫到家</p>
-        <p>&copy; 2026 Xisheng Yu (余喜生) | Southwestern University of Finance and Economics</p>
-        
-        <div id="contact" style="margin-top: 30px; padding-top: 20px; border-top: 1px dotted #ccc; font-size: 14px; line-height: 1.8;">
+        <div id="contact" style="margin-bottom: 30px; padding: 0 20px; font-size: 14px; line-height: 1.8;">
             <p><strong>Self-Evaluation:</strong> 纯粹, 努力, 坦荡</p>
             <p><strong>Attitude:</strong> 真做学问, 做真学问</p>
             <p><strong>My Motto:</strong> 规格严格, 功夫到家</p>
             <p><strong>E-mail:</strong> <a href="mailto:yuxisheng@swufe.edu.cn" style="color: navy;">yuxisheng@swufe.edu.cn</a></p>
         </div>
+
+        <p class="motto" style="border-top: 1px dotted #ccc; padding-top: 20px; display: inline-block; width: 80%;">规格严格, 功夫到家</p>
+        <p>&copy; 2026 Xisheng Yu (余喜生) | Southwestern University of Finance and Economics</p>
     </footer>
 
     <script>
