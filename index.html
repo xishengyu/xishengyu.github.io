@@ -39,7 +39,7 @@
         }
 
         nav {
-            max-width: 1100px;   /* 增加导航栏（顶部的菜单）的宽度；建议比正文容器略宽一点，或者设为相同数值 */
+            max-width: 1000px;   /* 增加导航栏（顶部的菜单）的宽度；建议比正文容器略宽一点，或者设为相同数值 */
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -86,7 +86,7 @@
         .profile-section {
             display: flex;
             gap: 40px;
-            margin-bottom: 30px;
+            margin-bottom: 40px;  /* 简介一段与下段"一、研究领域与授课"间距 */
             align-items: flex-start;
         }
 
@@ -95,8 +95,8 @@
         }
 
         .profile-text h1 {   /*正文第一行的“余喜生”是放在 <h1> 标签内的。要调整它的字体（包括大小、粗细、颜色或字体样式），你需要修改 CSS 中 .profile-text h1 的属性。*/
-            font-size: 1.4rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.7rem */
-            margin-bottom: 10px;  /* 调整与下方文字的间距 */
+            font-size: 1.45rem;  /* 调整字号：调大改为 2.8rem，调小改为 1.7rem */
+            margin-bottom: 12px;  /* 调整与下方文字的间距 */
             color: var(--primary-color);
     font-weight: 500;     /* 调整粗细：400为常规，700或bold为粗体 */
     color: #2c3e50;       /* 调整颜色：可以改为黑色 #000 或其他颜色 */
@@ -135,7 +135,7 @@
     
     /* --- 3. 间距与字号 --- */
     padding-bottom: 8px;
-    margin: 30px 0 20px 0;
+    margin: 35px 0 20px 0;    /* --- 一级标题与上下文间距 --- */
     font-size: 1.5rem;
         /* 如果希望下划线占满整行但颜色变淡，请删掉 display: inline-block */
         }
