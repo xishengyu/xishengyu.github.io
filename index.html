@@ -134,7 +134,7 @@
         }
 
         li {
-            margin-bottom: 20px; /* 修改说明：增加列表项之间的间距，使论文整体之间更清晰 */
+            margin-bottom: 18px; /* 修改说明：增加列表项之间的间距，使论文整体之间更清晰 */
         }
 
         a {
@@ -167,13 +167,14 @@
 
         /* 修改说明：针对“学术/称号”等二级小标题，字号由默认调大至 1.2rem */
         strong + ul, p > strong {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
         /* 针对 p 标签内的粗体标题单独加强 */
         p strong {
             display: inline-block;
-            margin-top: 10px;
-            font-size: 1.2rem; 
+           margin-top: 15px;      /* 标题上方的间距 */
+    margin-bottom: 12px;   /* 修改关键：调大标题与下方第一条信息的间距 */
+            font-size: 1.1rem; 
         }
 
         /* --- 底部 --- */
