@@ -381,26 +381,30 @@
 
 
 <footer>
-    <div id="contact" style="
+    <div class="footer-info-bar" id="contact" style="
+        position: relative;        /* 如果不需要固定在屏幕底部，请改为 relative */
+        width: 100vw;              /* 核心修改：宽度占据 100% 视口宽度 */
+        margin-left: calc(-50vw + 50%); /* 核心修改：强制突破父容器宽度限制，实现全屏铺满 */
         display: flex; 
-        flex-direction: column;    /* 核心修改：设置为纵向排列，使内部的两个 div 分上下两行 */
+        flex-direction: column;    /* 纵向排列两行 */
         align-items: center; 
         justify-content: center; 
-        margin: 0 auto 10px auto;  /* 修正后的居中写法 */
-        padding: 5px 0 15px 0;    /* 缩小顶部间距 */
+        padding: 5px 0 15px 0;     /* 缩小顶部间距 (5px) */
+        background: #f8f9fa;       /* 柔和的浅灰色背景 */
+        border-top: 1px solid #eee;
         font-family: 'Segoe UI', 'Lantinghei SC', 'Open Sans', sans-serif; /* 柔和字体 */
-        font-size: 13px;          /* 缩小字号 */
-        color: #666;              /* 柔和文字颜色 */
+        font-size: 13px;           /* 缩小字号 */
+        color: #666;               /* 柔和文字颜色 */
         line-height: 1.2;
     ">
 
-        <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 12px;">
+        <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 12px; width: 100%;">
             <div class="info-item"><strong>Self-Evaluation:</strong> 纯粹, 努力, 坦荡</div>
             <div class="info-item"><strong>Attitude:</strong> 真做学问, 做真学问</div>
             <div class="info-item"><strong>My Motto:</strong> 规格严格, 功夫到家</div>
         </div>
         
-        <div style="display: flex; justify-content: center; gap: 20px; color: #888;">
+        <div style="display: flex; justify-content: center; gap: 20px; color: #888; width: 100%;">
             <div class="info-item">
                 <strong>E-mail:</strong> 
                 <a href="mailto:yuxisheng@swufe.edu.cn" style="color: navy; text-decoration: none;">yuxisheng@swufe.edu.cn</a>
