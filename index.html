@@ -1,7 +1,8 @@
-
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Yu's Space...</title>
     <style>
         :root {
@@ -25,8 +26,6 @@
             color: var(--text-color);
             background-color: var(--bg-color);
             padding-top: 60px; /* Offset for nav */
-            /* 修改说明：为防止内容被固定底部遮挡，保持 padding-bottom */
-            padding-bottom: 80px; 
         }
 
         /* --- 动态导航栏 --- */
@@ -41,7 +40,7 @@
         }
 
         nav {
-            max-width: 1000px;   
+            max-width: 1100px;   /* 增加导航栏（顶部的菜单）的宽度 */
             margin: 0 auto;
             display: flex;
             justify-content: space-between;
@@ -51,33 +50,30 @@
 
         .nav-logo {
             font-weight: bold;
-            font-size: 1.6rem; 
-            font-family: "Times New Roman", Times, serif; 
-            font-weight: 550;                            
-            color: #1a2a3a;                             
-            letter-spacing: 0.6px;                         
+            font-size: 1.3rem;
+            color: var(--primary-color);
         }
 
         .nav-links {
             list-style: none;
             display: flex;
-            gap: 20px;               
+            gap: 25px;               
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--text-color);
-            font-size: 18px; /* 稍微调小以适配两行 */
+            font-size: 16px;                     
             font-weight: 500;                    
             transition: color 0.3s;
-            /* 修改说明：新增以下四行，支持导航栏文字上下两行排列 */
+            /* [修改说明] 为实现两行排列，改为 flex 纵向布局 */
             display: flex;
             flex-direction: column;
             align-items: center;
             line-height: 1.2;
         }
 
-        /* 修改说明：新增样式，用于控制导航栏第二行英文小字 */
+        /* [修改说明] 导航栏第二行小字的样式 */
         .nav-links a span {
             font-size: 10px;
             font-weight: normal;
@@ -93,14 +89,16 @@
         .container {
             max-width: 1050px;        
             margin: 40px auto;
-            padding: 0 25px;         
+            /* [修改说明] 宽度设为百分比，防止在窄屏下溢出 */
+            width: 92%;
+            padding: 0;         
         }
 
         /* --- 个人简介部分 --- */
         .profile-section {
             display: flex;
             gap: 40px;
-            margin-bottom: 40px;  
+            margin-bottom: 25px;
             align-items: flex-start;
         }
 
@@ -109,10 +107,10 @@
         }
 
         .profile-text h1 {   
-            font-size: 1.45rem;  
-            margin-bottom: 12px;  
+            font-size: 1.7rem;  
+            margin-bottom: 10px;  
             color: var(--primary-color);
-            font-weight: 500;     
+            font-weight: 600;     
             letter-spacing: 2px;  
         }
 
@@ -123,24 +121,24 @@
         }
 
         /* --- 标题样式 --- */
-        h3 {                  
-            width: auto;                
-            border-bottom: 0.25px solid var(--primary-color); 
-            color: var(--primary-color);             
-            font-weight: 500;           
-            padding-bottom: 8px;
-            margin: 35px 0 20px 0;    
+        h3 {
+            display: inline-block;
+            border-bottom: 1px solid #d1d5db; 
+            padding-bottom: 5px;
+            margin: 25px 0 15px 0;
+            color: var(--primary-color);
             font-size: 1.5rem;
+            width: auto;
+            padding-right: 30px;
         }
 
-        /* --- 列表与文字内容 --- */
         ul {
             list-style-position: outside;
             margin-left: 20px;
         }
 
         li {
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
 
         a {
@@ -154,11 +152,12 @@
 
         .pub-contribution {
             display: block;
-            background: #fefefe; 
-            padding: 10px 15px;
-            margin-top: -2px;  
-            font-size: 15px;   
-            line-height: 1.45;   
+            background: #fdfdfd; 
+            padding: 8px 15px;
+            margin-top: 2px; 
+            border-left: none; 
+            font-size: 14px;   
+            line-height: 1.6;   
         }
 
         .sub-text {
@@ -168,34 +167,29 @@
 
         /* --- 底部 --- */
         footer {
-            text-align: center;
-            padding: 40px 0;
-            background: var(--light-bg);
-            margin-top: 60px;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+            background: #f8f9fa;
+            padding: 20px 0 30px 0;
             border-top: 1px solid #eee;
+            text-align: center;
+            margin-top: 50px;
         }
 
-        /* 修改说明：新增媒体查询，专门处理手机浏览兼容性，不影响电脑端 */
+        /* ============================================================
+           [修改说明] 新增手机端适配代码块，解决布局错位和横向滚动条问题
+           ============================================================ */
         @media (max-width: 768px) {
-            body { padding-top: 100px; }
+            body { padding-top: 100px; } /* 导航栏变高，正文下移 */
             nav { flex-direction: column; padding: 10px; }
-            .nav-logo { margin-bottom: 10px; font-size: 1.3rem; }
-            .nav-links { gap: 10px; flex-wrap: wrap; justify-content: center; }
+            .nav-links { gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 10px; }
             .nav-links a { font-size: 14px; }
-            .nav-links a span { font-size: 9px; }
-            .container { width: 100%; padding: 0 15px; }
-            .profile-section { flex-direction: column; align-items: center; text-align: center; }
-            h3 { font-size: 1.3rem; width: 100%; }
-            /* 强制修正手机端全屏页脚引起的溢出和晃动 */
-            footer[style*="width: 100vw"] {
-                width: 100% !important;
-                margin-left: 0 !important;
-                padding: 20px 10px !important;
-            }
-            footer[style*="width: 100vw"] div {
-                flex-direction: column !important;
-                gap: 10px !important;
-            }
+            .nav-links a span { display: none; } /* 手机端空间极其有限，建议隐藏英文 */
+            .profile-section { flex-direction: column; gap: 20px; }
+            h3 { font-size: 1.3rem; width: 100%; padding-right: 0; }
+            /* 修正原代码中 100vw 导致的手机端溢出问题 */
+            footer { width: 100% !important; margin-left: 0 !important; padding: 20px 15px !important; }
+            footer div { flex-direction: column !important; gap: 10px !important; }
         }
     </style>
 </head>
@@ -205,15 +199,14 @@
         <nav>
             <div class="nav-logo">Dr. Yu's Résumé </div>
             <ul class="nav-links">
-                <li><a href="#intro">简介</a></li>
-                <li><a href="#section1">研究与授课</a></li>
-                <li><a href="#section2">主要论著</a></li>
-                <li><a href="#section3">项目</a></li>
-                <li><a href="#section4">会议</a></li>
-                <li><a href="#section5">荣誉</a></li>
-                <li><a href="#section6">产学研服务</a></li>
-                <li><a href="#section7">报告随笔</a></li>
-                <li><a href="#section7">联系</a></li>
+                <li><a href="#intro">简介<span>Intro</span></a></li>
+                <li><a href="#section1">研究与授课<span>Research</span></a></li>
+                <li><a href="#section2">主要论著<span>Publications</span></a></li>
+                <li><a href="#section3">项目<span>Projects</span></a></li>
+                <li><a href="#section4">会议<span>Conferences</span></a></li>
+                <li><a href="#section5">荣誉<span>Honors</span></a></li>
+                <li><a href="#section6">服务<span>Service</span></a></li>
+                <li><a href="#section7">报告<span>Reports</span></a></li>
             </ul>
         </nav>
     </header>
@@ -222,8 +215,8 @@
         <section class="profile-section">
             <div class="profile-text">
                 <h1 id="intro">余喜生</h1>
-                <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 西南财大攻读博士学位(电子科技大学转)，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
-                <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持完成省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
+                <p>金融学博士 (金融工程)；西南财经大学副教授。2004/07 哈尔滨工业大学数学 (泛函分析) 硕士毕业加入西南财经大学经济数学系 (现数学学院)；2008/09 电子科技大学转学至西南财大攻读博士学位，2010/03-2011/04 在新南威尔士大学商学院从事博士课题研究 (CSC公派出国)，2012/06 获西南财经大学博士学位，在西财继续从事教学科研工作；2014/12 晋升副教授、硕士生导师。</p>
+                <p>首批四川省“天府万人计划”入选者，成都市C类人才 (省级重大人才计划入选)，西南财经大学“光华英才工程”人选。独立或一作发表学术论文近30篇，主持省部级及以上项目四项 (国家自科青年1项、省社科重点1项)、产学研落地项目3项，出版著作2部。曾受邀在国际顶级金融学会议宣讲论文 (2011-FMA，丹佛；获优秀论文提名)，在全国高校期货论文大奖赛中论文获一等奖 (2013，第一名)，获得第八届中国衍生品青年论坛“最佳论文” (大会报告，2024)；受邀作主旨/大会报告数次，作为联合召集人举办学术论坛“香樟经济学论坛-金融工程与金融科技” (2019)。有多年基层管理与服务工作经验 (系副主任)；拥有丰富的工业界合作及成果产出经历，为中金所会员单位培训讲师；在学术组织担任专委会委员、常务理事，及国际学术期刊副主编等。</p>
             </div>
         </section>
 
@@ -364,22 +357,14 @@
         <ul>
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzA4MTMyNjIyNw==&mid=2650935834&idx=1&sn=c16f00c84cdc0d4c25c5bb6dbc4893f9&token=641027228&lang=zh_CN#rd">“雪球产品”的定价准确吗？——“雪球”的背后解析</a>》，<em>期权世界</em>，2021/05;</li>
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzUzNjUxNTE4NA==&mid=2247484071&idx=1&sn=d3c367c56b38f0f4460bc3e24f8e2aef&chksm=faf445b8cd83ccae9d3e63aa661deae91e7ea325628d6749aec78e7ecf8d68eb00e898650675&token=1350031870&lang=zh_CN#rd">炒股能挣钱吗</a>？》，2020/07;</li>
-            <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MjM5MzUxMjc4Mg==&mid=2649702308&idx=3&sn=5da96d23be60dc112c59ad72d2511466&token=646806806&lang=zh_CN#rd">标的价格为负时，期权价格怎么办？——原油期货价格为负所想</a>》, <em>债券圈</em> (<a href="https://xueqiu.com/7539894803/147836568">雪球网</a>)，2020/04;</li>
+            <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd">标的价格为负时，期权价格怎么办？——原油期货价格为负所想</a>》, <em>债券圈</em> (<a href="https://xueqiu.com/7539894803/147836568">雪球网</a>)，2020/04;</li>
             <li>余喜生，《<a href="http://options.hexun.com/2019-01-02/195740909.html">“联合石化原油交易亏损‘事件’”若干问题的分析与思考</a>》, <em>和讯专栏</em>，2019/01;</li>
             <li>余喜生，《<a href="https://mp.weixin.qq.com/s?__biz=MzIxNTk0MzMwOQ==&mid=2247485924&idx=1&sn=56657a88228499285ae2bfcab6a7f14d&token=641027228&lang=zh_CN#rd">大学数学，爱也罢恨也罢</a>》，<em>中国数学会</em>，2018/03.</li>
         </ul>
 
     </div> 
 
-    <footer id="contact" style="
-        width: 100vw;                     
-        margin-left: calc(-50vw + 50%);  
-        background: #f8f9fa;              
-        padding: 15px 0 20px 0;           
-        border-top: 1px solid #eee;       
-        font-family: 'Segoe UI', 'Lantinghei SC', 'Open Sans', sans-serif; 
-        text-align: center;
-    ">
+    <footer id="contact">
         <div style="display: flex; justify-content: center; gap: 40px; margin-bottom: 12px; font-size: 15px; color: #666;">
             <div class="info-item">Self-Evaluation:  <em>纯粹, 努力, 坦荡</em></div>
             <div class="info-item">Attitude: <em>真做学问, 做真学问</em></div>
@@ -404,7 +389,7 @@
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             
             if (scrollTop > lastScrollTop && scrollTop > 100) {
-                // 向下滚动 - 隐藏
+                // 向下滚动 - 隐藏 (针对双行导航栏适当增加了隐藏位移)
                 navbar.style.top = "-110px";
             } else {
                 // 向上滚动 - 显示
