@@ -123,28 +123,22 @@
         }
 
         /* --- 标题样式 --- */
-        h3 {
-                  
+        h3 {                  
 /* --- 1. 下划线长度调整 --- */
-    display: inline-block;      /* 使标题变为行内块，下划线将随文字长度变化 */
+    /*display: inline-block;      /* 使标题变为行内块，下划线将随文字长度变化 */
     width: auto;                /* 长度自适应文字 */
-    border-bottom: 1px solid #0056b3; /* 调整线条粗细(1px)和颜色(深蓝) */
+    border-bottom: 1px solid var(--primary-color); /* 调整线条粗细(1px)和颜色(深蓝 #0056b3) */
     
     /* --- 2. 文字颜色与粗细 --- */
-    color: #0056b3;             /* 调整为您想要的颜色（例如深蓝色）,默认 var(--primary-color) */
-    font-weight: 700;           /* 调整粗细：600为半粗，700为加粗 */
+    color: var(--primary-color);             /* 调整为您想要的颜色（例如深蓝色）,默认 var(--primary-color) */
+    font-weight: 500;           /* 调整粗细：600为半粗，700为加粗 */
     
     /* --- 3. 间距与字号 --- */
     padding-bottom: 8px;
-    margin: 40px 0 20px 0;
+    margin: 20px 0 20px 0;
     font-size: 1.5rem;
-    
-    /* 如果希望下划线占满整行但颜色变淡，请删掉 display: inline-block */
+        /* 如果希望下划线占满整行但颜色变淡，请删掉 display: inline-block */
         }
-
-
-
-
         
 
         /* --- 列表与文字内容 --- */
